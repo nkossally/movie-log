@@ -1,5 +1,6 @@
 {
   "name": "movie-log",
+  "homepage": "nkossally.github.io/movie-log",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
