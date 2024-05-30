@@ -197,17 +197,23 @@ function App() {
         text="Smart historical movie based on play about Thomas More’s refusal to approve of Henry VIII’s divorce. Play is probably better at teasing apart notions of law, justice, principle, the king, pragmatism. Perfect but loses a point for lack of levity, stunning visuals and sex. "
         rating={9}
       />
+      <Review 
+        title="The Batman" 
+        date="5/28"
+        text="Sure." 
+        rating={6}
+      />
+      <Review 
+        title="Superbad" 
+        date="5/29"
+        text="I like this more now than I did when I first saw it. I’ll never be that into straight bro humor which makes me feel as alienated as I did in boarding school in a dorm full of jocks. Some jokes work. Some don’t. I like the black actress who plays the checkout girl even if her scene was clearly written by and for white people. A brief moment of melanin." 
+        rating={6}
+      />
       {/* <Review 
         title="" 
+        date=""
         text="" 
-      />
-      <Review 
-        title="" 
-        text="" 
-      />
-      <Review 
-        title="" 
-        text="" 
+        rating={}
       /> */}
     </div>
   );

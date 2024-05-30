@@ -27,7 +27,6 @@ code {
 
 .title {
     font-size: 24px;
-    margin-bottom: 10px;
     font-weight: 500;
 }
 
@@ -47,4 +46,10 @@ code {
     font-size: 20px;
     margin-left: 5px;
     font-weight: 900;
+}
+
+.title-and-date {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
 }
