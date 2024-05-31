@@ -7,6 +7,8 @@ body {
     -moz-osx-font-smoothing: grayscale;
     // font-family: League-Gothic;
     // font-family:  Calendas-Plus;
+    background: #FFEBCD;
+    font-family: rockwell;
 }
 
 code {
@@ -17,6 +19,10 @@ code {
 .container {
     display: flex;
     flex-direction: column;
+}
+
+.container-margin-top {
+    margin-top: 40px;
 }
 
 .review-container {
@@ -46,6 +52,10 @@ code {
     font-size: 20px;
     margin-left: 5px;
     font-weight: 900;
+    text-shadow: -1px 1px 2px #000,
+        1px 1px 2px #000,
+        1px -1px 0 #000,
+        -1px -1px 0 #000;
 }
 
 .title-and-date {
@@ -54,26 +64,49 @@ code {
     margin-bottom: 5px;
 }
 
-.links-container{
-    margin-top: 40px;
+.links-container {
+    margin: 40px 10px 0 10px;
     display: block;
 }
 
-.title-link{
-    // background: #cde1ff;
-    // background: none;
+.title-link {
+    background: none;
+    border: none;
+    padding: 1;
+    text-indent: 0;
+    margin: 2px 4px 2px 4px;
+    font-family: rockwell;
 }
-.show-titles-button{
 
+.title-link:hover {
+    border-radius: 3px;
+    background: #CDE1FF;
+    
 }
+
+.toggle-show-links{
+    font-size: 15px; 
+    background: none;
+    border: none;
+    padding: 1;
+    text-indent: 0;
+    margin: 2px 4px 2px 4px;
+    font-family: rockwell;
+}
+
+.toggle-show-links:hover{
+    border-radius: 3px;
+    background: #CDE1FF;
+}
+
 
 .top-row {
-	position: absolute;
+    position: absolute;
     top: 0;
-	display: flex;
-	width: 100vw;
-	flex-direction: row;
-	justify-content: space-between;
-	height: 40px;
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 40px;
     justify-content: center;
 }
