@@ -1,16 +1,18 @@
-export const Review = ({ title, text, text2, rating, date }) => {
+import { forwardRef } from "react";
+
+export const Review = forwardRef((props, ref) => {
   return (
-    <div className="review-container">
+    <div className="review-container" ref={ref}>
       <div className="title-and-date">
         <div className="title-container">
-          <div className="title">{title}</div>
-          {rating && <div className="rating"> {rating}/10</div>}
+          <div className="title">{props.title}</div>
+          {props.rating && <div className="rating"> {props.rating}/10</div>}
         </div>
-        <div>{date}</div>
+        <div>{props.date}</div>
       </div>
 
-      <div>{text}</div>
-      <div className="text2">{text2}</div>
+      <div>{props.text}</div>
+      <div className="text2">{props.text2}</div>
     </div>
   );
-};
+});
