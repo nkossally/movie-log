@@ -55,5 +55,25 @@ code {
 }
 
 .links-container{
-    
+    margin-top: 40px;
+    display: block;
+}
+
+.title-link{
+    // background: #cde1ff;
+    // background: none;
+}
+.show-titles-button{
+
+}
+
+.top-row {
+	position: absolute;
+    top: 0;
+	display: flex;
+	width: 100vw;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 40px;
+    justify-content: center;
 }
