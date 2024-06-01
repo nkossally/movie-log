@@ -49,6 +49,7 @@ function App() {
   const ref41 = useRef(null);
   const ref42 = useRef(null);
   const ref43 = useRef(null);
+  const ref44 = useRef(null);
 
   const toggleLinks = () => {
     setShowLinks(!showLinks);
@@ -72,6 +73,9 @@ function App() {
 
       {showLinks && (
         <div className="links-container">
+          <button className="title-link" onClick={scrollRefIntoView(ref44)}>
+            The Bourne Supremacy
+          </button>
           <button className="title-link" onClick={scrollRefIntoView(ref43)}>
             The Bourne Identity
           </button>
@@ -220,6 +224,12 @@ function App() {
         text="" 
         rating={}
       />  */}
+        <Review
+          title="The Bourne Supremacy"
+          date="06/01/2024"
+          text="Okay"
+          rating={5}
+        />
         <Review
           ref={ref43}
           title="The Bourne Identity"
