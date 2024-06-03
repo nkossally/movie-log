@@ -51,6 +51,8 @@ function App() {
   const ref43 = useRef(null);
   const ref44 = useRef(null);
   const ref45 = useRef(null);
+  const ref46 = useRef(null);
+  const ref47 = useRef(null);
 
   const toggleLinks = () => {
     setShowLinks(!showLinks);
@@ -74,6 +76,12 @@ function App() {
 
       {showLinks && (
         <div className="links-container">
+          <button className="title-link" onClick={scrollRefIntoView(ref47)}>
+            Hit Man
+          </button>
+          <button className="title-link" onClick={scrollRefIntoView(ref46)}>
+            Elizabeth
+          </button>
           <button className="title-link" onClick={scrollRefIntoView(ref45)}>
             Central Station
           </button>
@@ -224,10 +232,34 @@ function App() {
       >
         {/* <Review 
         title="" 
+        ref={ref45}
         date=""
         text="" 
         rating={}
       />  */}
+        {/* <Review 
+        title="" 
+        ref={ref45}
+        date=""
+        text="" 
+        rating={}
+      />  */}
+        <Review
+          title="Hit Man"
+          ref={ref47}
+          date="06/03"
+          text="Boring professor reignites his life and finds sex/love by posing as hitman for police, and then becoming actual hitman. Linklater frontloads movie with philosophical exposition and then movie unfolds in typical heightened fashion. Based on real story. The fake Hollywood stuff is Glen Powell becoming a hitman. I’m surprised that Linklater has a scene in which the newly self-actualized Powell has sex with his girl next to a dying body, both turned on by their reckless dangerous actions. Many Hollywood films are sociopathic and I though Linklater might critique this. He just revels in it. The philosophical component, I guess, is existentialist. The construction of the film is obvious. I thought Linklater might comment on the process of adapting a real story to suit the Hollywood format. Maybe he does."
+          text2="Seen at Regal Union Sq."
+          rating={7}
+        />
+        <Review
+          title="Elizabeth"
+          ref={ref46}
+          date="06/03"
+          text="Pretty mediocre Best Picture nominee. No real narrative tension since there isn’t really an antagonist. More of a coming of age story about Elizabeth learning to be a ruthless ruler more so than taught palace intrigue story. People are killed so that Cate Blanchett may secure the throne, but the deaths are not thrilling because the male antagonists, like Christopher Ecclestone and Daniel Craig, do not matter because the movie does not care about them. The movie only cares about Elizabeth. Blanchett is good. Starts demure and increases in power, but you can tell she is powerful even when she is “sweet” in the beginning. Some indication of greater performances to come in Tar and Blue Jasmine."
+          text2=""
+          rating={6}
+        />
         <Review
           title="Central Station"
           ref={ref45}
