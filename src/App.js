@@ -53,6 +53,7 @@ function App() {
   const ref45 = useRef(null);
   const ref46 = useRef(null);
   const ref47 = useRef(null);
+  const ref48 = useRef(null);
 
   const toggleLinks = () => {
     setShowLinks(!showLinks);
@@ -76,6 +77,9 @@ function App() {
 
       {showLinks && (
         <div className="links-container">
+          <button className="title-link" onClick={scrollRefIntoView(ref48)}>
+            Shakespeare in Love
+          </button>
           <button className="title-link" onClick={scrollRefIntoView(ref47)}>
             Hit Man
           </button>
@@ -237,13 +241,13 @@ function App() {
         text="" 
         rating={}
       />  */}
-        {/* <Review 
-        title="" 
-        ref={ref45}
-        date=""
-        text="" 
-        rating={}
-      />  */}
+        <Review
+          title="Shakespeare in Love"
+          ref={ref48}
+          date="06/03"
+          text="This is the second time I’ve watched this film after about 20 years and my impression is exactly the same. Nothing to think about, but entertaining. Better than Saving Private Ryan, which it beat due to Harvey Weinstein, his one good deed."
+          rating={6}
+        />
         <Review
           title="Hit Man"
           ref={ref47}
