@@ -54,6 +54,7 @@ function App() {
   const ref46 = useRef(null);
   const ref47 = useRef(null);
   const ref48 = useRef(null);
+  const ref49 = useRef(null);
 
   const toggleLinks = () => {
     setShowLinks(!showLinks);
@@ -77,6 +78,9 @@ function App() {
 
       {showLinks && (
         <div className="links-container">
+                <button className="title-link" onClick={scrollRefIntoView(ref49)}>
+            The Verdict
+          </button>
           <button className="title-link" onClick={scrollRefIntoView(ref48)}>
             Shakespeare in Love
           </button>
@@ -241,6 +245,15 @@ function App() {
         text="" 
         rating={}
       />  */}
+              <Review 
+        title="The Verdict" 
+        ref={ref49}
+        date="06/08/24"
+        text="Finally saw what is called Paul Newman’s greatest performance in 80s medical malpractice drama with standard elements: [spoilers] drunk, down on his luck lawyer finds sobriety and legal success by representing the little guy, corrupt institutions, surprise witness tracked down by lawyer opens up the case at the last minute, abstract heartfelt stump speeches about justice or something. At first I predicted Charlotte Rampling was a spy sent to seduce Newman, then I thought that was too obvious. Turns out she is a spy. By the numbers, but not bad. The 80s pace was too slow in the beginning and bored me, but the slower pace worked at the end; better than forced euphoria. 90s movies just sped up 80s movies and made them more Xtreme!!! Newman is better in Hud, a better movie. Glad to get this movie off of my “movie bucket list” but I think I want to relieve myself of anxiety over not seeing key movies and performances. Nothing much changes with a movie." 
+        text2="Newman slaps Rampling in the face in one scene and film suggests this is okay. Screenplay David Mamet. Director Sydney Lumet."
+        text3="Rampling always looked severe and cold and old in spirit even when young. Icy version of the seductress. White actresses often cold and remote even when supposed to be sexy. White man fantasy?"
+        rating={6}
+      /> 
         <Review
           title="Shakespeare in Love"
           ref={ref48}
