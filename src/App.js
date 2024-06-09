@@ -56,6 +56,7 @@ function App() {
   const ref48 = useRef(null);
   const ref49 = useRef(null);
   const ref50 = useRef(null);
+  const ref51 = useRef(null);
 
   const toggleLinks = () => {
     setShowLinks(!showLinks);
@@ -79,7 +80,10 @@ function App() {
 
       {showLinks && (
         <div className="links-container">
-                    <button className="title-link" onClick={scrollRefIntoView(ref50)}>
+          <button className="title-link" onClick={scrollRefIntoView(ref51)}>
+            The Three Faces of Eve
+          </button>
+          <button className="title-link" onClick={scrollRefIntoView(ref50)}>
             Silence
           </button>
           <button className="title-link" onClick={scrollRefIntoView(ref49)}>
@@ -249,14 +253,22 @@ function App() {
         text="" 
         rating={}
       />  */}
-              <Review 
-        title="Silence" 
-        ref={ref50}
-        date="06/09/24"
-        text="Homework I assigned myself. Scorsese 406 (101 is Goodfellas). Watched in two to three sittings over the course of several weeks, sometimes on a tv, sometimes on a computer while making coffee and eating breakfast. Even more than Age of Innocence, the novel that I never read is probably better at teasing apart ideas of Christianity, Buddhism and imperialism. But I stopped reading the novel on page 1 so I guess this film has value for people who have given up on literacy. But has limited appeal because is an adaptation and not very movieish movie. Takes religion seriously while doing the atheist thing of putting religion in historical context." 
-        text2="[spoilers] Whether the Portuguese priest  (Andrew Garfield) should have apostatized upon being threatened by sociopath brutal Japanese leader, whether he maintained faith in his heart while compromising in order to save lives, whether faith of any kind is worth practicing – film is skeptical but open ended. Pop culture has replaced some of what religion used to do – a thing to think about and organize some of the events of one’s life around and admire the beauty of. Pop culture, including this movie, offers no coherence or absolutes or moral certainty. So, maybe faith is better. I have an empty feeling. Yearning for answers. Meaning."
-        rating={7}
-      /> 
+        <Review
+          title="The Three Faces of Eve"
+          ref={ref51}
+          date="06/09/24"
+          text="Finally watched Oscar winning performance by Joanne Woodward (Paul Newman’s wife). Early depiction of dissociative personality disorder handled with surprising subtlety by Woodward. From the 50s so movie has framing devices of white male experts talking. Also, [spoiler] Eve manages to integrate into one personality and remarry and ride of in car with her kid (who she was a danger to when sick) alongside new man. Family restored. Men are good except for the country bumkin first husband who doesn’t understand mental illness and slaps Woodward/Eve. And women are good if they get rid of their slutty second personalities and become good wives."
+          text2="Homework because it is an important Oscar winner and I’ve been meaning to explore Woodward and Newman. This is not a movie I needed to see, but I’m glad I have another film reference for some reason. I’ll never watch all the movies I’ve been meaning to watch, but I can cross off this one."
+          rating={6}
+        />
+        <Review
+          title="Silence"
+          ref={ref50}
+          date="06/09/24"
+          text="Homework I assigned myself. Scorsese 406 (101 is Goodfellas). Watched in two to three sittings over the course of several weeks, sometimes on a tv, sometimes on a computer while making coffee and eating breakfast. Even more than Age of Innocence, the novel that I never read is probably better at teasing apart ideas of Christianity, Buddhism and imperialism. But I stopped reading the novel on page 1 so I guess this film has value for people who have given up on literacy. But has limited appeal because is an adaptation and not very movieish movie. Takes religion seriously while doing the atheist thing of putting religion in historical context."
+          text2="[spoilers] Whether the Portuguese priest  (Andrew Garfield) should have apostatized upon being threatened by sociopath brutal Japanese leader, whether he maintained faith in his heart while compromising in order to save lives, whether faith of any kind is worth practicing – film is skeptical but open ended. Pop culture has replaced some of what religion used to do – a thing to think about and organize some of the events of one’s life around and admire the beauty of. Pop culture, including this movie, offers no coherence or absolutes or moral certainty. So, maybe faith is better. I have an empty feeling. Yearning for answers. Meaning."
+          rating={7}
+        />
         <Review
           title="The Verdict"
           ref={ref49}
