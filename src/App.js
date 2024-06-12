@@ -57,6 +57,8 @@ function App() {
   const ref49 = useRef(null);
   const ref50 = useRef(null);
   const ref51 = useRef(null);
+  const ref52 = useRef(null);
+  const ref53 = useRef(null);
 
   const toggleLinks = () => {
     setShowLinks(!showLinks);
@@ -80,6 +82,12 @@ function App() {
 
       {showLinks && (
         <div className="links-container">
+          <button className="title-link" onClick={scrollRefIntoView(ref53)}>
+            Pride and Glory
+          </button>
+          <button className="title-link" onClick={scrollRefIntoView(ref52)}>
+            The Bourne Ultimatum
+          </button>
           <button className="title-link" onClick={scrollRefIntoView(ref51)}>
             The Three Faces of Eve
           </button>
@@ -253,6 +261,21 @@ function App() {
         text="" 
         rating={}
       />  */}
+      <Review 
+        title="Pride And Glory" 
+        ref={ref53}
+        date="06/11/24"
+        text="Story of police corruption that is more of family melodrama than thriller. Most narratives of cops and crime hold off on the plot reveal in order to bury melodrama beneath genre trappings, but this reveals everything upfront and foregrounds the melodrama: bald lady with cancer, tense family gatherings, sibling rivalry. I think the melodrama/soap opera aspect is why this film is less respected than a more masculine thriller like Training Day. Silly scene in which Ed Norton and Colin Farrell put down guns to have fist fight while Irish music plays. Film uninterested in Dominican gangsters and colored protesters. Race mishandled. Commentary on cops muddled." 
+        rating={6}
+      /> 
+      <Review 
+        title="The Bourne Ultimatum" 
+        ref={ref52}
+        date="06/11/24"
+        text="Highest rated installment in Bourne series. Bourne finds out more details about CIA/NSA? program that “created” him. Post 9/11 film skeptical of surveillance and lethal covert operations with no civilian oversight. Joan Allen is the good cop, versus various white guys (David Strathairn) who are bad cops. I suppose institutions exist in this film, but nothing provokes political and intellectual analysis. This is entertainment. Action. Shaky cam. Dour Julia Styles. Brainwashing. Hot guys with guns. Old men in rooms. Damon at end of his baby face era. Green tint. Pretty good. As much as I liked the first movie twenty years ago, I don’t think I saw this sequel before, so carries no nostalgia for me. Think I would love this as much as the first one if it did." 
+        text2="I’ve been thinking about how “the medium is the message” is an overstatement. Films and tv can have all sorts of messages. But, for the most part, films tend to aim at entertainment, not edification. [Spoiler] That final moment when Jason jolts back to life after appearing dead and that Moby soundtrack riff plays is deeply anti-thought movieish euphoric climax. Just a movie."
+        rating={7}
+      /> 
         <Review
           title="The Three Faces of Eve"
           ref={ref51}
