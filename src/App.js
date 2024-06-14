@@ -59,6 +59,8 @@ function App() {
   const ref51 = useRef(null);
   const ref52 = useRef(null);
   const ref53 = useRef(null);
+  const ref54 = useRef(null);
+  const ref55 = useRef(null);
 
   const toggleLinks = () => {
     setShowLinks(!showLinks);
@@ -82,6 +84,12 @@ function App() {
 
       {showLinks && (
         <div className="links-container">
+          <button className="title-link" onClick={scrollRefIntoView(ref55)}>
+            The Knick Season 1
+          </button>
+          <button className="title-link" onClick={scrollRefIntoView(ref54)}>
+            Ocean’s Twelve
+          </button>
           <button className="title-link" onClick={scrollRefIntoView(ref53)}>
             Pride and Glory
           </button>
@@ -261,21 +269,36 @@ function App() {
         text="" 
         rating={}
       />  */}
-      <Review 
-        title="Pride And Glory" 
-        ref={ref53}
-        date="06/11/24"
-        text="Story of police corruption that is more of family melodrama than thriller. Most narratives of cops and crime hold off on the plot reveal in order to bury melodrama beneath genre trappings, but this reveals everything upfront and foregrounds the melodrama: bald lady with cancer, tense family gatherings, sibling rivalry. I think the melodrama/soap opera aspect is why this film is less respected than a more masculine thriller like Training Day. Silly scene in which Ed Norton and Colin Farrell put down guns to have fist fight while Irish music plays. Film uninterested in Dominican gangsters and colored protesters. Race mishandled. Commentary on cops muddled." 
-        rating={6}
-      /> 
-      <Review 
-        title="The Bourne Ultimatum" 
-        ref={ref52}
-        date="06/11/24"
-        text="Highest rated installment in Bourne series. Bourne finds out more details about CIA/NSA? program that “created” him. Post 9/11 film skeptical of surveillance and lethal covert operations with no civilian oversight. Joan Allen is the good cop, versus various white guys (David Strathairn) who are bad cops. I suppose institutions exist in this film, but nothing provokes political and intellectual analysis. This is entertainment. Action. Shaky cam. Dour Julia Styles. Brainwashing. Hot guys with guns. Old men in rooms. Damon at end of his baby face era. Green tint. Pretty good. As much as I liked the first movie twenty years ago, I don’t think I saw this sequel before, so carries no nostalgia for me. Think I would love this as much as the first one if it did." 
-        text2="I’ve been thinking about how “the medium is the message” is an overstatement. Films and tv can have all sorts of messages. But, for the most part, films tend to aim at entertainment, not edification. [Spoiler] That final moment when Jason jolts back to life after appearing dead and that Moby soundtrack riff plays is deeply anti-thought movieish euphoric climax. Just a movie."
-        rating={7}
-      /> 
+        <Review
+          title="The Knick Season 1"
+          ref={ref55}
+          date="06/13/24"
+          text="Engrossing, binge-able prestige peak tv period show about a hospital in New York. Discusses modernity, science, race, abortion, feminism, all from current progressive/liberal perspective reflecting on the past. The political and moral intent of the show is clear, well intentioned and inoffensive to people like me who went to liberal universities. Peak tv for liberals. I did not revel in watching Clive Owen play a racist doctor who grows to accept a black underling because the man happens to be excellent. I appreciate the interracial love story but am also put off by how much this is in vogue. The well-meaning white liberal rich family whose patriarch is on the board of the hospital is very enviable. Must be nice to run things and be kind to one’s social inferiors whose civil rights you support. Like most tv, this show is a melodrama. Has all the prestige tv elements (great director/Soderbergh, period piece, good writing, progressive values) but this all boils down to melodrama: using drugs to deal with difficult job, racial strife, forbidden romance, owing money to loan shark."
+          text2="I am still trying to find a through line with Soderbergh. I have not found it."
+          rating={9}
+        />
+        <Review
+          title="Ocean’s Twelve"
+          ref={ref54}
+          date="06/12/24"
+          text="Watchable. Rewatchable. Light. In one scene, Julia Roberts pretends to be someone pretending to be Julia Roberts. A big swing I like and I hate. Driven by movie stars and funny-ish screenplay."
+          rating={7}
+        />
+        <Review
+          title="Pride And Glory"
+          ref={ref53}
+          date="06/11/24"
+          text="Story of police corruption that is more of family melodrama than thriller. Most narratives of cops and crime hold off on the plot reveal in order to bury melodrama beneath genre trappings, but this reveals everything upfront and foregrounds the melodrama: bald lady with cancer, tense family gatherings, sibling rivalry. I think the melodrama/soap opera aspect is why this film is less respected than a more masculine thriller like Training Day. Silly scene in which Ed Norton and Colin Farrell put down guns to have fist fight while Irish music plays. Film uninterested in Dominican gangsters and colored protesters. Race mishandled. Commentary on cops muddled."
+          rating={6}
+        />
+        <Review
+          title="The Bourne Ultimatum"
+          ref={ref52}
+          date="06/11/24"
+          text="Highest rated installment in Bourne series. Bourne finds out more details about CIA/NSA? program that “created” him. Post 9/11 film skeptical of surveillance and lethal covert operations with no civilian oversight. Joan Allen is the good cop, versus various white guys (David Strathairn) who are bad cops. I suppose institutions exist in this film, but nothing provokes political and intellectual analysis. This is entertainment. Action. Shaky cam. Dour Julia Styles. Brainwashing. Hot guys with guns. Old men in rooms. Damon at end of his baby face era. Green tint. Pretty good. As much as I liked the first movie twenty years ago, I don’t think I saw this sequel before, so carries no nostalgia for me. Think I would love this as much as the first one if it did."
+          text2="I’ve been thinking about how “the medium is the message” is an overstatement. Films and tv can have all sorts of messages. But, for the most part, films tend to aim at entertainment, not edification. [Spoiler] That final moment when Jason jolts back to life after appearing dead and that Moby soundtrack riff plays is deeply anti-thought movieish euphoric climax. Just a movie."
+          rating={7}
+        />
         <Review
           title="The Three Faces of Eve"
           ref={ref51}
