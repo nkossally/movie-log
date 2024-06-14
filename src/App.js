@@ -281,7 +281,7 @@ function App() {
           title="Ocean’s Twelve"
           ref={ref54}
           date="06/12/24"
-          text="Watchable. Rewatchable. Light. In one scene, Julia Roberts pretends to be someone pretending to be Julia Roberts. A big swing I like and I hate. Driven by movie stars and funny-ish screenplay."
+          text="Rewatchable. Light. Charming. In one scene, Julia Roberts pretends to be someone pretending to be Julia Roberts. A big swing I like and I hate. Driven by movie stars and funny-ish screenplay."
           rating={7}
         />
         <Review
