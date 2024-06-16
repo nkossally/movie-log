@@ -87,10 +87,10 @@ function App() {
       {showLinks && (
         <div className="links-container">
           <button className="title-link" onClick={scrollRefIntoView(ref57)}>
-            Lincoln Lawyer
+          Bad Boys: Ride or Die
           </button>
           <button className="title-link" onClick={scrollRefIntoView(ref56)}>
-            Bad Boys: Ride or Die
+            Lincoln Lawyer
           </button>
           <button className="title-link" onClick={scrollRefIntoView(ref55)}>
             The Knick Season 1
@@ -279,7 +279,7 @@ function App() {
       />  */}
         <Review
           title="Bad Boys: Ride or Die"
-          ref={ref45}
+          ref={ref57}
           date="06/16/24"
           text="30 years since the first version. Since then, 9/11, great recession, George Floyd, Me Too, cancel culture, and Will Smith smacked someone. Some films try to respond to social and political currents. This does not. Maybe less gay jokes than the original. No attempt to justify movie about black cops who kill people in a post George Floyd world. Simple good guys v bad guys story. Supposed to laugh when bad guys shot. Crowd at Magic Johnson AMC in Harlem very happy when Martin Lawrence’s son shot someone in the head and then saluted his father. Despite corrupt cop story line, patriotic and militaristic. No attempt to comment on stand your ground laws despite death of Trayvon Martin. Violence exists alongside very cute domestic scenes of men competing for authority over grill and wife forcing husband to be vegetarian."
           text2="Absurd McGuffin involving a giant white alligator. Lazy plotting communicated with fake news anchors (cheapest trick). The middle aged men can’t get shirtless anymore, so film has Jacob Scipio do shirtless scene. Martin is the best part. Inability to stick to a diet despite health problems very relatable. He makes unfunny jokes funny. Funny, cute, enjoyable movie that I like. Does not withstand critical analysis. One of the few box office successes of the year so far. "
@@ -288,7 +288,7 @@ function App() {
         />
         <Review
           title="Lincoln Lawyer"
-          ref={ref45}
+          ref={ref56}
           date="06/16/24"
           text="Standard court procedural about morally ambiguous lawyer who does the right thing. Not sure why that is the standard. It has narrative tension, confirming distrust of lawyers, confirms confidence in the system. Specific conceit is Matthew McConaughey must defend his guilty sociopath client and still get him in prison somehow. McConaughey gets street cred because of his black driver and the Latinx prisoner he exonerates. His driver literally gives him street cred. White people."
           rating={6}
