@@ -63,6 +63,8 @@ function App() {
   const ref55 = useRef(null);
   const ref56 = useRef(null);
   const ref57 = useRef(null);
+  const ref58 = useRef(null);
+  const ref59 = useRef(null);
 
   const toggleLinks = () => {
     setShowLinks(!showLinks);
@@ -86,8 +88,14 @@ function App() {
 
       {showLinks && (
         <div className="links-container">
+          <button className="title-link" onClick={scrollRefIntoView(ref59)}>
+          The Pelican Brief
+          </button>
+          <button className="title-link" onClick={scrollRefIntoView(ref58)}>
+            Haywire
+          </button>
           <button className="title-link" onClick={scrollRefIntoView(ref57)}>
-          Bad Boys: Ride or Die
+            Bad Boys: Ride or Die
           </button>
           <button className="title-link" onClick={scrollRefIntoView(ref56)}>
             Lincoln Lawyer
@@ -278,11 +286,25 @@ function App() {
         rating={}
       />  */}
         <Review
+          title="The Pelican Brief"
+          ref={ref59}
+          date="06/18/24"
+          text="John Grisham adaptation. Incompetent president and corruption in high offices and agencies. A smart law student (Julia Roberts) and a reporter (Denzel Washington) save the day and root out the bad guys. News montage at the end confirms that evil men are punished. Opens with Julia Roberts in class saying something like “the law is wrong.” Ultimately patriotic. Movie for a second made me feel like a young smiling Julia Roberts and a baby Denzel really could save America and preserve its institutions. But they are middle aged now."
+          rating={5}
+        />
+        <Review
+          title="Haywire"
+          ref={ref58}
+          date="06/18/24"
+          text="Light  breezy film about black ops contract killer. Contract killers are comforting in films for some reason. Soderbergh cast MMA fighter Gina Carano as lead and her take on acting is fresh."
+          rating={5}
+        />
+        <Review
           title="Bad Boys: Ride or Die"
           ref={ref57}
           date="06/16/24"
           text="30 years since the first version. Since then, 9/11, great recession, George Floyd, Me Too, cancel culture, and Will Smith smacked someone. Some films try to respond to social and political currents. This does not. Maybe less gay jokes than the original. No attempt to justify movie about black cops who kill people in a post George Floyd world. Simple good guys v bad guys story. Supposed to laugh when bad guys shot. Crowd at Magic Johnson AMC in Harlem very happy when Martin Lawrence’s son shot someone in the head and then saluted his father. Despite corrupt cop story line, patriotic and militaristic. No attempt to comment on stand your ground laws despite death of Trayvon Martin. Violence exists alongside very cute domestic scenes of men competing for authority over grill and wife forcing husband to be vegetarian."
-          text2="Absurd McGuffin involving a giant white alligator. Lazy plotting communicated with fake news anchors (cheapest trick). The middle aged men can’t get shirtless anymore, so film has Jacob Scipio do shirtless scene. Martin is the best part. Inability to stick to a diet despite health problems very relatable. He makes unfunny jokes funny. Funny, cute, enjoyable movie that I like. Does not withstand critical analysis. One of the few box office successes of the year so far. "
+          text2="Absurd MacGuffin involving a giant white alligator. Lazy plotting communicated with fake news anchors (cheapest trick). The middle aged men can’t get shirtless anymore, so film has Jacob Scipio do shirtless scene. Martin is the best part. Inability to stick to a diet despite health problems very relatable. He makes unfunny jokes funny. Funny, cute, enjoyable movie that I like. Does not withstand critical analysis. One of the few box office successes of the year so far. "
           text3="Hollywood is in flux. Blockbusters are failing. And disproportionately black audiences have rallied behind a film that revels in police brutality. Black people created cancel culture. Black people never really cancelled Will Smith. If OJ can get away with murder, WM should be able to get away with smacking someone. That is the point of privilege. Not being held accountable for violence. Some black people are privileged and we celebrate that for them because we are not. And hey, why think too much about it. It’s just a movie. It doesn’t have to be political. Too much has been claimed by politics. This movie would be cancellable if it could be political, but it can’t."
           rating={6}
         />
