@@ -65,6 +65,7 @@ function App() {
   const ref57 = useRef(null);
   const ref58 = useRef(null);
   const ref59 = useRef(null);
+  const ref60 = useRef(null);
 
   const toggleLinks = () => {
     setShowLinks(!showLinks);
@@ -88,8 +89,11 @@ function App() {
 
       {showLinks && (
         <div className="links-container">
+          <button className="title-link" onClick={scrollRefIntoView(ref60)}>
+            Jerry Maguire
+          </button>
           <button className="title-link" onClick={scrollRefIntoView(ref59)}>
-          The Pelican Brief
+            The Pelican Brief
           </button>
           <button className="title-link" onClick={scrollRefIntoView(ref58)}>
             Haywire
@@ -285,6 +289,17 @@ function App() {
         text="" 
         rating={}
       />  */}
+
+        <Review
+          title="Jerry Maguire"
+          ref={ref60}
+          date="06/23/24"
+          text="Took years to get to this one since it combines three things I hate – sports, capitalism, and the little guy who succeeds against the big business. Watchable and pleasant if you let yourself watch a rom com/sports story sandwich. Tom Cruise is Jerry Maguire sports agent who has moral crisis and writes manifesto about having less clients and making less money. Vague act of petulant moralizing in corporate setting gets him fired, and Renee Zellweger follows broke Tom Cruise to independent company despite being single mother. [Spoiler] Cruise’s business succeeds, his romantic life blossoms and he gets a kid (Renee’s) for free. "
+          text2="Very good performance from Cruise. Scenes in which he is charismatic predict his later reputation for manic energy and cult leader energy. His acting style is specific and kind of weird and manic and earnest and both honest and dishonest at the same time. Sometimes he seems like he’s acting against Cuba Gooding Jr, sometimes he seems like he is acting against ideas in his head even when giving eye contact. Cruise’s specific acting style works well here and in most of his films."
+          text3="Lots of 90s cheese. Gooding Jr. gives Cruise permission to say things like “show me the money” and “shoplift the pootie.” “You complete me” and “you had me at hello” also come from here. Movie earnestly wants to promote love and optimism. But the cynicism of the world is smoothed over with jokes and cheesiness. Adult workspaces seem so naïve and childish in the movies. "
+          text4="Politics not good, of course. Many scenes of single middle aged women’s group where they say reasonable things about valuing female friendship played for laughs. Women need Tom Cruise, who interrupts one lady gathering to demand that Zellweger stay him. She broke up with him because they couldn’t articulate why they loved each other. They get back together because he finally articulates that he wants a girl and free child to talk to when Cuba Gooding Jr. scores a touchdown and secures financial success. This is good enough for Zellweger. Contradiction of celebrating “small business” in a major film starring bankable Tom Cruise is so glaring that hardly worth mentioning. Acoustic guitar and soundtrack melt one scene into another. Music video vibe of director Cameron Crowe.  This is what 90s optimism looked like, compared to the 90s pessimism of Reality Bites or The Simpsons."
+          rating={7}
+        />
         <Review
           title="The Pelican Brief"
           ref={ref59}
