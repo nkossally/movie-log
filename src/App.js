@@ -66,6 +66,7 @@ function App() {
   const ref58 = useRef(null);
   const ref59 = useRef(null);
   const ref60 = useRef(null);
+  const ref61 = useRef(null);
 
   const toggleLinks = () => {
     setShowLinks(!showLinks);
@@ -89,6 +90,9 @@ function App() {
 
       {showLinks && (
         <div className="links-container">
+          <button className="title-link" onClick={scrollRefIntoView(ref61)}>
+            The Ref
+          </button>
           <button className="title-link" onClick={scrollRefIntoView(ref60)}>
             Jerry Maguire
           </button>
@@ -289,7 +293,14 @@ function App() {
         text="" 
         rating={}
       />  */}
-
+        <Review 
+        title="The Ref" 
+        ref={ref61}
+        date="07/20/2024"
+        text="Same genre as American Beauty and The Ice Storm – white family with problems illustrates dark underbelly of the suburbs. This is the silly comedic version. Got tepid reviews and low box office. Nostalgic for me because I was very attracted to scruffy Denis Leary with his nasty facial hair when I saw this as a kid on tv. I still like it. Still somewhat attracted to Leary. Leary plays thief who kidnaps bickering couple Kevin Spacey and Judy Davis and ultimately helps them work through their marriage problems." 
+        text2="Facts. Kevin Spacey is in both American Beauty and this movie playing the same cuckold middle-aged sad sack. Judy Davis looks a lot like Annette Benning in American Beauty and plays a similar character. Sigourney Weaver of the Ice Storm looks somewhat like these women as well. The mean matriarch of the film, Glynis Johns, passed away this year at 100."
+        rating={6}
+      /> 
         <Review
           title="Jerry Maguire"
           ref={ref60}
