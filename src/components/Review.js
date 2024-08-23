@@ -6,9 +6,11 @@ export const Review = forwardRef((props, ref) => {
       <div className="title-and-date">
         <div className="title-container">
           <div className="title">{props.title}</div>
-          {props.rating && <div className="rating"> {props.rating}/10</div>}
+          {props.rating && <div className="rating">&nbsp;{props.rating}/10</div>}
         </div>
         <div>{props.date}</div>
+        {props.director && <div>Director: {props.director}</div>}
+        {props.releaseDate  &&<div>Released: {props.releaseDate}</div>}
       </div>
 
       <div>{props.text}</div>

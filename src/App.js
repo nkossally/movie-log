@@ -67,6 +67,8 @@ function App() {
   const ref59 = useRef(null);
   const ref60 = useRef(null);
   const ref61 = useRef(null);
+  const ref62 = useRef(null);
+  const ref63 = useRef(null);
 
   const toggleLinks = () => {
     setShowLinks(!showLinks);
@@ -90,6 +92,12 @@ function App() {
 
       {showLinks && (
         <div className="links-container">
+          <button className="title-link" onClick={scrollRefIntoView(ref63)}>
+            Remains of the Day
+          </button>
+          <button className="title-link" onClick={scrollRefIntoView(ref62)}>
+            Let Them All Talk
+          </button>
           <button className="title-link" onClick={scrollRefIntoView(ref61)}>
             The Ref
           </button>
@@ -293,14 +301,32 @@ function App() {
         text="" 
         rating={}
       />  */}
-        <Review 
-        title="The Ref" 
-        ref={ref61}
-        date="07/20/2024"
-        text="Same genre as American Beauty and The Ice Storm – white family with problems illustrates dark underbelly of the suburbs. This is the silly comedic version. Got tepid reviews and low box office. Nostalgic for me because I was very attracted to scruffy Denis Leary with his nasty facial hair when I saw this as a kid on tv. I still like it. Still somewhat attracted to Leary. Leary plays thief who kidnaps bickering couple Kevin Spacey and Judy Davis and ultimately helps them work through their marriage problems." 
-        text2="Facts. Kevin Spacey is in both American Beauty and this movie playing the same cuckold middle-aged sad sack. Judy Davis looks a lot like Annette Benning in American Beauty and plays a similar character. Sigourney Weaver of the Ice Storm looks somewhat like these women as well. The mean matriarch of the film, Glynis Johns, passed away this year at 100."
-        rating={6}
-      /> 
+        <Review
+          title="Remains of the Day"
+          ref={ref63}
+          date="08/23/2024"
+          text="Celebrated Merchant Ivory production (Ismail Merchant = producer,  James Ivory = director, both = gay?) of the 90s. British, upstairs-downstairs, book adaptation, costume dramas dominated the Oscars in the 90s and have disappeared. Character study of a butler who is too committed to his work and British manners to object to Nazi leanings of his master feels very literary but translates well on film. I have not and will not read the book. Subtle observations about reducing life to work and repressing emotions. I may have watched this in my teens and forgot all about it because I was far more into “fun” films like Fight Club. Much nostalgia baked into watching an old movie about a historical moment. Instant nostalgia. Flecks of sadness. I am glad that Emma Thompson and Anthony Hopkins, the stars, are still alive."
+          rating={9}
+          director="James Ivory"
+          releaseDate="1993"
+        />
+        <Review
+          title="Let Them All Talk"
+          ref={ref62}
+          date="08/23/2024"
+          text="Meryl Streep plays respected pompous writer who takes transatlantic crossing to England to receive literary award, and invites her nephew and old college friends to boat. Procrastinated for four years to see this because I knew it would be good but also knew it would be a “just so” film. Film set on a boat with minimal plot about literature starring mostly older female film veterans (Meryl Streep, Candace Berge, Dianne Wiest) is only for film snobs and gay men of a certain type (gay men who like Judy Garland). Not sure that the film does the thing it says books do, which is reach across time and space and give people a sense of a unified humanity. I liked the film, but films for film snobs no longer give a sense of identity, just a sense that they need to be more popular or they will disappear. Bergen is hilarious."
+          rating={7}
+          director="Steven Soderbergh"
+          releaseDate="December 10, 2020"
+        />
+        <Review
+          title="The Ref"
+          ref={ref61}
+          date="07/20/2024"
+          text="Same genre as American Beauty and The Ice Storm – white family with problems illustrates dark underbelly of the suburbs. This is the silly comedic version. Got tepid reviews and low box office. Nostalgic for me because I was very attracted to scruffy Denis Leary with his nasty facial hair when I saw this as a kid on tv. I still like it. Still somewhat attracted to Leary. Leary plays thief who kidnaps bickering couple Kevin Spacey and Judy Davis and ultimately helps them work through their marriage problems."
+          text2="Facts. Kevin Spacey is in both American Beauty and this movie playing the same cuckold middle-aged sad sack. Judy Davis looks a lot like Annette Benning in American Beauty and plays a similar character. Sigourney Weaver of the Ice Storm looks somewhat like these women as well. The mean matriarch of the film, Glynis Johns, passed away this year at 100."
+          rating={6}
+        />
         <Review
           title="Jerry Maguire"
           ref={ref60}
