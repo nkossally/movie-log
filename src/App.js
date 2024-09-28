@@ -69,6 +69,9 @@ function App() {
   const ref61 = useRef(null);
   const ref62 = useRef(null);
   const ref63 = useRef(null);
+  const ref64 = useRef(null);
+  const ref65 = useRef(null);
+  const ref66 = useRef(null);
 
   const toggleLinks = () => {
     setShowLinks(!showLinks);
@@ -92,6 +95,15 @@ function App() {
 
       {showLinks && (
         <div className="links-container">
+          <button className="title-link" onClick={scrollRefIntoView(ref66)}>
+            Howards End
+          </button>
+          <button className="title-link" onClick={scrollRefIntoView(ref65)}>
+            Strange Darling
+          </button>
+          <button className="title-link" onClick={scrollRefIntoView(ref64)}>
+            Longlegs
+          </button>
           <button className="title-link" onClick={scrollRefIntoView(ref63)}>
             Remains of the Day
           </button>
@@ -251,7 +263,6 @@ function App() {
           <button className="title-link" onClick={scrollRefIntoView(ref30)}>
             Godzilla Minus One
           </button>
-
           <button className="title-link" onClick={scrollRefIntoView(ref31)}>
             Clemency
           </button>
@@ -301,6 +312,33 @@ function App() {
         text="" 
         rating={}
       />  */}
+        <Review
+          title="Howards End"
+          ref={ref66}
+          date="09/28/2024"
+          text="Watched in two sittings on a mac over the course of two to four weeks. Time, huh. Merchant Ivory film adapted from novel. Class, property, love, melodrama. Emma Thompson won Best Actress for this one but deserved it more for Remains of the Day. Not my favorite Merchant Ivory. Not even particularly aesthetically pleasing. But good."
+          rating={6}
+          director="Ismail Merchant"
+          releaseDate="1992"
+        />
+        <Review
+          title="Strange Darling"
+          ref={ref65}
+          date="09/28/2024"
+          text="Saw this at my new fav theater Syndicated Bar Kitchen Theater with Lisa. At one point, a male cop says to a female cop, “you stupid bitch,” and that was the point of this movie – feminism allows female serial killer to get away with murder; [spoiler] a stupid lady cop incorrectly assumed a bruised woman tied up with rope was a victim. I liked this movie. Well done. Well acted. Gets its point across, sort of like the perfect misogynist movie Straw Dogs. Oddly, not critiqued as misogynist by critics. Made by men only, including at least one scientologist (Gio Rabisi)."
+          rating={7}
+          director="JT Mollner"
+          releaseDate="2024"
+        />
+        <Review
+          title="Longlegs"
+          ref={ref64}
+          date="09/28/2024"
+          text="Arthouse horror film with Nicolas Cage and actress from It Follows. Liked it. No interpretation. Not social messagey like Get Out."
+          rating={7}
+          director="Osgood Perkins"
+          releaseDate="2024"
+        />
         <Review
           title="Remains of the Day"
           ref={ref63}
