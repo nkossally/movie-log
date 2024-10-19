@@ -72,6 +72,11 @@ function App() {
   const ref64 = useRef(null);
   const ref65 = useRef(null);
   const ref66 = useRef(null);
+  const ref67 = useRef(null);
+  const ref68 = useRef(null);
+  const ref69 = useRef(null);
+  const ref70 = useRef(null);
+  const ref71 = useRef(null);
 
   const toggleLinks = () => {
     setShowLinks(!showLinks);
@@ -95,6 +100,21 @@ function App() {
 
       {showLinks && (
         <div className="links-container">
+          <button className="title-link" onClick={scrollRefIntoView(ref71)}>
+            Rivals (TV)
+          </button>
+          <button className="title-link" onClick={scrollRefIntoView(ref70)}>
+            Generation Kill (TV)
+          </button>
+          <button className="title-link" onClick={scrollRefIntoView(ref69)}>
+            Fallout (TV)
+          </button>
+          <button className="title-link" onClick={scrollRefIntoView(ref68)}>
+            Baby Reindeer (TV)
+          </button>
+          <button className="title-link" onClick={scrollRefIntoView(ref67)}>
+            Shogun (TV)
+          </button>
           <button className="title-link" onClick={scrollRefIntoView(ref66)}>
             Howards End
           </button>
@@ -305,13 +325,59 @@ function App() {
           !showLinks && "container-margin-top"
         )}
       >
-        {/* <Review 
+      {/* <Review 
         title="" 
+        director=""
         ref={ref45}
         date=""
+        releaseDate="2024"
         text="" 
+        text2=""
         rating={}
       />  */}
+      <Review 
+        title="Rivals (TV)" 
+        ref={ref71}
+        date="11/19"
+        releaseDate="2024"
+        text="Based on popular (light?) fiction. Lots of plotting around various people in the television industry in Britain competing for status, money, power and sex. Watched it because I heard the show on Disney + is frank about sex, but it’s not that frank or raunchy. Mostly a light comedy about people falling in or out of love. There’s a very sexy British playboy aristocrat played by Alex Hassell and a villainous social climber who’s jealous of those who are born rich, played by David Tenant. Jealous social climbers who are born poor is an effective trope, and maybe a conservative one. There’s a hypercompetent hypersexual black lady boss who voted for Reagan. There are likeable Tories. There’s a penis in episode 1. Compelling light fluff. It passes the time amiably." 
+        rating={7}
+      /> 
+      <Review 
+        title="Generation Kill (TV)" 
+        ref={ref70}
+        date="11/19/24"
+        releaseDate="2024"
+        text="David Simon co-created this miniseries about marines in Iraq in 2003. Portrays the red tape and incompetence of the military bureaucracy and the masculinity, homoeroticism, homophobia, cynicism and joviality of soldiers. The show is a vibe. Slice of life feel. Simon thinks about institutions so the soldiers regularly say things to reflect generally on the military, but the show is a mood. A vibe." 
+        rating={9}
+      /> 
+      <Review 
+        title="Fallout (TV)" 
+        ref={ref69}
+        date="11/16/24"
+        releaseDate="2024"
+        text="Critically acclaimed video game adaptation. Second best show of the year, after Baby Reindeer. Straightforward anti-capitalist plot [spoilers] – corporation manufactures pods for use during nuclear fallout and creates nuclear disaster in order to profit/control people. Show has black actress (Frances Turner) as both mother to a biracial child and corporate exec who comes up with the idea of manufacturing disaster in order to benefit the corporation. Always interesting when media put a black woman in the position of evil corporate exec." 
+        text2="First season well done so I don’t need another. More world building left and a little bit of mystery, but the metaphor for capitalism is clear so I don’t need more."
+        rating={9}
+      /> 
+      <Review 
+        title="Baby Reindeer (TV)" 
+        ref={ref68}
+        date="11/16/24"
+        text="Best show I’ve seen this year. [Spoilers] Based on experiences of the show’s star and creator caught in cycles of bad relationships and self-doubt after being repeatedly raped by an established showrunner who falsely promised to write a show with him. Has the personality, cringe and solipsism of prestige tv like Girls and Louie, except this show creator engages in cutting self-critique as he exploits his own story for televisual success/fame/Emmys. Lena Dunham and Louis C.K. created auteur shows that did not do self-critique this well. Probably because people who are raped, even narcissistic comedians, tend to blame themselves. " 
+        releaseDate="2024"
+        rating={9}
+      /> 
+        <Review 
+        title="Shogun (TV)" 
+        ref={ref67}
+        date="11/16/24"
+        text="Opens with white man (Cosmo Jarvis) and then centers Japanese characters and mostly has subtitles for English speakers. Early instance, I think, of future of Americans reading subtitles as much as everyone else." 
+        text2="More than the pretty Japanese female lead, show sexualizes Jarvis. Show seems to have a female or gay gaze. Show is not that interested in sex or complex emotions. More philosophical and plot heavy and about military/political tactics. All of the characters, like in most genre television, are one-note and can be summed up in a few adjectives – the plot/historical setting move the human chess pieces." 
+        text3="Well done historical drama with probable historical inaccuracies. Some 21st century feminism inserted. Not sure how women back then would be literate, speak several languages and know how to use swords." 
+        releaseDate="2023"
+        rating={8}
+      /> 
         <Review
           title="Howards End"
           ref={ref66}
