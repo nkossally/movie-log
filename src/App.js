@@ -77,6 +77,7 @@ function App() {
   const ref69 = useRef(null);
   const ref70 = useRef(null);
   const ref71 = useRef(null);
+  const ref72 = useRef(null);
 
   const toggleLinks = () => {
     setShowLinks(!showLinks);
@@ -100,6 +101,9 @@ function App() {
 
       {showLinks && (
         <div className="links-container">
+          <button className="title-link" onClick={scrollRefIntoView(ref72)}>
+           Primary Colors
+          </button>
           <button className="title-link" onClick={scrollRefIntoView(ref71)}>
             Rivals (TV)
           </button>
@@ -335,6 +339,18 @@ function App() {
         text2=""
         rating={}
       />  */}
+        <Review 
+        title="Primary Colors" 
+        director="Mike Nichols"
+        ref={ref72}
+        date="10/30/24"
+        releaseDate="1998"
+        text="Fictionalized account of the 1992 election of Bill-Clinton-like figure played by John Travolta. Travolta recruits black grandson of civil rights leader to be advisor. Topics: pragmatism vs. radicalism, idealism, being a part of history, whether philandering disqualifies candidate. Ultimately ambivalent about Travolta/Clinton; whether his charm is inspirational or smokescreen. Compared to heinous post-Trump politics, film’s ambivalence seems charming, naïve, optimistic. " 
+        text2="Many scenes are very 90s and conservative. Black characters are emotional support/labor for white characters. Black girlfriend is always angry and unsupportive. Several white characters resent well-educated black man for being a Hotchkiss graduate with a profession, played for laughs. Sexual harassment of woman at work taken lightly. On ladies Travolta/Clinton has affairs with, Kathy Bates character says he “poked his pecker in some sorry trash bins [Monica Lewinski].” Support for Israel. Promotes education as solution to good factory jobs disappearing. Pre-woke conservatism was liberal in the 90s."
+        text3="When I was more “radical” teenager, I thought Primary Colors and shows like The West Wing were insidious by making political class seem like cute characters in sitcom. At this point, this movie seems quaint."
+        text4="Side note: Kathy Bates character mentions that Hitler was faithful, therefore philandering is not indication of bad moral leadership. Given Me Too and Clinton’s connections to Jeffrey Epstein, this is no longer a valid liberal point of view."
+        rating={6}
+      /> 
       <Review 
         title="Rivals (TV)" 
         ref={ref71}
