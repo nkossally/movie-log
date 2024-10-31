@@ -78,6 +78,7 @@ function App() {
   const ref70 = useRef(null);
   const ref71 = useRef(null);
   const ref72 = useRef(null);
+  const ref73 = useRef(null);
 
   const toggleLinks = () => {
     setShowLinks(!showLinks);
@@ -101,6 +102,9 @@ function App() {
 
       {showLinks && (
         <div className="links-container">
+          <button className="title-link" onClick={scrollRefIntoView(ref73)}>
+           American President
+          </button>
           <button className="title-link" onClick={scrollRefIntoView(ref72)}>
            Primary Colors
           </button>
@@ -339,7 +343,16 @@ function App() {
         text2=""
         rating={}
       />  */}
-        <Review 
+      <Review 
+        title="American President" 
+        director="Rob Reiner"
+        ref={ref73}
+        date="10/31/24"
+        releaseDate="1995"
+        text="Aaron Sorkin political rom com about widower president falling in love with lobbyist and risking reputation/reelection. Blueprint for The West Wing. Has typical Sorkinesque American patriotism; liberal politicians and their advisors are sitcom-cute and morally decent; Republicans corrupt. Presidential dating scandal very quaint/naïve by modern standards. Movie released two years before Lewinsky trial and decades before Trump. Younger more radical me would argue that making American political system cute and quaint is insidious. In minor subplot, film blithely accepts president duty to support state of Israel and attack Libya. Quintessential liberalism of the 90s. Now that I am starved for political optimism, I get the charm of cute portraits of the White House, but Sorkin’s optimism is not to my taste. I assume Sorkin is a nice guy and Clinton is not. Prefer the ambivalence of Primary Colors." 
+        rating={5}
+      /> 
+      <Review 
         title="Primary Colors" 
         director="Mike Nichols"
         ref={ref72}
