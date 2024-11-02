@@ -79,6 +79,7 @@ function App() {
   const ref71 = useRef(null);
   const ref72 = useRef(null);
   const ref73 = useRef(null);
+  const ref74 = useRef(null);
 
   const toggleLinks = () => {
     setShowLinks(!showLinks);
@@ -102,6 +103,9 @@ function App() {
 
       {showLinks && (
         <div className="links-container">
+          <button className="title-link" onClick={scrollRefIntoView(ref74)}>
+           Bachelorette
+          </button>
           <button className="title-link" onClick={scrollRefIntoView(ref73)}>
            American President
           </button>
@@ -343,6 +347,15 @@ function App() {
         text2=""
         rating={}
       />  */}
+      <Review 
+        title="Bachelorette" 
+        director="Leslye Headland"
+        ref={ref74}
+        date="11/02/24"
+        releaseDate="2012"
+        text="Watched in several sittings on HBO Max more than a month ago, but I think I remember it. Rom com about mean skinny girls who are bachelorettes at wedding of fat former friend. Good concept. I like unlikeable characters. Pretty good but could have been a lot meaner and I didn’t need forced personal growth at end. Film made little impact on culture and on me but does have my fav, Kirsten Dunst." 
+        rating={5}
+      /> 
       <Review 
         title="American President" 
         director="Rob Reiner"
