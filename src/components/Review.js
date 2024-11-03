@@ -13,7 +13,7 @@ export const Review = forwardRef((props, ref) => {
         {props.releaseDate  &&<div>Released: {props.releaseDate}</div>}
       </div>
 
-      <div>{props.text}</div>
+      <div className="text">{props.text}</div>
       {props.text2 && <div className="text2">{props.text2}</div>}
       {props.text3 && <div className="text2">{props.text3}</div>}
       {props.text4 && <div className="text2">{props.text4}</div>}
