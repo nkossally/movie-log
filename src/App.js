@@ -2,6 +2,7 @@ import { useState, useRef } from "react";
 import { Review } from "./components/Review";
 import "./index.scss";
 import classNames from "classnames";
+import { tryThis } from "./fetch";
 
 function App() {
   const [showLinks, setShowLinks] = useState(false);
@@ -359,6 +360,8 @@ function App() {
         text2=""
         rating={}
       />  */}
+            <button onClick={tryThis}> hello</button>
+
       <Review 
         title="Anora" 
         director="Sean Baker"
