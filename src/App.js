@@ -80,6 +80,8 @@ function App() {
   const ref72 = useRef(null);
   const ref73 = useRef(null);
   const ref74 = useRef(null);
+  const ref75 = useRef(null);
+  const ref76 = useRef(null);
 
   const toggleLinks = () => {
     setShowLinks(!showLinks);
@@ -103,6 +105,12 @@ function App() {
 
       {showLinks && (
         <div className="links-container">
+          <button className="title-link" onClick={scrollRefIntoView(ref76)}>
+           The Post
+          </button>
+          <button className="title-link" onClick={scrollRefIntoView(ref75)}>
+           Dick
+          </button>
           <button className="title-link" onClick={scrollRefIntoView(ref74)}>
            Bachelorette
           </button>
@@ -347,6 +355,26 @@ function App() {
         text2=""
         rating={}
       />  */}
+      <Review 
+        title="The Post" 
+        director=""
+        ref={ref76}
+        date="11/03/24"
+        releaseDate="2024"
+        text="About Meryl Streep, inheritor of the Washington Post, battling against sexist all male board and deciding to publish Pentagon Papers. Very little tension since plot is historical, and no moral complexity since everyone is against Nixon and Vietnam war. Spielberg never morally complex. Ends with silly cliffhanger about break in of Watergate, as if there will be an exciting sequel. Feminist, I suppose, because of Streep’s coming to power, but another movie about Nixon controversy, Dick, is more feminist because seemingly silly high school girls are the savior of the nation there, instead of rich girl boss. Much less entertaining than Dick. Run time is at least less than two hours. Watched this as Meryl Streep Oscar nomination homework." 
+        text2="Film buzzed as socially relevant in 2017 because of election of Trump, but I don’t know what Nixon has to do with Trump. Film suggests that the Press and its highest operators are oddly naïve and good and Nixon was bad (even though several presidents were exposed by the Pentagon Papers). No institutional analysis about when the Press is complicit (Iraq War, 2000s) and when it is opposed to the White House (Pentagon Papers, 70s). Another Spielbergian patriotic piece. No challenges. No surprises."
+        rating={5}
+      /> 
+      <Review 
+        title="Dick" 
+        director=""
+        ref={ref75}
+        date="11/02/24"
+        releaseDate="1999"
+        text="Something about 90s movies, or something about my millennial brain, makes them more watchable than other films. I didn’t want to stop watching this movie and I didn’t get bored once. Cute silly comedy about teenage girls getting embroiled in Watergate scandal. A few great lines, such as Terri Garr yelling to babyfaced Kirsten Dunst and Michelle Williams, “I asked you to come to the dinner table fifteen minutes ago. Now your tv dinners are ice cold. In fact, they’re frozen again. So, come to the table or I’m never fixing you dinner again. Ever!” " 
+        text2=""
+        rating={7}
+      /> 
       <Review 
         title="Bachelorette" 
         director="Leslye Headland"
