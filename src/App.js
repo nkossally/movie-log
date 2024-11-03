@@ -82,6 +82,7 @@ function App() {
   const ref74 = useRef(null);
   const ref75 = useRef(null);
   const ref76 = useRef(null);
+  const ref77 = useRef(null);
 
   const toggleLinks = () => {
     setShowLinks(!showLinks);
@@ -105,6 +106,9 @@ function App() {
 
       {showLinks && (
         <div className="links-container">
+          <button className="title-link" onClick={scrollRefIntoView(ref77)}>
+           Anora
+          </button>
           <button className="title-link" onClick={scrollRefIntoView(ref76)}>
            The Post
           </button>
@@ -355,6 +359,17 @@ function App() {
         text2=""
         rating={}
       />  */}
+      <Review 
+        title="Anora" 
+        director="Sean Baker"
+        ref={ref77}
+        date="11/03/24"
+        releaseDate="2024"
+        text="Saw this at Lincoln Center with brother couple weeks ago with mostly older audience at fancy theater. In restroom after movie ended, waiting in line to piss, a very nice short elderly man told me he would be as tall as me in his next life. I love being charmed and being charming. Sometimes being tall is enough to charm folks." 
+        text2="I missed the apparently very good beginning (according to bro) so maybe my opinion will change. Film about sex worker who is drawn into world of son of Russian billionaire. Has Sean Baker elements: working class struggle, sex workers, shot on location(s) (I think), naturalistic dialogue. Made use of non-diegetic (yeah! I took a film studies class for two weeks before dropping out) pop music, which is new to Baker, I think. I think non-diegetic pop music is naturalistic at this point, given how much pop is ingrained in the lives of people and given the characters depicted."
+        text3="Very good film that is getting more praise and Oscar buzz than Baker’s previous films. I don’t think this is better than other Baker films. I think that because it is about sex worker interacting with rich people, critics and audiences find it more palatable. There is wealth porn. Just like how Mike White finally won awards by depicting rich people in The White Lotus after years of focusing on oddballs."
+        rating={9}
+      /> 
       <Review 
         title="The Post" 
         director="Steven Spielberg"
