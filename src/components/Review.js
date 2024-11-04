@@ -27,7 +27,7 @@ export const Review = forwardRef((props, ref) => {
           {props.director && <div>Director: {props.director}</div>}
           {props.releaseDate && <div>Released: {props.releaseDate}</div>}
         </div>
-        <img className="movie-poster" src={imgUrl} />
+        {imgUrl && <img className="movie-poster" src={imgUrl} />}
       </div>
 
       <div className="text">{props.text}</div>

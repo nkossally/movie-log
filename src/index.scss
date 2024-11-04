@@ -7,7 +7,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     // font-family: League-Gothic;
     // font-family:  Calendas-Plus;
-    background: #FFEBCD;
+    background: #F1F1F1;
     font-family: rockwell;
 }
 
@@ -30,10 +30,10 @@ code {
     max-width: 100%;
     height: auto;
     width: 65%;
+    border: 5px solid #fefcfa;
 
     @media (max-width: 800px) {
         width: auto;
-
     }
 }
 
@@ -76,7 +76,7 @@ code {
 }
 
 .rating {
-    color: gold;
+    color: #fefcfa;;
     font-size: 20px;
     margin-left: 5px;
     font-weight: 900;
