@@ -83,6 +83,7 @@ function App() {
   const ref75 = useRef(null);
   const ref76 = useRef(null);
   const ref77 = useRef(null);
+  const ref78 = useRef(null);
 
   const toggleLinks = () => {
     setShowLinks(!showLinks);
@@ -106,6 +107,9 @@ function App() {
 
       {showLinks && (
         <div className="links-container">
+          <button className="title-link" onClick={scrollRefIntoView(ref78)}>
+           The Firm
+          </button>
           <button className="title-link" onClick={scrollRefIntoView(ref77)}>
            Anora
           </button>
@@ -359,6 +363,18 @@ function App() {
         text2=""
         rating={}
       />  */}
+      <Review 
+        title="The Firm" 
+        director="Sydney Pollack"
+        ref={ref78}
+        date="11/07/24"
+        releaseDate="1993"
+        text="Another John Grisham legal thriller from the 90s. Grisham adaptations are all schlocky, unrealistic, perfectly enjoyable movies that resist analysis and compel watching. 90s legal thriller mostly disappeared from theaters, and I miss it. 90s schlock so much better than 2010s 2020s schlock: Marvel, sequels, remakes, terrible Blockbusters. I want legal thrillers, comedies, rom coms. I want red veil of the 90s, the schtick that resisted naturalism, the slight paranoia that was better than modern apocalyptic thinking, the paranoia that was ultimately optimistic. I love how old the cars look in this film. I love how timeless and beautiful other shots of the skyline are. And I am pleased that I can enjoy semi-patriotic semi-paranoid 90s cheese that I enjoyed as a kid, then resisted as Marxist teen, and enjoy again now in 30s." 
+        text2="Tom Cruise is Harvard grad who accepts offer from Memphis law firm and learns firm is corrupt. As in other Grisham films, institutions (cops, FBI, White House) are not trustworthy because of corruption, and individual hero saves the day. Cruise not pure hero. Film suggests that he could have been corrupted had he stayed at the firm. Cruise classic character trope of poor boy running from origins. Born poor, brother in prison, married rich (Jeanne Tripplehorn). His rich wife is content to be poor and leave firm because born rich, and he is not. Dynamic reminiscent of Leonardo DiCaprio/Cate Blanchett in Aviator, Jared Leto/Jennifer Conelly in Requiem for a Dream."
+        text3="Like in Jerry Maguire, black people represent something for Cruise. Towards the beginning of the movie, Jeanne Tripplehorn notes out loud that the firm is “all white, all male, all married.” As she points out racial disparity, she and Cruise see a black kid on the sidewalk perform flips for change. Cruise’s stunt double does multiple flips beside the kid and then hi-fives him, because Cruise is kind of down, you know. Pretty hip and with it. Later in the film, when Cruise despondent, he does not seem to see kid nor put coin in his hat."
+        text4="Side note: A Uhaul brand is visible for many seconds. Also, apparently $68K was competitive offer to lawyers in 90s. Inflation is crazy. Also, Cruise escape scene has him break a window with a chair that he could have opened the normal way, and then jump outside onto truck conveniently carrying sacks of fluff. Oh, the 90s! Also, I really like Holly Hunter but no clue why Oscar nominated for this movie."
+        rating={9}
+      /> 
       <Review 
         title="Anora" 
         director="Sean Baker"
