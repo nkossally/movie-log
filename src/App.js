@@ -84,6 +84,7 @@ function App() {
   const ref76 = useRef(null);
   const ref77 = useRef(null);
   const ref78 = useRef(null);
+  const ref79 = useRef(null);
 
   const toggleLinks = () => {
     setShowLinks(!showLinks);
@@ -107,6 +108,9 @@ function App() {
 
       {showLinks && (
         <div className="links-container">
+          <button className="title-link" onClick={scrollRefIntoView(ref79)}>
+           The Rainmaker
+          </button>
           <button className="title-link" onClick={scrollRefIntoView(ref78)}>
            The Firm
           </button>
@@ -363,6 +367,16 @@ function App() {
         text2=""
         rating={}
       />  */}
+      <Review 
+        title="The Rainmaker" 
+        director="Francis Ford Coppola"
+        ref={ref79}
+        date="11/09/24"
+        releaseDate="1997"
+        text="Another John Grisham adaptation also set in Memphis, like The Firm. Has all the hallmarks of legal thrillers: corrupt incompetent lawyers working for the evil corporation, underfinanced idealist lawyer working for the little guy, deep voiced promiscuous woman whose sexual past makes her testimony inadmissible. Matt Damon is the working-class recent law school grad who is trained in ambulance chasing by Danny DeVito, and pretty much becomes a social worker for working-class folk of Memphis. Explicitly narrated theory of the film is that most lawyers are scum but some are idealistic and can protect the rights of the powerless. The gamesmanship of lawyers representing corporations and lawyers representing ordinary folk is endless fodder for legal procedurals and belief in the American system of arcane legalese. Just like how The Firm posits that idealistic Tom Cruise could become jaded Gene Hackman if he compromises his morals/the law, Rainmaker suggests Matt Damon could become corrupt John Voight. The Marxist in me argues this sidesteps structural critique/institutional analysis, but that Marxist is pretty annoying. Did not make that much money. One of my least favorite John Grishams. Too obvious." 
+        text2=""
+        rating={6}
+      /> 
       <Review 
         title="The Firm" 
         director="Sydney Pollack"
