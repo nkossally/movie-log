@@ -110,6 +110,9 @@ function App() {
 
       {showLinks && (
         <div className="links-container">
+          <button className="title-link" onClick={scrollRefIntoView(ref81)}>
+           while You Were Sleeping
+          </button>
           <button className="title-link" onClick={scrollRefIntoView(ref80)}>
            The Last Days of Disco
           </button>
@@ -372,6 +375,16 @@ function App() {
         text2=""
         rating={}
       />  */}
+      <Review 
+        title="While You Were Sleeping" 
+        director="Jon Turteltaub"
+        ref={ref81}
+        date="11/16/24"
+        releaseDate="1995"
+        text="Classic 90s rom com I caught glimpses of on tv as a kid without really watching. Sandra Bullock is single with no parents alive; a stranger she is infatuated with has coma and, after classic rom com miscommunications and misunderstandings, she pretends to be the fiancé of the man to his family. Delivers exactly what expected: charm and no real stakes. Even when Bullock rescues fallen man from train tracks, the soundtrack lets you know there is no danger and everything is going to work out. Some 90s cheese. Bullock is in love with snow globes because they “contain the whole world.” Guess what Sandra’s getting for Mother’s Day? …A candle. Romanticism glosses over how it was not nice that Bullock lied to a family for weeks, but this is far less sociopathic than later rom coms like How to Lose a Guy in Ten Days. This film’s cuteness seems earnest. Plausible that a lonely woman would fall in love quickly because of idea of joining a loving family, but there’s something wrong with that and film uninterested in psychological complexity. Charming movie. Would just be released on a streamer these days." 
+        text2="Side-note: The guy Bullock falls in love with loves making furniture and quits his job to make furniture full-time. Classic! (Ryan Gosling in the Notebook; Channing Tatum in Magic Mike)"
+        rating={5}
+      /> 
         <Review 
         title="The Last Days of Disco" 
         director="Whit Stillman"
