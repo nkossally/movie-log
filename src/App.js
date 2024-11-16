@@ -85,6 +85,8 @@ function App() {
   const ref77 = useRef(null);
   const ref78 = useRef(null);
   const ref79 = useRef(null);
+  const ref80 = useRef(null);
+  const ref81 = useRef(null);
 
   const toggleLinks = () => {
     setShowLinks(!showLinks);
@@ -108,6 +110,9 @@ function App() {
 
       {showLinks && (
         <div className="links-container">
+          <button className="title-link" onClick={scrollRefIntoView(ref80)}>
+           The Last Days of Disco
+          </button>
           <button className="title-link" onClick={scrollRefIntoView(ref79)}>
            The Rainmaker
           </button>
@@ -367,6 +372,16 @@ function App() {
         text2=""
         rating={}
       />  */}
+        <Review 
+        title="The Last Days of Disco" 
+        director="Whit Stillman"
+        ref={ref80}
+        date="1998"
+        releaseDate="2024"
+        text="Pleased to say this is a new top ten. Perfect movie I make worse by writing about it. Saw this as a teen when too young to appreciate because was younger than characters depicted. Watching baby faced Chloe Sevigny and Kate Beckinsale in my 30s, I love it. Depicts Chloe Sevigny and her yuppie social circle exploring the Disco scene of New York in the late 70s. Very lived-in movie that, I imagine, accurately depicts Harvard grads who yuppified Disco and New York, based on clubbing experiences of writer-director. Sympathetic and critical of yuppies. Passing of an era in the lives of the young characters compared to the end of Disco. In one scene, characters have a discussion of The Lady and the Tramp that is predictive of how the love story in the movie ends (reminiscent of how, in Adaptation, Nicolas Cage says that stupid movies end with gun fight and murder, which is how Adaptation ends)." 
+        text2=""
+        rating={10}
+      /> 
       <Review 
         title="The Rainmaker" 
         director="Francis Ford Coppola"
