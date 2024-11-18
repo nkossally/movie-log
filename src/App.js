@@ -385,7 +385,7 @@ function App() {
         ref={ref82}
         date="11/18/24"
         releaseDate="2024"
-        text="Musical about lawyer entangled in world of trans Mexican cartel leader. Artfully directed. Not great songs that are more talky than singy. Subjects include trans identity, mass killings and atonement, but these subjects are setting and props. Film is interesting aesthetic experiment unlike films I’ve seen before, but all aesthetics. Any analysis of the trans cartel leader and concept of atonement puts morality of film in question because this is an amoral film pretending to be about something, but it’s not. It’s an empty but pretty telenovela." 
+        text="Musical about lawyer entangled in world of trans Mexican cartel leader. Artfully directed. Not great songs that are more talky than singy. Subjects include trans identity, mass killings and atonement, but these subjects are setting and props. Film is interesting aesthetic experiment unlike films I’ve seen before, but all aesthetics. Any analysis of the trans cartel leader and concept of atonement puts morality of film in question because this is an amoral film pretending to be about something, but it’s not. It’s an empty pretty telenovela." 
         text2=""
         rating={7}
       /> 
