@@ -400,7 +400,7 @@ function App() {
       /> 
       <Review 
         title="Scream VI" 
-        director="Matt Bettinelli-Olpin. Tyler Gillett"
+        director="Matt Bettinelli-Olpin, Tyler Gillett"
         ref={ref83}
         date="11/25/20"
         releaseDate="2023"
