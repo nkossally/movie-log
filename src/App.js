@@ -88,6 +88,8 @@ function App() {
   const ref80 = useRef(null);
   const ref81 = useRef(null);
   const ref82 = useRef(null);
+  const ref83 = useRef(null);
+  const ref84 = useRef(null);
 
   const toggleLinks = () => {
     setShowLinks(!showLinks);
@@ -111,6 +113,12 @@ function App() {
 
       {showLinks && (
         <div className="links-container">
+          <button className="title-link" onClick={scrollRefIntoView(ref84)}>
+           Wicked
+          </button>
+          <button className="title-link" onClick={scrollRefIntoView(ref83)}>
+           Scream VI
+          </button>
           <button className="title-link" onClick={scrollRefIntoView(ref82)}>
            Emilia Perez
           </button>
@@ -379,6 +387,28 @@ function App() {
         text2=""
         rating={}
       />  */}
+
+      <Review 
+        title="Wicked" 
+        director="Jon M. Chu"
+        ref={ref84}
+        date="11/27/20"
+        releaseDate="2024"
+        text="Saw this on the far right of the front row of a packed theater opening weekend and really liked it. Ariana Grande is great and silly and over the top and Cynthia Erivo is even greater because of restraint. Interesting world building. World is raceless. Oppression of animals. Tyrant constructing enemy in order to form state. Reminds of Nazi philosopher who wrote about construction of state enemies (Carl Schmitt?). I would love this if I were a child. As an adult, I can appreciate deeper themes (how elite institutions invite oppressed people just to exploit them; Michelle Yeoh & Erivo), and I can appreciate that my inner child would appreciate this movie. Singing is amazing. Cameo of Kristin Chenoweth great. Wish visuals more iconic." 
+        text2=""
+        rating={9}
+      /> 
+      <Review 
+        title="Scream VI" 
+        director="Matt Bettinelli-Olpin. Tyler Gillett"
+        ref={ref83}
+        date="11/25/20"
+        releaseDate="2023"
+        text="Watched Scream V and VI on laptop in quick succession while coding, so this is a “review” of both. Even if hadn’t watched both at same time, hard tell difference. VI is a little better, I guess. Either you are bought in to this artificial world of attractive nerds who are hyper literate in horror film language and surrounded by serial killers who want to re-enact murders from a horror film franchise within the franchise or not. I’m bought in." 
+        text2="Scream V and Scream VI are worse than Scream IV. Wes Craven’s loss is felt. RIP. V and VI seem more artificial because the physical world (the trains of New York City) are realistic. The artificiality of the first more suburban Scream films works. The clunky language. The goofy killer. Something’s wrong with the newer filmmaking. Something uncanny. Something mismatched. Maybe brighter colors are needed. A stronger departure from realism."
+        text3="This new era came to an end already because the two leads were fired from upcoming Scream 7 because they voiced solidarity with Palestine. The franchise lives on. The franchise about killing teens is squeamish about genocide."
+        rating={5}
+      /> 
       <Review 
         title="Emilia Perez" 
         director="Jacques Audiard"
