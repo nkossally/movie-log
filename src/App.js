@@ -90,6 +90,7 @@ function App() {
   const ref82 = useRef(null);
   const ref83 = useRef(null);
   const ref84 = useRef(null);
+  const ref85 = useRef(null);
 
   const toggleLinks = () => {
     setShowLinks(!showLinks);
@@ -113,6 +114,9 @@ function App() {
 
       {showLinks && (
         <div className="links-container">
+          <button className="title-link" onClick={scrollRefIntoView(ref85)}>
+           My Cousin Vinny
+          </button>
           <button className="title-link" onClick={scrollRefIntoView(ref84)}>
            Wicked
           </button>
@@ -387,6 +391,16 @@ function App() {
         text2=""
         rating={}
       />  */}
+       <Review 
+        title="My Cousin Vinny" 
+        director="Jonathan Lynn"
+        ref={ref85}
+        date="11/27/24"
+        releaseDate="1992"
+        text="Pleasing, unchallenging court procedural comedy. Usually prefer comedies, but I like this less than Grisham thrillers. Still, this funny. Was on television a lot in the 90s. Feels more like tv than film. Standard 90s elements: multiple extended jokes about prison rape, casual jokes about death penalty, terrible score. Marisa Tomei plays the girl who just wants to be a support to her man and get married. Tomei becomes an unexpected expert witness at climax of the film. Her New York (Staten Island Italian?) accent and classlessness is supposed to make her expertise in cars palatable and winning. No idea what she was talking about when she testified car technicals. Her expert testimony equivalent of Gandalf waving a wand. Magic. Of course everything ends well and there were never any stakes, even though two kids were falsely accused of murder in Alabama. Everything cute, somehow." 
+        text2="	Tomei maligned for years after winning Oscar for this role. Tomei deserved to win over Vanessa Redgrave and Miranda Richardson. Have to check out Judy Davis in Husbands and Wives, who was the critical darling of 1992 Supporting Actress race."
+        rating={5}
+      /> 
 
       <Review 
         title="Wicked" 
