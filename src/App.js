@@ -91,6 +91,7 @@ function App() {
   const ref83 = useRef(null);
   const ref84 = useRef(null);
   const ref85 = useRef(null);
+  const ref86 = useRef(null);
 
   const toggleLinks = () => {
     setShowLinks(!showLinks);
@@ -114,6 +115,9 @@ function App() {
 
       {showLinks && (
         <div className="links-container">
+          <button className="title-link" onClick={scrollRefIntoView(ref86)}>
+           Husbands and Wives
+          </button>
           <button className="title-link" onClick={scrollRefIntoView(ref85)}>
            My Cousin Vinny
           </button>
@@ -391,7 +395,18 @@ function App() {
         text2=""
         rating={}
       />  */}
-       <Review 
+      <Review 
+        title="Husbands and Wives" 
+        director="Woody Allen"
+        ref={ref86}
+        date="11/29/24"
+        releaseDate="1992"
+        text="This was Woody Allen’s last decent movie (I don’t like Match Point. I don’t like Blue Jasmine. I don’t like Midnight In Paris. Etc). It’s supposed to be about two married couples that experience relationship issues, but it’s really about Woody Allen, who started publicly dating the adopted daughter of his partner Mia Farrow when this movie was released. This film explores Allen’s perversities indirectly. In the movie, his wife, played by Mia Farrow, is passive aggressive and the most unlikeable of the ensemble. Farrow is the one who cheats emotionally and pushes Allen away. In the movie, a young student of Allen, Juliette Lewis, is sexually aggressive and attempts to seduce Allen, and Allen declines. Allen’s perversities and actions in reality are displaced onto women in the film. Allen’s flair for writing confessional, intimate, funny, intellectual-seeming screenplays is apparent here, but so is his solipsism. None of the characters say or do anything that seems loving. They are all mean, petty and self-centered. They are all Woody Allen, I think. Characters that love themselves, maybe, and ideas, perhaps, but not other people. Allen casts himself once again as the guy at the center of the film who is overlooked and abandoned by the end. In reality, Allen got what he wanted. He married a child and had nothing left to express as an artist. He never wrote another good film." 
+        text2="There’s one good scene in which Juliette Lewis’s character critiques how Woody Allen’s character reductively writes women. In reality, Allen was good at writing women and bad at writing men. Allen was willing to write about women’s flaws. The men in this film, however, are victims of their sexual desires they cannot control. Victims of women and girls."
+        text3="Watched this to see if Judy Davis deserved the Oscar over Marisa Tomei. Judy Davis is maybe slightly better here than Tomei in My Cousin Vinny, but only slightly, and not enough to make Tomei’s win as controversial as it was. Actresses can do something as minor as win Oscars while being second best to be controversial. Meanwhile, Allen married his daughter."
+        rating={7}
+      /> 
+      <Review 
         title="My Cousin Vinny" 
         director="Jonathan Lynn"
         ref={ref85}
@@ -401,7 +416,6 @@ function App() {
         text2="Tomei maligned for years after winning Oscar for this role. Tomei deserved to win over Vanessa Redgrave and Miranda Richardson. Have to check out Judy Davis in Husbands and Wives, who was the critical darling of 1992 Supporting Actress race."
         rating={5}
       /> 
-
       <Review 
         title="Wicked" 
         director="Jon M. Chu"
