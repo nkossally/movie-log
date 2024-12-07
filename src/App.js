@@ -118,7 +118,7 @@ function App() {
       {showLinks && (
         <div className="links-container">
           <button className="title-link" onClick={scrollRefIntoView(ref88)}>
-           Husbands and Wives
+           Juror # 2
           </button>
           <button className="title-link" onClick={scrollRefIntoView(ref87)}>
            Conclave
@@ -409,7 +409,7 @@ function App() {
         ref={ref88}
         date="12/07/24"
         releaseDate="2024"
-        text="Straightforward mostly linear high concept legal thriller about a juror who is guilty of the crime another guy is accused of. Feels like a 90s film so feels like a breath of fresh air. Efficient film. No bloat. Clint Eastwood’s bare bones has less flair than an episode of Succession. Perfectly fine." 
+        text="Straightforward mostly linear high concept legal thriller about juror who guilty of crime he assigned to reach verdict on. Feels like a 90s film so breath of fresh air. Efficient. No bloat. Clint Eastwood’s bare bones directing has less flair than an episode of Succession. Perfectly good movie seemingly from past when movies were movies."
         text2=""
         rating={7}
       /> 
@@ -419,7 +419,7 @@ function App() {
         ref={ref87}
         date="12/07/24"
         releaseDate="2024"
-        text="Palace intrigue narrative about the election of new pope. Liberal cardinals (pro-diversity, pro-women) vs conservatives (anti-black, xenophobic Italians). Straightforward. Fewer twists and turns than expected. Perfectly digestible. In the past would rail against unchallenging liberal narratives, but given election of Trump maybe this needed." 
+        text="Palace intrigue story about the election of new pope. Liberal cardinals (pro-diversity, pro-women) vs conservatives (anti-black, xenophobic Italians). Straightforward. Fewer twists and turns than expected. Perfectly digestible. In past would rail against unchallenging liberal narratives, but given election of Trump maybe this needed." 
         text2=""
         rating={6}
       /> 
