@@ -687,7 +687,7 @@ function App() {
           title="The Pelican Brief"
           ref={ref59}
           date="06/18/24"
-          text="John Grisham adaptation. Incompetent president and corruption in high offices and agencies. A smart law student (Julia Roberts) and a reporter (Denzel Washington) save the day and root out the bad guys. News montage at the end confirms that evil men are punished. Opens with Julia Roberts in class saying something like “the law is wrong.” Ultimately patriotic. Movie for a second made me feel like a young smiling Julia Roberts and a baby Denzel really could save America and preserve its institutions. But they are middle aged now."
+          text="John Grisham adaptation. Incompetent president and corruption in high offices and agencies. A smart law student (Julia Roberts) and a reporter (Denzel Washington) save the day and root out the bad guys. News montage at the end confirms that evil men are punished. Opens with Julia Roberts in class saying something like “the law is wrong.” But she, the American individual, is right and that’s the point. Ultimately patriotic. Movie for a second made me feel like a young smiling Julia Roberts and a baby-faced Denzel really could save America and preserve its institutions. But they are middle aged now."
           rating={5}
         />
         <Review
