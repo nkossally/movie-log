@@ -95,6 +95,7 @@ function App() {
   const ref87 = useRef(null);
   const ref88 = useRef(null);
   const ref89 = useRef(null);
+  const ref90 = useRef(null);
 
   const toggleLinks = () => {
     setShowLinks(!showLinks);
@@ -118,6 +119,9 @@ function App() {
 
       {showLinks && (
         <div className="links-container">
+          <button className="title-link" onClick={scrollRefIntoView(ref90)}>
+           Almost Famous
+          </button>
           <button className="title-link" onClick={scrollRefIntoView(ref89)}>
            Queer
           </button>
@@ -409,10 +413,23 @@ function App() {
         theater=""
         rating={}
       />  */}
+
+      <Review 
+        title="Almost Famous" 
+        director="Cameron Crowe"
+        ref={ref90}
+        date="12/09/2024"
+        releaseDate="2000"
+        text="Romantic coming of age tale about 15-year-old aspiring music journalist who travels with band to write cover story for Rolling Stone Magazine. Very implausible. Recognizable Cameron Crowe gloss of unreality. Band is quirky, instead of abusive. Bandmember’s philandering with sixteen-year-old played as sexy and cute. Everyone is adorable. The main character who kisses a passed-out girl on booze and Quaaludes just before her stomach gets pumped, is adorable. Some very clever lines. Crowe once again invented a memorable cliché. “It’s all happening” originates here."
+        text2="I cannot fully shed my pessimism and give in to the white adorability of this too cute movie, but, obliterating my subjectivity, this is a very good vibes film I almost vibe with."
+        text3=""
+        theater=""
+        rating={9}
+      /> 
       <Review 
         title="Queer" 
         director="Luca Guadagnino"
-        ref={ref45}
+        ref={ref89}
         date="12/08/2024"
         releaseDate="2024"
         text="Written by Justin Kuritzkes and based on novella by William S. Burroughs, but true author is director Luca Guadagnino. About middle aged white expat drug addict Daniel Craig haunting streets of Mexico City, looking for brown and white twinks to bed who may or may not be queer and may or may not be sex workers. He always pays them. Craig, of course, uses brown boy Omar Apollo for sex, but falls in deep obsession and lust with white boy Drew Starkey. Film is vague about whether Starkey has any affection for Craig. Perhaps Starkey is using Craig. Perhaps Starkey enjoys sleeping with Craig. Starkey always barely consents. He says, “alright,” and then politely grins. He has no personality. Dreamy sequences in the film clarify that Starkey just symbol or idea to Craig. An empty object of lust for an older man who is also empty." 
