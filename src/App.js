@@ -424,7 +424,7 @@ function App() {
         text2="I cannot fully shed my pessimism and give in to the white adorability of this too cute movie, but, obliterating my subjectivity, this is a very good vibes film I almost vibe with."
         text3=""
         theater=""
-        rating={9}
+        rating={8}
       /> 
       <Review 
         title="Queer" 
