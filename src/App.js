@@ -341,18 +341,18 @@ function App() {
           <button className="title-link" onClick={scrollRefIntoView(ref24)}>
             American Gigolo
           </button>
-          <button className="title-link" onClick={scrollRefIntoView(ref25)}>
+          {/* <button className="title-link" onClick={scrollRefIntoView(ref25)}>
             Witness
-          </button>
-          <button className="title-link" onClick={scrollRefIntoView(ref26)}>
+          </button> */}
+          {/* <button className="title-link" onClick={scrollRefIntoView(ref26)}>
             Silver Linings Playbook
-          </button>
+          </button> */}
           <button className="title-link" onClick={scrollRefIntoView(ref27)}>
             The Quiet Girl
           </button>
-          <button className="title-link" onClick={scrollRefIntoView(ref28)}>
+          {/* <button className="title-link" onClick={scrollRefIntoView(ref28)}>
             Are You There God? It’s Me, Margaret
-          </button>
+          </button> */}
           <button className="title-link" onClick={scrollRefIntoView(ref29)}>
             The Holdovers
           </button>
@@ -371,12 +371,12 @@ function App() {
           <button className="title-link" onClick={scrollRefIntoView(ref34)}>
             Triple Frontier
           </button>
-          <button className="title-link" onClick={scrollRefIntoView(ref35)}>
+          {/* <button className="title-link" onClick={scrollRefIntoView(ref35)}>
             The Age of Innocence
-          </button>
-          <button className="title-link" onClick={scrollRefIntoView(ref36)}>
+          </button> */}
+          {/* <button className="title-link" onClick={scrollRefIntoView(ref36)}>
             Sea of Love
-          </button>
+          </button> */}
           <button className="title-link" onClick={scrollRefIntoView(ref37)}>
             Barfly
           </button>
@@ -389,9 +389,9 @@ function App() {
           <button className="title-link" onClick={scrollRefIntoView(ref40)}>
             Ocean’s 11
           </button>
-          <button className="title-link" onClick={scrollRefIntoView(ref40)}>
+          {/* <button className="title-link" onClick={scrollRefIntoView(ref40)}>
             A Man for All Seasons
-          </button>
+          </button> */}
         </div>
       )}
 
@@ -972,14 +972,16 @@ function App() {
         />
         <Review
           ref={ref20}
+          director="David Cronenberg"
           title="Videodrome"
-          text="Parable about danger of television and porn displacing reality. Signature Cronenberg body horror and Freudian sex negativity. Discussion of using torture and violence as pornography. Blames both the watcher and producer of snuff films – watchers are complicit. Recurring theme of sadism in Cronenberg films. This film’s discussion of torture porn makes Viggo Mortensen’s nude scene in Eastern Promises seem pornographic. Though that film was taken as art and though the scene is violent and not overtly sexual, to a sadistic eye, Viggo Mortensen’s body being flung about a bathhouse by people trying to kill him is porn. Some directors actually want to make porn but make art instead."
+          text="Parable about danger of television and porn displacing reality. Signature Cronenberg body horror and Freudian sex negativity. Discussion of using torture and violence as pornography. Blames both the watcher and producer of snuff films – watchers are complicit."
+          text2="Recurring theme of sadism in Cronenberg films. This film’s discussion of torture porn reveals that Viggo Mortensen’s nude fight scene in Eastern Promises was pornography for Cronenberg. Though that film was taken as art and though the scene is violent and not overtly sexual, to a sadistic eye, Viggo Mortensen’s body being flung about a bathhouse by people trying to kill him is porn. Some directors actually want to make porn but make art instead."
           rating={8}
         />
         <Review
           ref={ref21}
           title="Southland Tales"
-          text="I would give it a 5 but I gave it a 6 because it takes big swings, attempting to comment on way too much – police state, radical leftists, feminists, corporations – with a confusing sci fi plot. Some jokes work. Most don’t. Richard Kelly is oddly childlike in demeanor. This film seems like it was written by someone in high school."
+          text="I would give it a 5 but I gave it a 6 because it takes big swings, attempting to comment on way too much – police state, radical leftists, feminists, corporations – with a confusing sci fi plot. Some jokes work. Most don’t. In interviews, director Richard Kelly is oddly childlike in demeanor. Film seems like it was written by someone in high school."
           rating={6}
         />
         <Review
@@ -1000,30 +1002,30 @@ function App() {
           text="Not as good as other Schrader films (Taxi Driver, First Reformed, Hardcore, Blue Collar) but very stylish. I think you have to be into the fashion and glamour of a certain image of LA to appreciate."
           rating={7}
         />
-        <Review
+        {/* <Review
           ref={ref25}
           title="Witness"
           text="Fun movie that forces Harrison Ford cop to live with the Amish. Could have done more with the fish out of water concept. The corrupt cops are idiots. [Spoiler] The final moment improves the movie because it evokes lost possibility for a life with the Amish woman, comparing lost love to going to a modern city away from the farm."
           rating={8}
-        />
-        <Review
+        /> */}
+        {/* <Review
           ref={ref26}
           title="Silver Linings Playbook"
-          text="I’m not sure how rom coms with their inevitable endings of the two coming together can ever have great endings. From the dance competition onwards, the film slightly drags. I like the montage of Sunday family gatherings at the end. I think of how the film stars likely do not have access and/or do not want “ordinary” suburban domesticity. I do not know suburban ordinary family life either."
+          text="Not sure how rom com inevitability of the two coming together can ever be exciting climax. From dance competition onwards, film  drags. I like the montage of Sunday family gatherings at the end. I think of how the film stars likely do not have access and/or do not want “ordinary” suburban domesticity. I do not know suburban ordinary family life either."
           rating={8}
-        />
+        /> */}
         <Review
           ref={ref27}
           title="The Quiet Girl"
           text="Irish film about neglected girl who experiences love for the first time when she spends a summer with childless family members. Ending is heartbreaking. Reminds of the time I didn’t want to go back home when I visited family in Florida."
           rating={8}
         />
-        <Review
+        {/* <Review
           ref={ref28}
           title="Are You There God? It’s Me, Margaret"
           text="Cute. Slight. I like seeing a film from a child’s perspective. I believe children think they are the center of the universe, but I don’t think that Margaret is the center of the lives of the adults. I believe that the grandparents would continue arguing about whether she should be Jewish or Christian even after she stormed off."
           rating={6}
-        />
+        /> */}
         <Review
           ref={ref29}
           title="The Holdovers"
@@ -1054,19 +1056,19 @@ function App() {
           text="A lot of appreciation hinges on the final “twist.” I’d have to rewatch to catch everything. I’m still not sure that I appreciate PTA. This is art. Feels like a smart short story. Maybe should be a short story. Not really a movie."
           rating={8}
         />
-        <Review ref={ref34} title="Triple Frontier" text="Meh" rating={5} />
-        <Review
+        <Review ref={ref34} title="Triple Frontier" text="Meh." rating={5} />
+        {/* <Review
           ref={ref35}
           title="The Age of Innocence"
           text="[Spoiler] Felt so bad watching DDL retain Michelle Pfeiffer as an idea of a life he gave up decades prior instead of doing the modern thing of taking up a second wife. Are other people ideas? Makes me regret wasting my own life. I feel like Saoirse Ronan would have been scarier and steelier in the Wynona Ryder part. Ryder should have been nominated for Girl Interrupted. Not for this."
           rating={9}
-        />
-        <Review
+        /> */}
+        {/* <Review
           ref={ref36}
           title="Sea of Love"
-          text="[Spoiler] Some imagery that is reminiscent of pegging (when the killer is assumed female) and gay sex (when it is revealed that the killer is a man. Erotic thriller. Stalking. Obsession. Cop falls for woman who seems to drive men to murder. Ellen Barkin believably/charmingly working class chick from New York."
+          text="[Spoiler] Some imagery that is reminiscent of pegging (when the killer is assumed female) and gay sex (when killer revealed to be man). Erotic thriller. Stalking. Obsession. Cop falls for woman who seems to drive men to murder. Ellen Barkin believably/charmingly working class chick from New York."
           rating={7}
-        />
+        /> */}
         <Review
           ref={ref37}
           title="Barfly"
@@ -1082,7 +1084,8 @@ function App() {
         <Review
           ref={ref39}
           title="Devil’s Advocate"
-          text="Wish high concept original films like this were still made. Weird how Keanu Reeves can act his ass off in the screaming scene with Pacino and fumble in a scene with Charlize. When he is “bad,” I don’t really mind. Where are movie stars made? Horny filmmaker. Fully naked ladies."
+          text="Wish high concept original films like this were still made. Weird how Keanu Reeves can act his ass off in the screaming match with Pacino and fumble dialogue in a scene with Charlize. When Keanu is “bad,” I don’t really mind. He's just a movie star, I guess."
+          text2="Horny filmmaker. Fully naked ladies."
           rating={9}
         />
         <Review
@@ -1091,12 +1094,12 @@ function App() {
           text="I watched this because SFennessy and ADobbins of The Big Picture podcast ranked this high among Soderbergh films. I think that Sex Lies and Videotape is the only Soderbergh film that does not seem artificial to me. He makes you pay attention to the construction of the film and the editing techniques and references he plays with. Beautiful scene of the guys looking at a water fountain at night and for a second it looks like day as Claire de Lune plays. Nice to see so many beautiful actors at the peak of their power as movie stars. The last generation of movie stars as we once knew them. I think that the hosts of The Big Picture have a much higher appreciation of MOVIES that are very white and divorced from reality than I do. The scene in which Bernie Mac pretends to play the race card in order to enable Matt Damon to play a bumbling white person and trick the casino owner was unfunny enough to be offensive. That white people find black people complaining inherently funny is the offense, I think. Fakeness of complaint makes it worse. Waste of Bernie Mac. RIP."
           rating={8}
         />
-        <Review
+        {/* <Review
           ref={ref41}
           title="A Man for All Seasons"
           text="Smart historical movie based on play about Thomas More’s refusal to approve of Henry VIII’s divorce. Play is probably better at teasing apart notions of law, justice, principle, the king, pragmatism. Perfect but loses a point for lack of levity, stunning visuals and sex. "
           rating={9}
-        />
+        /> */}
       </div>
     </div>
   );
