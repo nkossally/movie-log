@@ -94,6 +94,7 @@ function App() {
   const ref86 = useRef(null);
   const ref87 = useRef(null);
   const ref88 = useRef(null);
+  const ref89 = useRef(null);
 
   const toggleLinks = () => {
     setShowLinks(!showLinks);
@@ -117,6 +118,9 @@ function App() {
 
       {showLinks && (
         <div className="links-container">
+          <button className="title-link" onClick={scrollRefIntoView(ref89)}>
+           Queer
+          </button>
           <button className="title-link" onClick={scrollRefIntoView(ref88)}>
            Juror # 2
           </button>
@@ -403,6 +407,18 @@ function App() {
         text2=""
         rating={}
       />  */}
+
+      <Review 
+        title="Queer" 
+        director="Luca Guadagnino"
+        ref={ref45}
+        date="12/08/2024"
+        releaseDate="2024"
+        text="Written by Justin Kuritzkes and based on novella by William S. Burroughs, but true author is director Luca Guadagnino. About middle aged white expat drug addict Daniel Craig haunting streets of Mexico City, looking for brown and white twinks to bed who may or may not be queer and may or may not be sex workers. He always pays them. Craig, of course, uses brown boy Omar Apollo for sex, but falls in deep obsession and lust with white boy Drew Starkey. Film is vague about whether Starkey has any affection for Craig. Perhaps Starkey is using Craig. Perhaps Starkey enjoys sleeping with Craig. Starkey always barely consents. He says, “alright,” and then politely grins. He has no personality. Dreamy sequences in the film clarify that Starkey just a symbol or idea to Craig. An empty object of lust for an older man who is also empty." 
+        text2="Film succeeds if you are interested in a community of feckless queer expats who have nothing in particular to do except chase boys. I appreciated the gay mannerisms of Craig’s sissy friends. Less appreciated their accounts of sex tourism. At times I felt compassion for middle aged gay men who do not seem to have access to loving relationships and are each plagued by some aspect of queerness, or the oppression of queers. Compassion evaporated during epilogue when old and dying Daniel Craig’s last thought is a memory of spooning a semi sex worker."
+        text3="“Come as You Are” by Nirvana plays as camera zooms in on Drew Starkey the first time Craig sees hm. Reminiscent of much parodied scene of Can’t Hardly Wait when everyone at party stops to notice that Jennifer Love Hewitt entered the party. Equally absurd scene. Caucasian nonsense. I have suspected that there may be no underlying philosophy or meaning to Guadagnino’s flair for visual art, just libido. This film all but confirms that. "
+        rating={4}
+      /> 
       <Review 
         title="Juror #2" 
         director="Clint Eastwood"
@@ -1052,7 +1068,7 @@ function App() {
         />
         <Review
           ref={ref40}
-          title="Ocean’s 11"
+          title="Ocean’s Eleven"
           text="I watched this because SFennessy and ADobbins of The Big Picture podcast ranked this high among Soderbergh films. I think that Sex Lies and Videotape is the only Soderbergh film that does not seem artificial to me. He makes you pay attention to the construction of the film and the editing techniques and references he plays with. Beautiful scene of the guys looking at a water fountain at night and for a second it looks like day as Claire de Lune plays. Nice to see so many beautiful actors at the peak of their power as movie stars. The last generation of movie stars as we once knew them. I think that the hosts of The Big Picture have a much higher appreciation of MOVIES that are very white and divorced from reality than I do. The scene in which Bernie Mac pretends to play the race card in order to enable Matt Damon to play a bumbling white person and trick the casino owner was unfunny enough to be offensive. That white people find black people complaining inherently funny is the offense, I think. Fakeness of complaint makes it worse. Waste of Bernie Mac. RIP."
           rating={8}
         />
