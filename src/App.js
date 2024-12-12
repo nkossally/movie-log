@@ -96,6 +96,7 @@ function App() {
   const ref88 = useRef(null);
   const ref89 = useRef(null);
   const ref90 = useRef(null);
+  const ref91 = useRef(null);
 
   const toggleLinks = () => {
     setShowLinks(!showLinks);
@@ -119,6 +120,9 @@ function App() {
 
       {showLinks && (
         <div className="links-container">
+          <button className="title-link" onClick={scrollRefIntoView(ref91)}>
+           Unforgiven
+          </button>
           <button className="title-link" onClick={scrollRefIntoView(ref90)}>
            Almost Famous
           </button>
@@ -413,7 +417,19 @@ function App() {
         theater=""
         rating={}
       />  */}
-
+      <Review 
+        title="Unforgiven" 
+        director="Clint Eastwood"
+        ref={ref91}
+        date="12/12/2024"
+        releaseDate="1992"
+        text="Clint Eastwood western about assassin (Eastwood) hired by prostitutes to murder a cowboy who brutalized and permanently scarred the face of one of the women while she provided services. Solid, well-paced, efficient, straightforward, classic American filmmaking at its finest. The morals are clear. The bad men are bad (Gene Hackman). The good men are good (Morgan Freeman). Some men are in-between. Eastwood is a reformed bad man turned good by his now dead wife, turned semi-bad again when he is pulled from retirement by a $1000 bounty. Film portrays Eastwood and his rival Gene Hackman as exceptional men of the west who lived close to death because they do not fear guns. Most men are cowards, of course. In addition to gun-ness and Western-ness, film doubles down on American-ness when Gene Hackman humiliates and brutalizes an English assassin named English Bob, and chastises Bob about celebrating the Queen on Independence Day. Clint Eastwood is an American. And a man. Says the movie." 
+        text2="The gender politics are straightforward and predictable. Clint Eastwood is a man, therefore a killer, but he is good because a good woman loved him, and because the gentle wise sex worker who got knifed seems to fall for him, and because he does not have sex with the sex worker out of respect for his dead wife, who was at least three decades younger than Eastwood based on her tombstone (died at 29: God forbid Eastwood have a thirty year old). Morgan Freeman’s “Injun” wife is silent and stern as she watches her man ride off into the distance. She says absolutely nothing. She is a good woman. The red headed sex worker who placed the bounty (Frances Fisher) is bad because she demands the disproportionate punishment of many men dying on behalf of her coworker. Fisher is perhaps Eastwood’s counterclaim against the ravages of feminism. Or a plot device to demonstrate what men do on behalf of women. Remember the days when men were men? And women were prostitutes."
+        text3="As easy to critique the politics as like film. This is very good film. Only flaw is ending. [Spoiler] A better ending has Eastwood killed. Instead, Eastwood lives and runs off to San Francisco to run a prosperous dry goods store. Anglo-American Dream. All of the sins and blood of the past washed off, dirty money converted into legitimate business. A better ending would not suggest there is something redemptive about violence."
+        text4="Side note: bad guys exist so that audiences can revel in dark desires without shame. The camera shows a woman get beat by a bad guy. The camera shows a black man get whipped by a bad guy. The camera shows it. We watch it. And are good."
+        theater=""
+        rating={9}
+      /> 
       <Review 
         title="Almost Famous" 
         director="Cameron Crowe"
