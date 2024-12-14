@@ -122,7 +122,7 @@ function App() {
 
       {showLinks && (
         <div className="links-container">
-          <button className="title-link" onClick={scrollRefIntoView(ref39)}>
+          <button className="title-link" onClick={scrollRefIntoView(ref93)}>
            Apollo 13
           </button>
           <button className="title-link" onClick={scrollRefIntoView(ref92)}>
@@ -430,7 +430,7 @@ function App() {
         director="Ron Howard"
         ref={ref93}
         date="12/14/2024"
-        releaseDate="2024"
+        releaseDate="1995"
         text="Celebrated docudrama about 1970 mission to the Moon that became a rescue mission when an explosion happens on the spacecraft. “Christopher Columbus, Charles Linbergh and Neil Armstrong,” says dreamy eyed Tom Hank staring off at the moon, referring to the history of Western imperialism, culminating with America’s attempted colonization of the Moon. I try to appreciate films as they are, regardless of politics, but perhaps politics are unavoidable. Perhaps it is political to appreciate this movie. I think the watcher must bring knowledge of, if not belief in, certain images of American empire to appreciate this film. Imperial iconography include: space travel as the final frontier, the physically massive institutions of NASA, the wife and kids waiting for dad to come back to their suburban home, and space filled only with white people. Some of the shots are nice and technically accomplished, but the ideas are so specifically American that I wonder if the appeal is limited to Americans who believe in America and the sanctity of the nuclear suburban family and the excitement of an imagined frontier. Good enough movie, I suppose." 
         text2=""
         text3=""
