@@ -446,7 +446,7 @@ function App() {
         rating={7}
       /> 
       <Review 
-        title="" 
+        title="A Real Pain" 
         director="Jesse Eisenberg"
         ref={ref94}
         date="11/19/2024"
