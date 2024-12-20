@@ -99,7 +99,9 @@ function App() {
   const ref91 = useRef(null);
   const ref92 = useRef(null);
   const ref93 = useRef(null);
-
+  const ref94 = useRef(null);
+  const ref95 = useRef(null);
+  
   const toggleLinks = () => {
     setShowLinks(!showLinks);
   };
@@ -122,6 +124,12 @@ function App() {
 
       {showLinks && (
         <div className="links-container">
+          <button className="title-link" onClick={scrollRefIntoView(ref95)}>
+          Come Back to the Five and Dime, Jimmy Dean, Jimmy Dean
+          </button>
+          <button className="title-link" onClick={scrollRefIntoView(ref94)}>
+           A Real Pain
+          </button>
           <button className="title-link" onClick={scrollRefIntoView(ref93)}>
            Apollo 13
           </button>
@@ -425,6 +433,30 @@ function App() {
         theater=""
         rating={}
       />  */}
+        <Review 
+        title="Come Back to the Five and Dime, Jimmy Dean, Jimmy Dean" 
+        director="Robert Altman"
+        ref={ref95}
+        date="11/20/2024"
+        releaseDate=""
+        text="Visually compelling  tale of traumatized women in James Dean fan club in small town Texas. Adapted from a play and seems like it." 
+        text2=""
+        text3=""
+        theater=""
+        rating={7}
+      /> 
+      <Review 
+        title="" 
+        director="Jesse Eisenberg"
+        ref={ref94}
+        date="11/19/2024"
+        releaseDate="2024"
+        text="Sad and boring." 
+        text2=""
+        text3=""
+        theater="Village East By Angelika"
+        rating={3}
+      /> 
       <Review 
         title="Apollo 13" 
         director="Ron Howard"
