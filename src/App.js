@@ -102,6 +102,8 @@ function App() {
   const ref94 = useRef(null);
   const ref95 = useRef(null);
   const ref96 = useRef(null);
+  const ref97 = useRef(null);
+  const ref98 = useRef(null);
 
   const toggleLinks = () => {
     setShowLinks(!showLinks);
@@ -125,6 +127,12 @@ function App() {
 
       {showLinks && (
         <div className="links-container">
+          <button className="title-link" onClick={scrollRefIntoView(ref96)}>
+           Dune
+          </button>
+          <button className="title-link" onClick={scrollRefIntoView(ref95)}>
+           Gladiator II
+          </button>
           <button className="title-link" onClick={scrollRefIntoView(ref96)}>
            Face/Off
           </button>
@@ -437,6 +445,30 @@ function App() {
         theater=""
         rating={}
       />  */}
+      <Review 
+        title="" 
+        director=""
+        ref={ref45}
+        date=""
+        releaseDate="2024"
+        text="I don’t have inside whatever is required to really like this movie. Denis Villeneuve’s approach to sci fi is self-serious, brooding, humorless and sexless. This is not a fun movie on purpose. But it looks good. The actors are beautiful. The CGI is great. The shots are very nice individually. But the shots last too long sometimes. I prefer Dune’s meditative style of film-making in a small indie like Nomadland. For sci-fi, I like moving cameras, stylization over realism, and a sense of humor. There’s a disconnect between the heaviness of this film and the adult actors LARPing in silly costumes with toy swords." 
+        text2="Sci fi products tend to use fake science and an imagined world to say something about the world we live in. Dune does not do that in a way that pleases any “woke” person. The bad guy is fat and probably not straight. This is out of step with the now over body positivity “movement.” There’s a white savior narrative. There’s imperialism in the film, without any real critique of imperialism. There’s a bad emperor who merely needs to be replaced with a good one is all. Timothée Chalamet’s power comes from careful mixing of bloodlines. Enough said. Also, Chalamet has an innate understanding of the culture of the colonized “sand people,” kind of like how some white people “go native.” The “sand people,” who appear to be Middle Eastern and black, are one with nature, like how Native Americans are supposed to be. Any attempt to extract political or social meanings from this film leads to trouble, so you may as well not. "
+        text3="I don’t think this film is supposed to be interpreted. It does not have intellectual ambition. It’s just a hero’s journey set in some remote place in space and time that doesn’t do anything except look nice and excite you, if, that is, the film excites you. While everything is beautiful, nothing is iconic. This movie made a lot of money, but I don’t think it matters."
+        theater=""
+        rating={5}
+      /> 
+      <Review 
+        title="Gladiator II" 
+        director="Ridley Scott"
+        ref={ref97}
+        date="12/23/2024"
+        releaseDate="2024"
+        text="Critics have not been too kind to this film as an over-correction of the many Oscars the first installment won. The first movie probably paved the way for better products like Rome and Game of Thrones (Olden times are olden times. Fantasy or not, it’s just men in costumes with swords). We’ve seen it done better so Gladiator II disappoints if you expect high art. There are problems. The CGI animals are a downer, some of the actors don’t seem to have a handle of their characters, the plot is sloppy, and Paul Mescal’s hero’s journey does not make sense on a character level. But, as an unserious movie, this succeeds. It’s a mostly handsome looking movie and Denzel Washington is fun. Good bad movie. So was the first one." 
+        text2="Side note: A feature of Ridley Scott’s historical epics is he does not care about history. Paul Mescal’s character is vaguely motivated by some concept of democracy that may be more modern and American than ancient and Roman. Also, the characters talk about Rome and acculturation as if Rome were a modern nation state with a unifying national culture. A movie with CGI killer monkeys is not going to tease apart the difference between ancient empire and modern nation."
+        text3=""
+        theater=""
+        rating={6}
+      /> 
 
       <Review 
         title="Face/Off" 
