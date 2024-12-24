@@ -127,10 +127,10 @@ function App() {
 
       {showLinks && (
         <div className="links-container">
-          <button className="title-link" onClick={scrollRefIntoView(ref96)}>
+          <button className="title-link" onClick={scrollRefIntoView(ref98)}>
            Dune
           </button>
-          <button className="title-link" onClick={scrollRefIntoView(ref95)}>
+          <button className="title-link" onClick={scrollRefIntoView(ref97)}>
            Gladiator II
           </button>
           <button className="title-link" onClick={scrollRefIntoView(ref96)}>
@@ -446,9 +446,9 @@ function App() {
         rating={}
       />  */}
       <Review 
-        title="" 
+        title="Dune" 
         director="Denis Villeneuve"
-        ref={ref45}
+        ref={ref98}
         date="12/23/2024"
         releaseDate="2024"
         text="I don’t have inside whatever is required to really like this movie. Denis Villeneuve’s approach to sci fi is self-serious, brooding, humorless and sexless. This is not a fun movie on purpose. But it looks good. The actors are beautiful. The CGI is great. The shots are very nice individually. But the shots last too long sometimes. I prefer Dune’s meditative style of film-making in a small indie like Nomadland. For sci-fi, I like moving cameras, stylization over realism, and a sense of humor. There’s a disconnect between the heaviness of this film and the adult actors LARPing in silly costumes with toy swords." 
@@ -469,7 +469,6 @@ function App() {
         theater=""
         rating={6}
       /> 
-
       <Review 
         title="Face/Off" 
         director="John Woo"
