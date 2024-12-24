@@ -447,9 +447,9 @@ function App() {
       />  */}
       <Review 
         title="" 
-        director=""
+        director="Denis Villeneuve"
         ref={ref45}
-        date=""
+        date="12/23/2024"
         releaseDate="2024"
         text="I don’t have inside whatever is required to really like this movie. Denis Villeneuve’s approach to sci fi is self-serious, brooding, humorless and sexless. This is not a fun movie on purpose. But it looks good. The actors are beautiful. The CGI is great. The shots are very nice individually. But the shots last too long sometimes. I prefer Dune’s meditative style of film-making in a small indie like Nomadland. For sci-fi, I like moving cameras, stylization over realism, and a sense of humor. There’s a disconnect between the heaviness of this film and the adult actors LARPing in silly costumes with toy swords." 
         text2="Sci fi products tend to use fake science and an imagined world to say something about the world we live in. Dune does not do that in a way that pleases any “woke” person. The bad guy is fat and probably not straight. This is out of step with the now over body positivity “movement.” There’s a white savior narrative. There’s imperialism in the film, without any real critique of imperialism. There’s a bad emperor who merely needs to be replaced with a good one is all. Timothée Chalamet’s power comes from careful mixing of bloodlines. Enough said. Also, Chalamet has an innate understanding of the culture of the colonized “sand people,” kind of like how some white people “go native.” The “sand people,” who appear to be Middle Eastern and black, are one with nature, like how Native Americans are supposed to be. Any attempt to extract political or social meanings from this film leads to trouble, so you may as well not. "
