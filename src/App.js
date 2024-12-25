@@ -104,6 +104,7 @@ function App() {
   const ref96 = useRef(null);
   const ref97 = useRef(null);
   const ref98 = useRef(null);
+  const ref99 = useRef(null);
 
   const toggleLinks = () => {
     setShowLinks(!showLinks);
@@ -127,6 +128,9 @@ function App() {
 
       {showLinks && (
         <div className="links-container">
+          <button className="title-link" onClick={scrollRefIntoView(ref99)}>
+           Dune 2
+          </button>
           <button className="title-link" onClick={scrollRefIntoView(ref98)}>
            Dune
           </button>
@@ -445,6 +449,19 @@ function App() {
         theater=""
         rating={}
       />  */}
+
+      <Review 
+        title="Dune 2" 
+        director=""
+        ref={ref99}
+        date="12/24/2024"
+        releaseDate="2024"
+        text="Much better than the prequel because it tells a complete story. In Dune, Timothée Chalamet was a cypher. In Dune 2, he becomes a character with a personality and an arc. The problem with planning sequels is many movies are incomplete. Dune was incomplete. This one is complete. Still, as much as I appreciate Chalamet’s arc, there is a flaw in it. After more than five hours of runtime between the two movies, it is unclear how or why Chalamet transforms from being ambivalent about his royal status to ruthlessly seeking power by means of violence and manipulation. In the blink of an eye, he becomes a sociopath. I think this is because the storytelling of Dune is plot driven, not character driven. The plot demanded that Chalamet change, so he did. I prefer character over plot, personally, but the plot here is very good. Watching various characters contend for power is interesting. It took two movies, but I finally understand Dune/Dune 2. It’s a sci-fi palace intrigue story. Game of Thrones in space." 
+        text2=""
+        text3=""
+        theater=""
+        rating={7}
+      /> 
       <Review 
         title="Dune" 
         director="Denis Villeneuve"
