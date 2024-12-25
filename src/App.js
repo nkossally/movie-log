@@ -452,7 +452,7 @@ function App() {
 
       <Review 
         title="Dune 2" 
-        director=""
+        director="Denis Villeneuve"
         ref={ref99}
         date="12/24/2024"
         releaseDate="2024"
