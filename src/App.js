@@ -464,7 +464,7 @@ function App() {
       <Review 
         title="Clueless" 
         director="Amy Heckerling"
-        ref={102}
+        ref={ref102}
         date="12/27/2024"
         releaseDate="1995"
         text="Charming, witty, nearly perfect teen movie about the small problems of rich girl Alicia Silverstone at her high school in Beverly Hills. The movie is based on Jane Austen’s Emma. Alicia, like Emma, is a conceited but well-meaning innocent who decides to help people as a new way to be conceited, and makes a series of social mistakes while attempting to be magnanimous. Silverstone’s mishaps include giving bad dating advice to the new girl in school, misreading signs of affection from boys, failing her driver’s test and dating a gay guy. One of the charms of the movie, and possibly one of the flaws, is it feels episodic. It could have been three episodes of television, which is probably why this movie was made into a television show." 
