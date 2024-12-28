@@ -1,5 +1,6 @@
 import { forwardRef, useEffect, useState } from "react";
 import { getMovieImage } from "../fetch";
+import { Divider } from "./Divider";
 
 export const Review = forwardRef((props, ref) => {
   const [imgUrl, setImgUrl] = useState("");
@@ -35,6 +36,7 @@ export const Review = forwardRef((props, ref) => {
       {props.text2 && <div className="text2">{props.text2}</div>}
       {props.text3 && <div className="text2">{props.text3}</div>}
       {props.text4 && <div className="text2">{props.text4}</div>}
+      <Divider/>
     </div>
   );
 });

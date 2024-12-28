@@ -15,7 +15,16 @@ code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
         monospace;
 }
+.divider{
+    border-top: 1px dashed silver;
+    height:10px;
+    margin: 20px 10px 20px 0px;
+    width: 100%;
 
+    // This trick works for both horizontal and vertical borders:
+
+
+}
 .container {
     display: flex;
     flex-direction: column;

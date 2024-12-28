@@ -105,6 +105,9 @@ function App() {
   const ref97 = useRef(null);
   const ref98 = useRef(null);
   const ref99 = useRef(null);
+  const ref100 = useRef(null);
+  const ref101 = useRef(null);
+  const ref102 = useRef(null);
 
   const toggleLinks = () => {
     setShowLinks(!showLinks);
@@ -128,6 +131,15 @@ function App() {
 
       {showLinks && (
         <div className="links-container">
+          <button className="title-link" onClick={scrollRefIntoView(ref102)}>
+           Clueless
+          </button>
+          <button className="title-link" onClick={scrollRefIntoView(ref101)}>
+           Ed Wood
+          </button>
+          <button className="title-link" onClick={scrollRefIntoView(ref100)}>
+           A Simple Plan
+          </button>
           <button className="title-link" onClick={scrollRefIntoView(ref99)}>
            Dune 2
           </button>
@@ -440,16 +452,51 @@ function App() {
       {/* <Review 
         title="" 
         director=""
-        ref={ref45}
+        ref={}
         date=""
-        releaseDate="2024"
+        releaseDate=""
         text="" 
         text2=""
         text3=""
         theater=""
         rating={}
       />  */}
-
+      <Review 
+        title="Clueless" 
+        director="Amy Heckerling"
+        ref={102}
+        date="12/27/2024"
+        releaseDate="1995"
+        text="Charming, witty, nearly perfect teen movie about the small problems of rich girl Alicia Silverstone at her high school in Beverly Hills. The movie is based on Jane Austen’s Emma. Alicia, like Emma, is a conceited but well-meaning innocent who decides to help people as a new way to be conceited, and makes a series of social mistakes while attempting to be magnanimous. Silverstone’s mishaps include giving bad dating advice to the new girl in school, misreading signs of affection from boys, failing her driver’s test and dating a gay guy. One of the charms of the movie, and possibly one of the flaws, is it feels episodic. It could have been three episodes of television, which is probably why this movie was made into a television show." 
+        text2="Side-notes: This movie is a time capsule and endless source of cultural references. 1) Alicia Silverstone remarks on how Marky Mark is only known for taking his pants off. Times have really changed for Mark Wahlberg. 2) Alicia Silverstone hilariously says “I object” in class in a non-litigation context. I think Legally Blonde stole this joke. 3) Silverstone refers to money as ducats. One of the hosts of the podcast The Read does this, and I suspect he watched Clueless. 4) The movie also has a 90’s minstrel show with the character played by Donald Faison. The film tries to rescue this when Faison eloquently argues about the validity of Ebonics as a language. The joke works. And besides, everyone was more openly racist in the 90’s, and that’s charming to me now for some reason."
+        text3=""
+        theater=""
+        rating={9}
+      /> 
+      <Review 
+        title="Ed Wood" 
+        director="Tim Burton"
+        ref={ref101}
+        date="12/27/2024"
+        releaseDate="1994"
+        text="I remember recoiling from this film when my family watched it on tv or DVD when I was a kid. The film’s cast of social misfits and its queer content frightened me because I was closeted then. I was enamored with the escapism of Hollywood and repulsed by depictions of failure. Now that I am in my thirties, I see that this is possibly one of the best films ever made. It celebrates cinema by, yes, poking fun at, but also humanizing one of cinema’s worst, yet most earnest pseudo artists: Ed Wood." 
+        text2="This film has a specific role, I think, in queer cinema because of its discussion of failure. Ed Wood, himself, was not queer, but he was a cross dresser who associated with queers, lowlifes and drug addicts. A lot of the jokes in the movie are jokes about the queers and has-beens that surround Ed Wood, but the jokes are in good fun. Sanitized portraits of queerness, like Will and Grace, present queerness as clean, successful and upwardly mobile. But the outsider status or queers (in the 20th century, before queerness became mainstream) is more associated with failure than success. Failure to approximate the glamour and heteronormativity of Hollywood. This film celebrates Ed Wood’s determination to realize his vision despite adversity. He can never get approval from a major studio, so he makes B-movies on shoestring budgets. Similarly, queers have historically been enamored with mainstream Hollywood images, while constructing alternative lifestyles outside of the mainstream."
+        text3="Side-note: This is one of the better performances by Johnny Depp. His acting here is effective and hacky. He found a few tricks to do and repeats them throughout the film to comedic affect. Depp is a hacky actor."
+        theater=""
+        rating={10}
+      /> 
+      <Review 
+        title="A Simple Plan" 
+        director="Sam Raimi"
+        ref={ref100}
+        date="12/27/2024"
+        releaseDate="1998"
+        text="Decent movie about ordinary people attempting to commit a major crime and stumbling at every turn. Reminiscent of Fargo, but not as biting and not as good. Worth the watch." 
+        text2="Side note: Bridget Fonda disappeared from the movies after the 90s. She’s one of the hapless small-time criminals here."
+        text3=""
+        theater=""
+        rating={7}
+      /> 
       <Review 
         title="Dune 2" 
         director="Denis Villeneuve"
@@ -467,7 +514,7 @@ function App() {
         director="Denis Villeneuve"
         ref={ref98}
         date="12/23/2024"
-        releaseDate="2024"
+        releaseDate="2021"
         text="I don’t have inside whatever is required to really like this movie. Denis Villeneuve’s approach to sci fi is self-serious, brooding, humorless and sexless. This is not a fun movie on purpose. But it looks good. The actors are beautiful. The CGI is great. The shots are very nice individually. But the shots last too long sometimes. I prefer Dune’s meditative style of film-making in a small indie like Nomadland. For sci-fi, I like moving cameras, stylization over realism, and a sense of humor. There’s a disconnect between the heaviness of this film and the adult actors LARPing in silly costumes with toy swords." 
         text2="Sci fi products tend to use fake science and an imagined world to say something about the world we live in. Dune does not do that in a way that pleases any “woke” person. The bad guy is fat and probably not straight. This is out of step with the now over body positivity “movement.” There’s a white savior narrative. There’s imperialism in the film, without any real critique of imperialism. There’s a bad emperor who merely needs to be replaced with a good one is all. Timothée Chalamet’s power comes from careful mixing of bloodlines. Enough said. Also, Chalamet has an innate understanding of the culture of the colonized “sand people,” kind of like how some white people “go native.” The “sand people,” who appear to be Middle Eastern and black, are one with nature, like how Native Americans are supposed to be. Any attempt to extract political or social meanings from this film leads to trouble, so you may as well not. "
         text3="I don’t think this film is supposed to be interpreted. It does not have intellectual ambition. It’s just a hero’s journey set in some remote place in space and time that doesn’t do anything except look nice and excite you, if, that is, the film excites you. While everything is beautiful, nothing is iconic. This movie made a lot of money, but I don’t think it matters."
