@@ -108,6 +108,8 @@ function App() {
   const ref100 = useRef(null);
   const ref101 = useRef(null);
   const ref102 = useRef(null);
+  const ref103 = useRef(null);
+  const ref104 = useRef(null);
 
   const toggleLinks = () => {
     setShowLinks(!showLinks);
@@ -131,6 +133,15 @@ function App() {
 
       {showLinks && (
         <div className="links-container">
+          {/* <button className="title-link" onClick={scrollRefIntoView()}>
+           
+          </button> */}
+          <button className="title-link" onClick={scrollRefIntoView(ref104)}>
+           Red Eye
+          </button>
+          <button className="title-link" onClick={scrollRefIntoView(ref103)}>
+           The Good Liar
+          </button>
           <button className="title-link" onClick={scrollRefIntoView(ref102)}>
            Clueless
           </button>
@@ -461,6 +472,30 @@ function App() {
         theater=""
         rating={}
       />  */}
+      <Review 
+        title="Red Eye" 
+        director="Wes Craven"
+        ref={ref104}
+        date="12/30/2024"
+        releaseDate="2005"
+        text="Solid, brisk, boilerplate thriller about Cillian Murphy torturing Rachel McAdams on a plane. This Bush Era film contains explicit propaganda in favor of the War on Terror, and does what a lot of media did back then: sidestep race by making the terrorist a blue-eyed Cillian Murphy. In the early 2000s, when I was a more militant leftist, I would have rejected this movie on political grounds. Today, I am charmed by this movie, and even the propaganda of the War on Terror era seems charming compared to the more nihilistic culture and polarized political culture of the present. Also, very young fresh-faced McAdams and Murphy play to nostalgia." 
+        text2=""
+        text3=""
+        theater=""
+        rating={7}
+      /> 
+      <Review 
+        title="The Good Liar" 
+        director="Bill Condon"
+        ref={ref103}
+        date="12/30/2024"
+        releaseDate="2019"
+        text="Solid film about conman Ian McKellen romancing Helen Mirren in order to steal her money. There is a twist that is somewhat predictable, but there is another deeper twist with historical implications that make this movie surprisingly meaningful. You can tell this is a book adaptation by the flurry of ideas that arrive by the third act. The movie opens with a question about how to date in one’s advanced years, and closes with observations about how British people see and misinterpret their elders who lived through World War II. Great work! On the downside, fear of aging is challenged a bit, but ultimately encouraged by this film. Family is reinforced. Family redeems having to age. And lifelong single men like Ian McKellen are, of course, sociopaths." 
+        text2=""
+        text3=""
+        theater=""
+        rating={7}
+      /> 
       <Review 
         title="Clueless" 
         director="Amy Heckerling"
