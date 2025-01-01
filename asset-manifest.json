@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/movie-log/static/css/main.af96e5e5.css",
-    "main.js": "/movie-log/static/js/main.b10d289d.js",
+    "main.js": "/movie-log/static/js/main.5e20f25a.js",
     "index.html": "/movie-log/index.html",
     "main.af96e5e5.css.map": "/movie-log/static/css/main.af96e5e5.css.map",
-    "main.b10d289d.js.map": "/movie-log/static/js/main.b10d289d.js.map"
+    "main.5e20f25a.js.map": "/movie-log/static/js/main.5e20f25a.js.map"
   },
   "entrypoints": [
     "static/css/main.af96e5e5.css",
-    "static/js/main.b10d289d.js"
+    "static/js/main.5e20f25a.js"
   ]
 }
