@@ -486,10 +486,10 @@ function App() {
       />  */}
       <Review 
         title="North by Northwest" 
-        director=""
+        director="Alfred Hitchcock"
         ref={ref107}
         date="01/04/2024"
-        releaseDate=""
+        releaseDate="1959"
         text="I obviously have nothing original to say about this classic. I’ll just say what struck me the most. " 
         text2="1) In the most famous set piece of the movie, a crop duster flies over and shoots Cary Grant, running below in a field. I think the moments right before this set piece are more tense and more interesting than the set piece. Just before the crop duster action, Cary Grant stands across a dust road from a stranger. Grant is a fugitive sizing up a man who may be foe or friend. The camera shows Grant. Then it shows the man. Then there’s a beautiful symmetric shot of the men looking at each other, with the road in the center of the frame running into the horizon. Then close ups of Grant from a different angle. The pacing, the camera angles and the sequence of shots create tension. Finally, Grant crosses the road to talk to the stranger. They exchange greetings and eventually the man offhandedly mentions it is peculiar to see a crop duster at that particular time. A bus arrives, which the man boards. Thin it’s Grant vs the crop duster. Amazing! "
         text3="2) The script has some anxiety over shifting sexual practices. Eva Marie Saint actively pursues casual hookups with Cary Grant out of lust. She is the pursuer and he is the pursued. This was too much for 1959 so she has to be slut shamed by Cary Grant when, because of plot stuff, he misunderstands her intentions. Eventually, Grant learns Eva Marie Saint was innocent the whole time, [Spoiler] and yet she apologizes for keeping her status as a secret agent a secret. The film is battling a desire to depict modern romance with conservative values. Towards the end of the film, Eva Marie Saint reveals that she is unmarried in her late twenties because guys like Grant don’t believe in marriage. Grant insists he was married twice. “Exactly,” says Eva Marie Saint. This is the best line in the film. This scene domesticates both characters. They are squares who just want to settle down and get married to each other. Grant tells Marie Saint that his wives divorced him because he’s boring. He will return to being boring after his spy adventure. They’re just gonna get a house and raise kids. All this is implied so that the famous jump cut that ends the film can imply that they are having sex again. The jump cut cuts from Grant pulling Marie Saint into his top bunk on a train, to the train going into a cave."
@@ -499,10 +499,10 @@ function App() {
       /> 
       <Review 
         title="The Cable Gy" 
-        director=""
+        director="Ben Stiller"
         ref={ref106}
         date="01/04/2024"
-        releaseDate=""
+        releaseDate="1996"
         text="This 1996 black comedy directed by Ben Stiller and starring Jim Carrey makes me regret how absent comedies are in American films today. Carrey stars as a cable guy with borderline personality disorder who intrudes on the life of Matthew Broderick after hooking Broderick up with free cable (free cable was torrent before the internet). The film contains what counted as paranoia in the 90s: fear of people becoming antisocial by watching too much cable television. In the movie, Jim Carrey’s absent mother plopped him in front of a tv instead of raising him, so he grows up with poor understanding of how to interact with others. 90’s media paranoia is charming compared to far more apocalyptic American paranoia currently." 
         text2="There’s a quick gag in the film in which a fake commercial advertises a dramatization of a real trial that is televised before the real trial even reaches a verdict. This throwaway joke is much smarter than almost every joke in any new American film I watched in 2024. I miss satire."
         text3="Side note: This is a 90s movie, so it has prison anal rape jokes."
