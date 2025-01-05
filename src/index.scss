@@ -28,9 +28,8 @@ code {
 .divider {
     display: flex;
     border-top: 1px solid #485865;
-    border-radius: 10px;
     width: 100px;
-    height: 1px;
+    height: 30px;
 }
 
 .container {
@@ -185,19 +184,6 @@ code {
     }
     to {
       transform: rotateY(360deg);
-    }
-  }
-  
-  .spin-on-hover:hover {
-    animation: spin 1s infinite;
-  }
-  
-  @keyframes spin {
-    from {
-      transform: rotateX(0deg) rotateY(0deg);
-    }
-    to {
-      transform: rotateX(360deg) rotateY(360deg);
     }
   }
 
