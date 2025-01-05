@@ -20,16 +20,17 @@ code {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 40px 0px 0px 0px;
+    margin: 45px 0px 0px 0px;
     width: 100vw;
 }
 
 
 .divider {
     display: flex;
-    border: 1px solid #485865;
+    border-top: 1px solid #485865;
     border-radius: 10px;
     width: 100px;
+    height: 1px;
 }
 
 .container {
@@ -38,7 +39,11 @@ code {
 }
 
 .container-margin-top {
-    margin-top: 60px;
+    // margin-top: 40px;
+}
+
+.below-title-links{
+    margin-top: 40px;
 }
 
 .movie-poster {
@@ -167,3 +172,69 @@ code {
     height: 40px;
     justify-content: center;
 }
+
+
+  
+  .spin-y-on-hover:hover {
+    animation: spin-y 1s infinite;
+  }
+  
+  @keyframes spin-y {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(360deg);
+    }
+  }
+  
+  .spin-on-hover:hover {
+    animation: spin 1s infinite;
+  }
+  
+  @keyframes spin {
+    from {
+      transform: rotateX(0deg) rotateY(0deg);
+    }
+    to {
+      transform: rotateX(360deg) rotateY(360deg);
+    }
+  }
+
+  @-webkit-keyframes rotating /* Safari and Chrome */ {
+    from {
+      -webkit-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes rotating {
+    from {
+      -ms-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -webkit-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    to {
+      -ms-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  .spin-on-hover:hover {
+    -webkit-animation: rotating 2s linear infinite;
+    -moz-animation: rotating 2s linear infinite;
+    -ms-animation: rotating 2s linear infinite;
+    -o-animation: rotating 2s linear infinite;
+    animation: rotating 2s linear infinite;
+  }
+  

@@ -1,6 +1,7 @@
 import { forwardRef, useEffect, useState } from "react";
 import { getMovieImage } from "../fetch";
 import { Divider } from "./Divider";
+import classNames from "classnames";
 
 export const Review = forwardRef((props, ref) => {
   const [imgUrl, setImgUrl] = useState("");
@@ -20,7 +21,7 @@ export const Review = forwardRef((props, ref) => {
           <div className="title-container">
             <div className="title">{props.title}</div>
             {props.rating && (
-              <div className="rating">&nbsp;{props.rating}/10</div>
+              <div className={classNames("rating", "spin-y-on-hover")}>&nbsp;{props.rating}/10</div>
             )}
           </div>
           <div>{props.date}</div>
