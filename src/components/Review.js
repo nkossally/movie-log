@@ -19,17 +19,21 @@ export const Review = forwardRef((props, ref) => {
       <div className="title-and-date-and-image">
         <div className="title-and-date">
           <div className="title-container">
-            <div className={classNames("title", "spin-y-on-hover")}>{props.title}</div>
+            <div className={classNames("title")}>{props.title}</div>
             {props.rating && (
-              <div className={classNames("rating", "spin-on-hover")}>&nbsp;{props.rating}/10</div>
+              <div className={classNames("rating")}>
+                &nbsp;{props.rating}/10
+              </div>
             )}
           </div>
-          <div>{props.date}</div>
-          {props.director && <div>Director: {props.director}</div>}
-          {props.releaseDate && <div>Released: {props.releaseDate}</div>}
-          {props.theater && <div>Theater: {props.theater}</div>}
+          <div className="movie-data">
+            <div>{props.date}</div>
+            {props.director && <div>Director: {props.director}</div>}
+            {props.releaseDate && <div>Released: {props.releaseDate}</div>}
+            {props.theater && <div>Theater: {props.theater}</div>}
+          </div>
         </div>
-          {imgUrl && <img className="movie-poster" src={imgUrl} />}
+        {imgUrl && <img className="movie-poster" src={imgUrl} />}
       </div>
 
       <div className="text">{props.text}</div>

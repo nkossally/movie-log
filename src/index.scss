@@ -22,6 +22,12 @@ code {
     justify-content: center;
     margin: 45px 0px 0px 0px;
     width: 100vw;
+    transition: transform 0.3s ease;
+
+}
+
+.divider-container:hover {
+    transform: translateX(-10px);
 }
 
 
@@ -41,7 +47,7 @@ code {
     // margin-top: 40px;
 }
 
-.below-title-links{
+.below-title-links {
     margin-top: 40px;
 }
 
@@ -89,23 +95,32 @@ code {
 .title {
     font-size: 24px;
     font-weight: 500;
+    letter-spacing: 2px;
+
 }
 
 .title-container {
     display: flex;
     flex-direction: row;
     align-items: baseline;
-
+    transition: transform 1s ease;
 }
+
+.title-container:hover {
+    transform: translateX(10px);
+}
+
 
 .text {
     margin-top: 10px;
     font-size: 20px;
+    letter-spacing: 1px;
 }
 
 .text2 {
     margin-top: 10px;
     font-size: 20px;
+    letter-spacing: 1px;
 }
 
 .rating {
@@ -118,6 +133,7 @@ code {
         1px -1px 0 #000,
         -1px -1px 0 #000;
     margin-right: 20px;
+    letter-spacing: 1px;
 }
 
 .title-and-date {
@@ -138,6 +154,7 @@ code {
     text-indent: 0;
     margin: 2px 4px 2px 4px;
     font-family: rockwell;
+    letter-spacing: 1px;
 }
 
 .title-link:hover {
@@ -153,6 +170,7 @@ code {
     text-indent: 0;
     margin: 2px 4px 2px 4px;
     font-family: rockwell;
+    letter-spacing: 1px;
 }
 
 .toggle-show-links:hover {
@@ -173,54 +191,44 @@ code {
 }
 
 
-  
-  .spin-y-on-hover:hover {
+
+.spin-y-on-hover:hover {
     animation: spin-y 1s infinite;
-  }
-  
-  @keyframes spin-y {
-    from {
-      transform: rotateY(0deg);
-    }
-    to {
-      transform: rotateY(360deg);
-    }
-  }
+}
 
-  @-webkit-keyframes rotating /* Safari and Chrome */ {
+@keyframes spin-y {
     from {
-      -webkit-transform: rotate(0deg);
-      -o-transform: rotate(0deg);
-      transform: rotate(0deg);
+        transform: rotateY(0deg);
     }
-    to {
-      -webkit-transform: rotate(360deg);
-      -o-transform: rotate(360deg);
-      transform: rotate(360deg);
-    }
-  }
 
-  @keyframes rotating {
-    from {
-      -ms-transform: rotate(0deg);
-      -moz-transform: rotate(0deg);
-      -webkit-transform: rotate(0deg);
-      -o-transform: rotate(0deg);
-      transform: rotate(0deg);
-    }
     to {
-      -ms-transform: rotate(360deg);
-      -moz-transform: rotate(360deg);
-      -webkit-transform: rotate(360deg);
-      -o-transform: rotate(360deg);
-      transform: rotate(360deg);
+        transform: rotateY(360deg);
     }
-  }
-  .spin-on-hover:hover {
-    -webkit-animation: rotating 2s linear infinite;
-    -moz-animation: rotating 2s linear infinite;
-    -ms-animation: rotating 2s linear infinite;
-    -o-animation: rotating 2s linear infinite;
-    animation: rotating 2s linear infinite;
-  }
-  
+}
+
+@-webkit-keyframes rotating
+
+/* Safari and Chrome */
+    {
+    from {
+        -webkit-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.movie-data {
+    letter-spacing: 1px;
+    transition: transform 1s ease;
+}
+
+.movie-data:hover {
+    transform: translateX(-10px);
+    /* Move the text 20px to the right on hover */
+}
