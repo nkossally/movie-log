@@ -498,7 +498,7 @@ function App() {
         rating={9}
       /> 
       <Review 
-        title="The Cable Gy" 
+        title="The Cable Guy" 
         director="Ben Stiller"
         ref={ref106}
         date="01/04/2024"
