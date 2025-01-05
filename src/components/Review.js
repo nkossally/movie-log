@@ -5,14 +5,13 @@ import { Divider } from "./Divider";
 export const Review = forwardRef((props, ref) => {
   const [imgUrl, setImgUrl] = useState("");
 
-  useEffect(()=> {
-    const getImageWrapper = async () =>{
+  useEffect(() => {
+    const getImageWrapper = async () => {
       const imgUrlStr = await getMovieImage(props.title);
-      setImgUrl(imgUrlStr)
-    }
+      setImgUrl(imgUrlStr);
+    };
     getImageWrapper();
-
-  },[])
+  }, []);
 
   return (
     <div className="review-container" ref={ref}>
@@ -29,14 +28,29 @@ export const Review = forwardRef((props, ref) => {
           {props.releaseDate && <div>Released: {props.releaseDate}</div>}
           {props.theater && <div>Theater: {props.theater}</div>}
         </div>
-        {imgUrl && <img className="movie-poster" src={imgUrl} />}
+          {imgUrl && <img className="movie-poster" src={imgUrl} />}
       </div>
 
       <div className="text">{props.text}</div>
-      {props.text2 && <div className="text2">{props.text2}</div>}
-      {props.text3 && <div className="text2">{props.text3}</div>}
-      {props.text4 && <div className="text2">{props.text4}</div>}
-      <Divider/>
+      {props.text2 && (
+        <>
+          <br />
+          <div className="text2">{props.text2}</div>
+        </>
+      )}
+      {props.text3 && (
+        <>
+          <br />
+          <div className="text2">{props.text3}</div>
+        </>
+      )}
+      {props.text4 && (
+        <>
+          <br />
+          <div className="text2">{props.text4}</div>
+        </>
+      )}
+      <Divider />
     </div>
   );
 });
