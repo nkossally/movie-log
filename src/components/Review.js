@@ -1,6 +1,7 @@
 import { forwardRef, useEffect, useState } from "react";
 import { getMovieImage } from "../fetch";
 import { Divider } from "./Divider";
+import { Text} from "./Text"
 import classNames from "classnames";
 
 export const Review = forwardRef((props, ref) => {
@@ -36,23 +37,23 @@ export const Review = forwardRef((props, ref) => {
         {imgUrl && <img className="movie-poster" src={imgUrl} />}
       </div>
 
-      <div className="text">{props.text}</div>
+      <div className="text"><Text text={props.text} /></div>
       {props.text2 && (
         <>
           <br />
-          <div className="text2">{props.text2}</div>
+          <div className="text2"><Text text={props.text2} /></div>
         </>
       )}
       {props.text3 && (
         <>
           <br />
-          <div className="text2">{props.text3}</div>
+          <div className="text2"><Text text={props.text3} /></div>
         </>
       )}
       {props.text4 && (
         <>
           <br />
-          <div className="text2">{props.text4}</div>
+          <div className="text2"><Text text={props.text4} /></div>
         </>
       )}
       <Divider />
