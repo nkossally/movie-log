@@ -142,6 +142,9 @@ function App() {
           {/* <button className="title-link" onClick={scrollRefIntoView(ref108)}>
            
           </button> */}
+          <button className="title-link" onClick={scrollRefIntoView(ref110)}>
+           The Man Who Knew Too Much
+          </button>
           <button className="title-link" onClick={scrollRefIntoView(ref109)}>
             Nosferatu
           </button>
@@ -491,9 +494,21 @@ function App() {
         rating={}
       />  */}
       <Review 
+        title="The Man Who Knew Too Much" 
+        director="Alfred Hitchcock"
+        ref={ref110}
+        date="01.16/2024"
+        releaseDate="1956"
+        text="Pretty good Hitchcock. Jimmy Stewart here is more abusive of his wife, Doris Day, than most Hitchcock male leads. Stewart bickers with Day, forces her to end her career, and force feeds her drugs rather than listen to her be upset about their son’s kidnapping. I wonder what Hitchcock was reckoning with." 
+        text2=""
+        text3=""
+        theater=""
+        rating={8}
+      /> 
+      <Review 
         title="Nosferatu" 
         director="Robert Eggers"
-        writer="Robert EggersHenrik GaleenBram Stoker"
+        writer="Robert Eggers"
         ref={ref109}
         date="01/15/2024"
         releaseDate="2024"
@@ -506,7 +521,6 @@ function App() {
       <Review 
         title="Mission Impossible II" 
         director="John Woo"
-        writer="Bruce Geller, Ronald D. Moore & Brannon Braga"
         ref={ref108}
         date="01/15/2024"
         releaseDate="2000"
