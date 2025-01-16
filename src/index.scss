@@ -155,11 +155,13 @@ code {
     margin: 2px 4px 2px 4px;
     font-family: rockwell;
     letter-spacing: 1px;
+    transition: transform 1s ease;
 }
 
 .title-link:hover {
     border-radius: 3px;
     background: #CDE1FF;
+    transform: translateX(-10px);
 }
 
 .toggle-show-links {
@@ -171,11 +173,13 @@ code {
     margin: 2px 4px 2px 4px;
     font-family: rockwell;
     letter-spacing: 1px;
+    transition: transform 1s ease;
 }
 
 .toggle-show-links:hover {
     border-radius: 3px;
     background: #CDE1FF;
+    transform: translateX(10px);
 }
 
 
