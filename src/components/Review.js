@@ -15,6 +15,8 @@ export const Review = forwardRef((props, ref) => {
     getImageWrapper();
   }, []);
 
+  const hasMultipleWriters = props.writer && props.writer.split("").includes(",")
+
   return (
     <div className="review-container" ref={ref}>
       <div className="title-and-date-and-image">
@@ -30,6 +32,7 @@ export const Review = forwardRef((props, ref) => {
           <div className="movie-data">
             <div>{props.date}</div>
             {props.director && <div>Director: {props.director}</div>}
+            {props.writer && <div> {`Writer${hasMultipleWriters ? "s" : ""}: ${props.writer}`}</div>}
             {props.releaseDate && <div>Released: {props.releaseDate}</div>}
             {props.theater && <div>Theater: {props.theater}</div>}
           </div>
