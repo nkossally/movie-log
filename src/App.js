@@ -142,6 +142,9 @@ function App() {
           {/* <button className="title-link" onClick={scrollRefIntoView(ref108)}>
            
           </button> */}
+          <button className="title-link" onClick={scrollRefIntoView(ref109)}>
+            Nosferatu
+          </button>
           <button className="title-link" onClick={scrollRefIntoView(ref108)}>
             Mission impossible II
           </button>
@@ -487,6 +490,19 @@ function App() {
         theater=""
         rating={}
       />  */}
+      <Review 
+        title="Nosferatu" 
+        director="Robert Eggers"
+        writer="Robert EggersHenrik GaleenBram Stoker"
+        ref={ref109}
+        date="01/15/2024"
+        releaseDate="2024"
+        text="This is the best of the three Robert Eggers movies I’ve seen so far. The Witch and The Lighthouse seemed more like inert art installations than movies. Nosferatu is still an art film, but it’s also pulpy and fun. The film is beautiful. Every close up, every movement of the camera, the black and white colors of some scenes, the blues and reds of others, the symmetry of the framing, even the fonts of the subtitles – it all seems deliberate and brilliant. As with any great director, I am not sure what Eggers is doing to make the movie work, but he is effective and I can feel his effectiveness. His movies never fail on an aesthetic level. Depending on personal taste, they can falter on a story level. I like the story here, but it has a limitation. There is no narrative tension except for watching the inevitable unfold. Everything is foretold early on. In addition, we are all familiar with the vampire lore this film makes no attempt to update. As in The Witch, I don’t think Eggers is interested in updating familiar mythologies. He reproduces them. Hence the lack of tension. There are no surprises. But there is a compelling depiction of a woman struggling with whether she is good or evil because she has sexual desires for a disgusting creature. The vampire symbolizes forbidden sexual desires, kink, BDSM, rape, rape fantasies, the complicity rape victims may feel they have with their victimizers, etc. This is all very familiar and all very well done. This may be the most beautiful depiction of vampires on screen." 
+        text2="Eggers’ horror films are nothing like Get Out. I don’t think Eggers uses horror to speak about current politics. It is refreshing to watch a movie and not think about politics."
+        text3=""
+        theater="Regal Union Square"
+        rating={9}
+      /> 
       <Review 
         title="Mission Impossible II" 
         director="John Woo"
