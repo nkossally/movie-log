@@ -116,6 +116,7 @@ function App() {
   const ref108 = useRef(null);
   const ref109 = useRef(null);
   const ref110 = useRef(null);
+  const ref111 = useRef(null);
 
   const toggleLinks = () => {
     setShowLinks(!showLinks);
@@ -142,6 +143,9 @@ function App() {
           {/* <button className="title-link" onClick={scrollRefIntoView(ref108)}>
            
           </button> */}
+          <button className="title-link" onClick={scrollRefIntoView(ref111)}>
+           Mission Impossible III
+          </button>
           <button className="title-link" onClick={scrollRefIntoView(ref110)}>
            The Man Who Knew Too Much
           </button>
@@ -494,10 +498,23 @@ function App() {
         rating={}
       />  */}
       <Review 
+        title="Mission Impossible III" 
+        director="J. J. Abrams"
+        writer=""
+        ref={ref111}
+        date="01/17/2024"
+        releaseDate="2006"
+        text="This is the lowest grossing movie of the franchise. Not sure why. It was an important narrative reset after the boring Mission II. This movie establishes the lore of Tom Cruise’s troubled relationships with women. Very rapidly, the movie explains away that Cruise is getting married to Michelle Monaghan. Monaghan, unlike Thandie Newton of Mission II, is white. The film also explains away that Cruise has a platonic relationship with agent Keri Russell, who, unlike Thandie Newton, is white. (Bye girl. See you in Westworld.) It doesn’t really matter who these women are, or what qualities endear them to Cruise. It just matters that this film plants the seed that Cruise will eventually not be able to reconcile having women in his life with the danger of his profession." 
+        text2="In addition to women as motivation, this sequel ups the ante of Cruise’s longstanding war with skyscrapers. He doesn’t just break into a skyscraper by hanging from rope. Here, he trapezes between skyscrapers in Shanghai using rope. Cruise’s battles against human constructs (buildings, bridges, roads, trains) are more compelling than his battles against, say, a cliff in Mission II. The image of man vs. skyscraper is symbolic of Cruise’s role in the IMF (No. Not the International Monetary Fund. The Impossible Mission Force, dummy!) He is responsible to the IMF, yet he can choose to accept or reject any mission. There is a hierarchy of authority in the IMF, yet Cruise constantly violates mission command. Cruise is the ultimate insider. He is a secret agent in an intelligence agency more elite than the C.I.A. with the ability to infiltrate any institution in any country at will. Yet Cruise cannot fully trust the institution to which he belongs. [Spoiler] This is the second Mission Impossible in which one of the bad guys turned out to be one of Cruise’s bosses at the IMF. In addition, this film plants the seeds of the lore that Cruise cannot integrate himself into normal boring suburban life because of his profession. Cruise is a very powerful super-American and also alienated from everyone else. He needs to be a perfect soldier in order to save the world or whatever, and his superhuman skills separate him from ordinary beings. He is an extraordinary human. He is above the institution. He is above everything and everyone, fighting for what he thinks is just. He is completely alone. His thin relationship with Michelle Monaghan, who, unlike Thandie Newton, is white, is not built to last."
+        text3="Sidenote: This movie has some Cruisian race play. [Spoiler] Cruise’s boss, Billy Crudup, turns out to be a maniac who intentionally enabled an arms dealer to acquire a dangerous weapon so that the U.S. would have an excuse to launch preemptive war .(I guess this  is post-9/11 paranoia.) Anyway, Crudup turns out to be a bit racist. He calls his boss at the IMF, Laurence Fishbourne, a diversity hire. Before the big reveal of Crudup’s villainy, Fishbourne is the antagonist. He is a hard-ass to Cruise and Cruise incorrectly suspected that Fishbourne was an IMF plant working for the terrorists. Turns out, Fishbourne is innocent, and Crudup is both racist and crazy. After the plot resolves, Fishbourne apologizes to Cruise for doing his job and asking him questions and Fishbourne literally says that he owes Cruise “reparations.” Who knew that black people owe Cruise reparations? In the universe of Mission Impossible, Cruise is the protagonist, the hero, the most elite, the most burdened, the most aggrieved, and, yes, the most deserving of racial reparations."
+        theater=""
+        rating={7}
+      /> 
+      <Review 
         title="The Man Who Knew Too Much" 
         director="Alfred Hitchcock"
         ref={ref110}
-        date="01.16/2024"
+        date="01/16/2024"
         releaseDate="1956"
         text="Pretty good Hitchcock. Jimmy Stewart here is more abusive of his wife, Doris Day, than most Hitchcock male leads. Stewart bickers with Day, forces her to end her career, and force feeds her drugs rather than listen to her be upset about their son’s kidnapping. I wonder what Hitchcock was reckoning with." 
         text2=""
