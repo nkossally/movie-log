@@ -502,7 +502,7 @@ function App() {
         rating={}
       />  */}
       <Review 
-        title="" 
+        title="Sorry to Bother You" 
         director="Boots Riley"
         writer=""
         ref={ref112}
