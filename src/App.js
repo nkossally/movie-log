@@ -117,6 +117,7 @@ function App() {
   const ref109 = useRef(null);
   const ref110 = useRef(null);
   const ref111 = useRef(null);
+  const ref112 = useRef(null);
 
   const toggleLinks = () => {
     setShowLinks(!showLinks);
@@ -143,6 +144,9 @@ function App() {
           {/* <button className="title-link" onClick={scrollRefIntoView(ref108)}>
            
           </button> */}
+         <button className="title-link" onClick={scrollRefIntoView(ref112)}>
+           Sorry To Bother You
+          </button>
           <button className="title-link" onClick={scrollRefIntoView(ref111)}>
            Mission Impossible III
           </button>
@@ -497,6 +501,19 @@ function App() {
         theater=""
         rating={}
       />  */}
+      <Review 
+        title="" 
+        director="Boots Riley"
+        writer=""
+        ref={ref112}
+        date="01/24/2025"
+        releaseDate="2018"
+        text="This black radical anticapitalist satire is right up my alley. I really like this quirky mix of Charlie Kauffman with Spike Lee with Karl Marx. No critiques. Just some questions/suspicions about director Boots Riley’s relations with women due to how he uses the Tessa Thompson character. The gender binary is well defined in this film. LaKeith Stanfield starts the film as an abstract thinker, wondering about his impact on the world. His girlfriend, Tessa Thompson is an artist living in the present, grounded and in tune with the community around her. LaKeith is narcissistic and succumbs to betraying his coworkers when offered a high salary. Tessa is moral and loyal. In addition to depicting this abstract male vs. earthy female binary, Boots Riley also subjects Tessa Thompson to physical and sexual humiliation in one scene. Her character has a performance art show in which she is nearly nude and audience members throw trash on her. The scene is less about her thinly written character and more about how far Lakeith has fallen. I think Boots Riley idealizes women and also has a humiliation kink." 
+        text2=""
+        text3=""
+        theater=""
+        rating={9}
+      /> 
       <Review 
         title="Mission Impossible III" 
         director="J. J. Abrams"
