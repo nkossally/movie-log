@@ -119,6 +119,7 @@ function App() {
   const ref111 = useRef(null);
   const ref112 = useRef(null);
   const ref113 = useRef(null);
+  const ref114 = useRef(null);
 
   const toggleLinks = () => {
     setShowLinks(!showLinks);
@@ -145,6 +146,9 @@ function App() {
           {/* <button className="title-link" onClick={scrollRefIntoView(ref108)}>
            
           </button> */}
+        <button className="title-link" onClick={scrollRefIntoView(ref114)}>
+         Hard Truths
+        </button>
         <button className="title-link" onClick={scrollRefIntoView(ref113)}>
           The Brutalist
         </button>
@@ -505,6 +509,19 @@ function App() {
         theater=""
         rating={}
       />  */}
+      <Review 
+        title="Hard Truths" 
+        director="Mike Leigh"
+        writer="Mike Leigh"
+        ref={ref114}
+        date="01/25/2025"
+        releaseDate="2024"
+        text="Wonderful slice of life film about an angry woman who makes everyone around her miserable. Marianne Jean-Baptiste is hilarious in early scenes until tragic in later ones. This is the performance of the year. A depiction of someone who is a drain on her family, and does not know or cannot communicate why. The film contrasts the deep alienation of Baptiste’s character with the neighborliness and communal feeling of the black women in a hair salon in the scene that opens the film. Baptiste’s sister, played by Michelle Austin, is an empathic hairdresser who is capable of forming friendships, unlike Baptiste. " 
+        text2="The aforementioned hair salon scene is one of the best scenes in the movies this year. Director/Screenwriter Mike Leigh, who is white, does a great job depicting working class Caribbean and Africans in London. I am Caribbean American and part of the same diaspora as the characters in the film. Thus, the opening scene in a hair salon in which middle-aged black women discuss their relations with men felt very Brooklyn/Manhattan, though set in London. There is something that unites Afro-Caribbeans across the globe. This global diasporic cultural tradition isn’t enough to incorporate Baptiste into a community. Something is wrong with her psychology and she does not fit in."
+        text3="The movie only falters when trying to flesh out the family members of Baptiste. I respect Leigh’s communal instinct and resistance of main-characterism. But I did not get much out of most scenes that did not include Baptiste, hair salon scene excluded. For example, I think that Leigh uses one scene to show how one of Baptiste’s nieces experiences racialized bullying at work, but there isn’t enough about this character of the niece  to make the scene work."
+        theater=""
+        rating={9}
+      /> 
       <Review 
         title="The Brutalist" 
         director="Brady Corbet"
