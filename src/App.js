@@ -118,6 +118,7 @@ function App() {
   const ref110 = useRef(null);
   const ref111 = useRef(null);
   const ref112 = useRef(null);
+  const ref113 = useRef(null);
 
   const toggleLinks = () => {
     setShowLinks(!showLinks);
@@ -144,6 +145,9 @@ function App() {
           {/* <button className="title-link" onClick={scrollRefIntoView(ref108)}>
            
           </button> */}
+        <button className="title-link" onClick={scrollRefIntoView(ref113)}>
+          The Brutalist
+        </button>
          <button className="title-link" onClick={scrollRefIntoView(ref112)}>
            Sorry To Bother You
           </button>
@@ -501,6 +505,20 @@ function App() {
         theater=""
         rating={}
       />  */}
+      <Review 
+        title="The Brutalist" 
+        director="Brady Corbet"
+        writer=""
+        ref={ref113}
+        date="01/24/2025"
+        releaseDate="2024"
+        text="I really like this movie. I celebrate ambitious, well-made films that try to say something about the American project. The directing is great. The acting is great. The score is stirring enough to feel tangible. I can tell that this is a mid-budget movie due to the hand held shots and mostly interior settings, but it looks better than big budget films." 
+        text2="Aside from the impressive sights and sounds, this movie is full of ideas that I’ll focus on for this review. This film critiques the idea of America by telling the story of a brilliant architect, Adrien Brody, who flees Hungary during the Holocaust, works low wage jobs, and eventually secures an architectural contract with morally dubious capitalist, Guy Pearce. Towards the beginning of the movie, Brody arrives at Ellis Island, and viewers of the film see the Statue of Liberty from Brody’s point of view, upside down. This iconic shot is a blunt but effective metaphor for the broken promise of the American dream. There are a lot of blunt metaphors in this film. I am happy with bluntness, and blunt metaphors in particular (see The Substance for another 2024 blunt metaphor movie). I love metaphors and symbols and synecdoches and so does director Brady Corbet. Adrien Brody is a symbol of the immigrant experience. His architectural projects are expressions of the artist’s need to create something permanent that outlives the artist. His solid and fixed architectural constructs are also a metaphor for the Jewish search for a permanent home. Brody designs a community center that looks like a concentration camp. The meanings of that metaphor are abundant."
+        text3="[Spoiler] One of the metaphors of the film is overwrought. Towards the end of the film, Guy Pearce rapes Adrien Brody. This moment fleshed out Pearce’s character pretty well. Perhaps he is a self-hating homo for whom homosexual sex has to be degrading. He is both attracted to Brody’s Eastern Europeanness and repulsed. He is an unimpressive capitalist who figuratively and literally rapes his workers. The literalness of the rape is a story choice, and the idea isn’t strong enough to justify the upsetting scene. Everyone is critical of capitalists these days. We understand that capitalists are bad whether they are rapists or not. In addition, the rape scene would function better if no character ever commented on it again. That would be realistic. But the rape scene turns out to be pivotal in a manner that feels lazy and unearned. I don’t think midcentury white elites would take male rape seriously nor discuss it, especially if the victim is an Eastern European Jewish guy."
+        text4="Side note: In the epilogue of the film, Adrien Brody’s niece is at some sort of retrospective of the career of Brody. She says to her audience, “No matter what the others try and sell you, it is the destination, not the journey.” This line has sparked some discussion by reviewers. My opinion is that is precisely the kind of line I’d expect a smartly dress presenter at an art gallery to say; a simple inversion of cliché is automatically considered poignant and evocative. The film is about the search for a home by Jewish refugees and it is ambivalent about whether America or Israel are proper homes for Jewish people. The movie questions whether the destination of Ellis Island is worth the journey. It questions whether the journey ends. "
+        theater=""
+        rating={9}
+      /> 
       <Review 
         title="Sorry to Bother You" 
         director="Boots Riley"
