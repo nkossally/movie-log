@@ -120,6 +120,7 @@ function App() {
   const ref112 = useRef(null);
   const ref113 = useRef(null);
   const ref114 = useRef(null);
+  const ref115 = useRef(null);
 
   const toggleLinks = () => {
     setShowLinks(!showLinks);
@@ -146,6 +147,9 @@ function App() {
           {/* <button className="title-link" onClick={scrollRefIntoView(ref108)}>
            
           </button> */}
+        <button className="title-link" onClick={scrollRefIntoView(ref115)}>
+         10 Things I Hate About You
+        </button>
         <button className="title-link" onClick={scrollRefIntoView(ref114)}>
          Hard Truths
         </button>
@@ -509,6 +513,20 @@ function App() {
         theater=""
         rating={}
       />  */}
+      <Review 
+        title="10 Things I Hate About You" 
+        director="Gil Junger"
+        writer=""
+        ref={ref115}
+        date="01/25/2025"
+        releaseDate="1999"
+        text="This teen comedy, a genre that does not exist anymore, is an artifact of the 90s that matters to some millennials, I think. Some lines are funny and remind me of when movies were funny. Other lines are cringe. This is the 90s, so it’s okay for guidance counselors to talk about the dick size of students, for students to flash teachers, for black teachers to voice hatred of white suburban kids in class, for girls to use the “R” word, for girls to punch guys, and for guys to throw bitch fits until girls relent and kiss them. I miss teen comedies, but I don’t actually miss the 90s. Anyway, this movie probably helped propel the careers of baby-faced Julia Stiles, Heath Ledger and Joseph Gordon-Levitt. They are so grown now. Time has a way of passing you by. Oh, and hey there The Secret World of Alex Mack. " 
+        text2="Side note 1: Teen comedies seem out of step with the end-of-empire, apocalyptic, depressive culture of American films these days. Teen comedies are metaphors for endless consumption. For one, upper-middle-class-to-rich white suburban kids in films drive nice cars and spend money in shopping malls. Consumption is the role of the teen in the movies. In addition, teens, typically, have no concept of death. They only have endless growth ahead of them. Aside from the merchants of death and short sellers, capitalists tend to preach endless market growth and stray from concepts of limitations and death."
+        text3="Side note 2: Stiles white-girl-dances in this film a few years before she white-girl-dances in Save the Last Dance."
+        text4="Side note 3: The whole plot is based on a Shakespeare play which apparently is about tricking your sister into going to the prom with Heath Ledger so that you can date Joseph Gordon-Levitt."
+        theater=""
+        rating={6}
+      /> 
       <Review 
         title="Hard Truths" 
         director="Mike Leigh"
