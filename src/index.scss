@@ -297,7 +297,7 @@ code {
 
 }
 
-.arrow-button{
+.arrow-button {
     border: none;
 }
 
@@ -318,4 +318,10 @@ code {
 
 .disabled-arrow{
     opacity: .5;
+}
+
+.enabled-arrow {
+    &:hover {
+        background: #CDE1FF;
+    }
 }

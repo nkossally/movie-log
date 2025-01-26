@@ -1268,7 +1268,7 @@ function App() {
               page === 1 ? "disabled-arrow" : ""
             )}
           >
-            <img src={leftArrow} className="arrow" />
+            <img src={leftArrow} className={classNames("arrow",  page === 1 ? "" : "enabled-arrow")}  />
           </button>
           Page: {page}
           <button
@@ -1279,7 +1279,7 @@ function App() {
               page === maxPage ? "disabled-arrow" : ""
             )}
           >
-            <img src={rightArrow} className="arrow" />
+            <img src={rightArrow} className={classNames("arrow",  page === maxPage ? "" : "enabled-arrow")} />
           </button>
         </div>
 
