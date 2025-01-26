@@ -9,20 +9,22 @@ export const Spoiler = ({ words }) => {
   };
 
   return (
-
-      <div className="text-container">
+    <div className="text-container" key={"spoiler" + words.length + words[0]}>
       <button onClick={handleShowSpoiler} className="spoiler-button">
         {" "}
         {showSpoiler ? "HIDE" : "SHOW"} SPOILER
       </button>
-        {showSpoiler &&
-          words.map((word, idx) => {
-            return (
-              <div key={word + idx} className={classNames("moving-text", "spoiler-text")}>
-                {word}&nbsp;
-              </div>
-            );
-          })}
-      </div>
+      {showSpoiler &&
+        words.map((word, idx) => {
+          return (
+            <div
+              key={"spoiler" + word + idx}
+              className={classNames("moving-text", "spoiler-text")}
+            >
+              {word}&nbsp;
+            </div>
+          );
+        })}
+    </div>
   );
 };

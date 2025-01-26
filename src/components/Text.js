@@ -32,13 +32,13 @@ export const Text = ({ text }) => {
       {wordArraryBlocks.map((block, idx) => {
         const words = block[0];
         if (block[1] === "SPOILER") {
-          return <Spoiler words={words}></Spoiler>;
+          return <Spoiler key={"spoiler" + words.length} words={words}></Spoiler>;
         } else {
           return (
             <>
-              {words.map((word) => {
+              { words.map((word, idx) => {
                 return (
-                  <div key={word + idx} className="moving-text">
+                  <div key={"not spoiler" + words.length + word + idx} className="moving-text">
                     {word}&nbsp;
                   </div>
                 );
