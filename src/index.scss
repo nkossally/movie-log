@@ -359,3 +359,14 @@ code {
         background: #CDE1FF;
     }
 }
+
+
+
+.reviews-container {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.fade-out {
+    opacity: 0;
+  }

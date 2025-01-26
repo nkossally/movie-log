@@ -10,13 +10,22 @@ const REVIEWS_PER_PAGE = 20;
 function App() {
   const [showLinks, setShowLinks] = useState(false);
   const [page, setPage] = useState(1);
+  const [pageIsChanging, setPageIsChanging] = useState(false)
 
   const decreasePage = () => {
-    setPage(page - 1);
+    setPageIsChanging(true)
+    setTimeout(()=>{
+      setPageIsChanging(false)
+      setPage(page - 1);
+    }, 500)
   };
 
   const increasePage = () => {
-    setPage(page + 1);
+    setPageIsChanging(true)
+    setTimeout(()=>{
+      setPageIsChanging(false)
+      setPage(page + 1);
+    }, 500)
   };
 
   const ref1 = useRef(null);
@@ -1255,53 +1264,56 @@ function App() {
         </div>
       )}
 
-
-
       <div className={classNames("container")}>
         <div className="below-title-links"></div>
         <div className="page-buttons-container">
-        <div className={classNames("page-buttons")}>
-          <button
-            onClick={decreasePage}
-            disabled={page === 1}
-            className={classNames(
-              "arrow-button",
-              page === 1 ? "disabled-arrow" : ""
-            )}
-          >
-            <img
-              src={leftArrow}
-              className={classNames("arrow", page === 1 ? "" : "enabled-arrow")}
-            />
-          </button>
-          Page: {page}
-          <button
-            onClick={increasePage}
-            disabled={page === maxPage}
-            className={classNames(
-              "arrow-button",
-              page === maxPage ? "disabled-arrow" : ""
-            )}
-          >
-            <img
-              src={rightArrow}
+          <div className={classNames("page-buttons")}>
+            <button
+              onClick={decreasePage}
+              disabled={page === 1}
               className={classNames(
-                "arrow",
-                page === maxPage ? "" : "enabled-arrow"
+                "arrow-button",
+                page === 1 ? "disabled-arrow" : ""
               )}
-            />
-          </button>
+            >
+              <img
+                src={leftArrow}
+                className={classNames(
+                  "arrow",
+                  page === 1 ? "" : "enabled-arrow"
+                )}
+              />
+            </button>
+            Page: {page}
+            <button
+              onClick={increasePage}
+              disabled={page === maxPage}
+              className={classNames(
+                "arrow-button",
+                page === maxPage ? "disabled-arrow" : ""
+              )}
+            >
+              <img
+                src={rightArrow}
+                className={classNames(
+                  "arrow",
+                  page === maxPage ? "" : "enabled-arrow"
+                )}
+              />
+            </button>
+          </div>
         </div>
-      </div>
 
-        {reviews.map((review, idx) => {
-          if (
-            idx >= (page - 1) * REVIEWS_PER_PAGE &&
-            idx < page * REVIEWS_PER_PAGE
-          ) {
-            return <span key={"review" + idx}>{review}</span>;
-          }
-        })}
+        <div className={classNames("reviews-container", pageIsChanging ? "fade-out" : "")}>
+          {reviews.map((review, idx) => {
+            if (
+              idx >= (page - 1) * REVIEWS_PER_PAGE &&
+              idx < page * REVIEWS_PER_PAGE
+            ) {
+              return <span key={"review" + idx}>{review}</span>;
+            }
+          })}
+        </div>
       </div>
     </div>
   );
