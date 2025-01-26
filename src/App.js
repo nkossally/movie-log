@@ -960,7 +960,7 @@ function App() {
      />,
       <Review
         ref={ref8}
-        title="The Challengers"
+        title="Challengers"
         rating={8}
         text="Unlike any movie I’ve seen before. Essentially about nothing of importance, but fun. Zendaya is very good. She nearly transcends race by playing a rich (half?) black women in a love triangle with white guys. Race and class are present and yet sidestepped. No social commentary."
      />,
@@ -991,7 +991,7 @@ function App() {
      />,
       <Review
         ref={ref14}
-        title="Before the Devil Knows Your Dead"
+        title="Before the Devil Knows You're Dead"
         text="Very good family melodrama about consequences of sibling rivalry and bad parenting. Hoffmann is the sociopath older brother who was over-disciplined and Hawke is the silly cute younger brother conned into robbing their parents. The final minutes are excessive and lessen the impact of the film. It would be better if the father just decided to be a parent, like Tilda Swinton hugging her son in We Need to Talk about Kevin."
         rating={8}
      />,
@@ -1201,13 +1201,13 @@ function App() {
     [ref5, "Mission Impossible Dead Reckoning"],
     [ref6, "Fabulous Baker Boys"],
     [ref7, "Death Becomes Her"],
-    [ref8, "The Challengers"],
+    [ref8, "Challengers"],
     [ref9, "Devil Wears Prada"],
     [ref10, "eXistenZ"],
     [ref11, "Constantine"],
     [ref12, "Dewey Cox"],
     [ref13, "Last Duel"],
-    [ref14, "Before the Devil Knows Your Dead"],
+    [ref14, "Before the Devil Knows You're Dead"],
     [ref15, "Eastern Promises"],
     [ref16, "Dredd"],
     [ref17, "Civil War"],
