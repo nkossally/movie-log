@@ -1471,7 +1471,7 @@ function App() {
       <div className={classNames("container")}>
         <div className="below-title-links"></div>
 
-        <div className="page-buttons">
+        <div className={classNames("page-buttons", "moving-text")}>
           <button
             onClick={decreasePage}
             disabled={page === 1}
