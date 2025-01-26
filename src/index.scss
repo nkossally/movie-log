@@ -104,7 +104,17 @@ code {
     flex-direction: row;
     align-items: baseline;
     transition: transform 1s ease;
-}
+    width: fit-content;
+    border: 1px solid silver;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 1px;
+    padding: 10px 0px 0px 15px;
+    border-radius: 5px;
+    box-shadow:-1px 5px 5px rgba(0, 0, 0, 0.1),
+    -10px 20px 20px rgba(0, 0, 0, 0.1),
+    -1px 5px 2px rgba(0, 0, 0, 0.15),
+    -1px 2px 2px rgba(0, 0, 0, 0.25);}
 
 .title-container:hover {
     transform: translateX(10px);
@@ -168,8 +178,13 @@ code {
 .toggle-show-links {
     font-size: 24px;
     background: none;
-    border: none;
-    padding: 1;
+    border: 1px solid silver;
+    padding: 5px 5px 0px 5px;
+    border-radius: 5px;
+    box-shadow:-1px 5px 5px rgba(0, 0, 0, 0.1),
+    -10px 20px 20px rgba(0, 0, 0, 0.1),
+    -1px 5px 2px rgba(0, 0, 0, 0.15),
+    -1px 2px 2px rgba(0, 0, 0, 0.25);
     text-indent: 0;
     margin: 2px 4px 2px 4px;
     font-family: rockwell;
@@ -306,14 +321,34 @@ code {
     border: none;
     margin-top: -4px;
     margin: 0px 5px 0px 5px;
+
+}
+
+.page-buttons-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+
 }
 
 .page-buttons {
     display: flex;
     flex-direction: row;
-    width: 100%;
     align-items: center;
-    justify-content: right;
+    border: 1px solid silver;
+    padding: 5px 5px 0px 5px;
+    border-radius: 5px;
+    box-shadow:-1px 5px 5px rgba(0, 0, 0, 0.1),
+    -10px 20px 20px rgba(0, 0, 0, 0.1),
+    -1px 5px 2px rgba(0, 0, 0, 0.15),
+    -1px 2px 2px rgba(0, 0, 0, 0.25);
+    transition: transform 1s ease;
+
+    &:hover{
+        transform: translateX(10px);
+    }
+
 }
 
 .disabled-arrow{
