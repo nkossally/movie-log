@@ -105,7 +105,6 @@ code {
     align-items: baseline;
     transition: transform 1s ease;
     width: fit-content;
-    border: 1px solid silver;
     align-items: center;
     margin-bottom: 10px;
     margin-left: 1px;
@@ -153,7 +152,7 @@ code {
 }
 
 .links-container {
-    margin: 40px 10px 0 10px;
+    margin: 50px 10px 0 10px;
     display: block;
 }
 
@@ -179,7 +178,7 @@ code {
     font-size: 24px;
     background: none;
     border: 1px solid silver;
-    padding: 5px 5px 0px 5px;
+    padding: 10px 5px 30px 5px;
     border-radius: 5px;
     box-shadow:-1px 5px 5px rgba(0, 0, 0, 0.1),
     -10px 20px 20px rgba(0, 0, 0, 0.1),
