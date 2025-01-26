@@ -296,3 +296,26 @@ code {
     background: #dcdcdc;
 
 }
+
+.arrow-button{
+    border: none;
+}
+
+.arrow {
+    height: 20px;
+    border: none;
+    margin-top: -4px;
+    margin: 0px 5px 0px 5px;
+}
+
+.page-buttons {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: right;
+}
+
+.disabled-arrow{
+    opacity: .5;
+}
