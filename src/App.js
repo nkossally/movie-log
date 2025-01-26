@@ -1255,7 +1255,11 @@ function App() {
         </div>
       )}
 
-      <div className="page-buttons-container">
+
+
+      <div className={classNames("container")}>
+        <div className="below-title-links"></div>
+        <div className="page-buttons-container">
         <div className={classNames("page-buttons")}>
           <button
             onClick={decreasePage}
@@ -1289,9 +1293,6 @@ function App() {
           </button>
         </div>
       </div>
-
-      <div className={classNames("container")}>
-        <div className="below-title-links"></div>
 
         {reviews.map((review, idx) => {
           if (
