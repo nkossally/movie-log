@@ -272,3 +272,27 @@ code {
     }
 }
 
+.spoiler-button{
+    margin: 0px 5px;
+    // padding: 1px 5px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top: none;
+    border-bottom: none;
+    font-weight: 900;
+    font-size: 20px;
+    border-radius: 3px;
+
+
+}
+
+.spoiler-container{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.spoiler-text{
+    background: #dcdcdc;
+
+}
