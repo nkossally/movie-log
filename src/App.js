@@ -13,19 +13,22 @@ function App() {
   const [pageIsChanging, setPageIsChanging] = useState(false)
 
   const decreasePage = () => {
-    setPageIsChanging(true)
-    setTimeout(()=>{
-      setPageIsChanging(false)
+    setPageIsChanging(true);
+
+    setTimeout(() => {
+      setPageIsChanging(false);
       setPage(page - 1);
-    }, 500)
+
+    }, 500);
   };
 
   const increasePage = () => {
-    setPageIsChanging(true)
-    setTimeout(()=>{
-      setPageIsChanging(false)
+    setPageIsChanging(true);
+
+    setTimeout(() => {
+      setPageIsChanging(false);
       setPage(page + 1);
-    }, 500)
+    }, 500);
   };
 
   const ref1 = useRef(null);
@@ -1304,7 +1307,7 @@ function App() {
           </div>
         </div>
 
-        <div className={classNames("reviews-container", pageIsChanging ? "fade-out" : "")}>
+        <div className={classNames("reviews-container", pageIsChanging ? "fade-out" : "fade-in")}>
           {reviews.map((review, idx) => {
             if (
               idx >= (page - 1) * REVIEWS_PER_PAGE &&
