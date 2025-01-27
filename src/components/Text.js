@@ -1,49 +1,51 @@
 import { useState } from "react";
-import { Spoiler } from "./Spoiler";
+import classNames from "classnames";
+
+const SPOILER_START_FLAG = "[SPOILER-START]";
+const SPOILER_END_FLAG = "[SPOILER-END]";
 
 export const Text = ({ text }) => {
-  const wordsArr = text.split(" ");
-  const wordArraryBlocks = [];
+  const [showSpoiler, setShowSpoiler] = useState(false);
 
-  let curr = [[], "NOT-SPOILER"];
+  const handleShowSpoiler = () => {
+    setShowSpoiler(!showSpoiler);
+  };
+
+  const wordsArr = text.split(" ");
+  const worddBlocks = [];
+
+  let isSpoiler;
   for (let i = 0; i < wordsArr.length; i++) {
     const word = wordsArr[i];
-    if (word === "[SPOILER-START]") {
-      if (curr[0].length > 0) {
-        wordArraryBlocks.push(curr);
-      }
-      curr = [[], "SPOILER"];
-    } else if (word === "[SPOILER-END]") {
-      wordArraryBlocks.push(curr);
-      curr = [[], "NOT-SPOILER"];
-    } else if (i === 0) {
-      curr = [[], "NOT-SPOILER"];
-      curr[0].push(word);
+    if (word === SPOILER_START_FLAG) {
+      worddBlocks.push([word]);
+      isSpoiler = true;
+    } else if (word === SPOILER_END_FLAG) {
+      isSpoiler = false;
     } else {
-      curr[0].push(word);
+      worddBlocks.push([word, isSpoiler]);
     }
-  }
-  if (curr[0].length > 0) {
-    wordArraryBlocks.push(curr);
   }
 
   return (
     <div className="text-container">
-      {wordArraryBlocks.map((block, idx) => {
-        const words = block[0];
-        if (block[1] === "SPOILER") {
-          return <Spoiler key={"spoiler" + words.length} words={words}></Spoiler>;
+      {worddBlocks.map((block, idx) => {
+        const word = block[0];
+        const isSpoiler = block[1]
+        if (word === SPOILER_START_FLAG) {
+          return (
+            <button onClick={handleShowSpoiler} className="spoiler-button">
+              {showSpoiler ? "HIDE" : "SHOW"} SPOILER
+            </button>
+          );
         } else {
           return (
-            <>
-              { words.map((word, idx) => {
-                return (
-                  <div key={"not spoiler" + words.length + word + idx} className="moving-text">
-                    {word}&nbsp;
-                  </div>
-                );
-              })}
-            </>
+            <div
+              key={text.length + word + idx}
+              className={classNames("moving-text", isSpoiler && !showSpoiler ? "hide" : "", isSpoiler ? "spoiler" : "")}
+            >
+              {word}&nbsp;
+            </div>
           );
         }
       })}

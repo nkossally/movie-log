@@ -256,6 +256,10 @@ code {
     display: flex;
     text-wrap: wrap;
     flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    word-wrap: break-word;
+
 
 }
 
@@ -288,7 +292,7 @@ code {
 
 .spoiler-button{
     margin: 0px 5px;
-    // padding: 1px 5px;
+    width: 175px;
     border-left: 2px solid black;
     border-right: 2px solid black;
     border-top: none;
@@ -296,20 +300,10 @@ code {
     font-weight: 900;
     font-size: 20px;
     border-radius: 3px;
-
-
-}
-
-.spoiler-container{
-    display: flex;
-    flex-direction: row;
-
-}
-
-.spoiler-text{
     background: #dcdcdc;
-
+    color: red;
 }
+
 
 .arrow-button {
     border: none;
@@ -374,3 +368,12 @@ code {
   .fade-in {
     opacity: 1;
   }
+
+.hide {
+    display: none;
+}
+
+.spoiler {
+    background: #dcdcdc;
+    color: red;
+}
