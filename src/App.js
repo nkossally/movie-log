@@ -834,7 +834,7 @@ function App() {
       ref={ref52}
       date="06/11/24"
       text="Highest rated installment in Bourne series. Bourne finds out more details about CIA/NSA? program that “created” him. Post 9/11 film skeptical of surveillance and lethal covert operations with no civilian oversight. Joan Allen is the good cop, versus various white guys (David Strathairn) who are bad cops. I suppose institutions exist in this film, but nothing provokes political and intellectual analysis. This is entertainment. Action. Shaky cam. Dour Julia Styles. Brainwashing. Hot guys with guns. Old men in rooms. Damon at end of his baby face era. Green tint. Pretty good. As much as I liked the first movie twenty years ago, I don’t think I saw this sequel before, so carries no nostalgia for me. Think I would love this as much as the first one if it did."
-      text2="I’ve been thinking about how “the medium is the message” is an overstatement. Films and tv can have all sorts of messages. But, for the most part, films tend to aim at entertainment, not edification. [Spoiler] That final moment when Jason jolts back to life after appearing dead and that Moby soundtrack riff plays is deeply anti-thought movieish euphoric climax. Just a movie."
+      text2="I’ve been thinking about how “the medium is the message” is an overstatement. Films and tv can have all sorts of messages. But, for the most part, films tend to aim at entertainment, not edification. [SPOILER-START] That final moment when Jason jolts back to life after appearing dead and that Moby soundtrack riff plays is deeply anti-thought movieish euphoric climax. Just a movie. [SPOILER-END]"
       rating={7}
     />,
     <Review
