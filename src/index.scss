@@ -291,17 +291,19 @@ code {
 }
 
 .spoiler-button{
-    margin: 0px 3px;
+    padding: 0px 3px;
+    margin-right: 4px;
     width: 175px;
-    border-left: 2px solid black;
-    border-right: 2px solid black;
+    border-left: 2px solid #7C0A02;;
+    border-right: 2px solid #7C0A02;;
     border-top: none;
     border-bottom: none;
     font-weight: 900;
     font-size: 20px;
     border-radius: 3px;
-    background: #dcdcdc;
-    color: red;
+    background: #E0FFFF;
+    color: #7C0A02;
+
 }
 
 
@@ -374,6 +376,6 @@ code {
 }
 
 .spoiler {
-    background: #dcdcdc;
-    color: red;
+    background: #E0FFFF;
+    color: #7C0A02;
 }
