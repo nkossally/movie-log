@@ -31,18 +31,24 @@ export const Text = ({ text }) => {
     <div className="text-container">
       {worddBlocks.map((block, idx) => {
         const word = block[0];
-        const isSpoiler = block[1]
+        const isSpoiler = block[1];
         if (word === SPOILER_START_FLAG) {
           return (
-            <button onClick={handleShowSpoiler} className="spoiler-button">
-              {showSpoiler ? "HIDE" : "SHOW"} SPOILER
-            </button>
+            <>
+              <button onClick={handleShowSpoiler} className="spoiler-button">
+                {showSpoiler ? "HIDE" : "SHOW"} SPOILER
+              </button>{" "}
+            </>
           );
         } else {
           return (
             <div
               key={text.length + word + idx}
-              className={classNames("moving-text", isSpoiler && !showSpoiler ? "hide" : "", isSpoiler ? "spoiler" : "")}
+              className={classNames(
+                "moving-text",
+                isSpoiler && !showSpoiler ? "hide" : "",
+                isSpoiler ? "spoiler" : ""
+              )}
             >
               {word}&nbsp;
             </div>

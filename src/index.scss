@@ -300,9 +300,7 @@ code {
     margin-right: 4px;
     width: 175px;
     border-left: 2px solid #7C0A02;
-    ;
     border-right: 2px solid #7C0A02;
-    ;
     border-top: none;
     border-bottom: none;
     font-weight: 900;
@@ -310,6 +308,9 @@ code {
     border-radius: 3px;
     background: #E0FFFF;
     color: #7C0A02;
+    display: flex;
+    align-items: top;
+    justify-content: center;
 
 }
 
