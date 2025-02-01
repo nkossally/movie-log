@@ -164,7 +164,7 @@ function App() {
   const reviews = [
     <Review
     title="Deadpool & Wolverine"
-    director=""
+    director="Shawn Levy"
     writer=""
     ref={ref116}
     date="01/31/2025"
