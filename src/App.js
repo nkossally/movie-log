@@ -146,6 +146,7 @@ function App() {
   const ref113 = useRef(null);
   const ref114 = useRef(null);
   const ref115 = useRef(null);
+  const ref116 = useRef(null);
 
   const toggleLinks = () => {
     setShowLinks(!showLinks);
@@ -161,6 +162,21 @@ function App() {
   };
 
   const reviews = [
+    <Review
+    title="Deadpool & Wolverine"
+    director=""
+    writer=""
+    ref={ref116}
+    date="01/31/2025"
+    releaseDate="2024"
+    paragraphs={[
+      "Deadpool & Wolverine exists because Disney acquired Fox and so Deadpool can be in integrated into the Marvel Cinematic Universe (MCU) now. Deadpool makes many meta jokes about these corporate property rights that are sort of funny. All of the meta jokes in Deadpool are sort of clever and sort of lazy and cynical. For example, Deadpool jokes about the failure of MCU’s multiverse. The joke is based on how, for the past several years, Disney reduced all of the cosmic potential of the idea of the multiverse to an excuse to retcon characters and plots. The multiverse is a lazy way to staple together an endless amount of Marvel films fans feel obligated to see. Disney corporatized the multiverse. But Disney did not make the multiverse make sense. I don’t understand any of the time and space travel in this movie, and I don’t think the writers do either. This movie is a joke delivery machine, so the world building and the plot do not matter, so long as the jokes hit. As for the jokes, they are all meta jokes that are explicit ads for various corporations. This movie made a lot of money. My guess is it appeals to the inner smartass teenager inside of adults who thinks they are more of a rebel than they actually are. The jokes are juvenile, and tepid enough to pass Disney’s censor. The original Deadpool only pretended to be more dangerous than other superhero films. But it was always corporate. If the jokes had any bite and, say, critiqued corporations, maybe Deadpool would be about something substantive. But it’s not. More straightforwardly than most movies, Deadpool is about corporate profits.",
+      "Side note: The screenwriting-101-character motivations in this movie are clear, but the character arcs make no sense. [SPOILER-START] Deadpool’s arc is he starts out wanting to join the Avengers in order to make his life matter. He learns he does not need to be a superhero in order to matter. He just needs to love his friends. He learns this by saving the universe. Nonsense! Also, Wolverine is traumatized because he could not save X-Men in his original universe. He gets over this trauma because he is told that if he didn’t fail in his own universe, he wouldn’t have succeeded in another one. This is a remarkably easy way to sidestep trauma. This universe is the best of all possible universes, so if bad things happened, it is all acceptable because the present always justifies the past. What a horrible concept. No guilt. No responsibility. No reason to do or feel anything. [SPOILER-END]",
+      "Side note 2: The coolest thing about Deadpool is his queerness. He jokes about pegging and he appreciates Wolverine’s body. However, this movie undercuts pro-queerness with a scene in which Deadpool stabs a guy in the ass, because queer sex is always violent and funny.",
+    ]}
+    theater=""
+    rating={6}
+  />,
     <Review
       title="10 Things I Hate About You"
       director="Gil Junger"

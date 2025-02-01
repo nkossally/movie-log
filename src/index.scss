@@ -299,15 +299,14 @@ code {
     padding: 0px 3px;
     margin-right: 7px;
     width: 175px;
-    border-left: 2px solid #7C0A02;
-    border-right: 2px solid #7C0A02;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
     border-top: none;
     border-bottom: none;
     font-weight: 900;
     font-size: 20px;
     border-radius: 3px;
-    background: #E0FFFF;
-    color: #7C0A02;
+    background: #FFFF4D;
     display: flex;
     justify-content: center;
 
@@ -383,6 +382,9 @@ code {
 }
 
 .spoiler {
-    background: #E0FFFF;
-    color: #7C0A02;
+    background: #FFFF4D;
+}
+
+.no-highlight {
+    background: none !important;    
 }

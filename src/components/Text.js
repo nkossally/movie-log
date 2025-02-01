@@ -12,26 +12,28 @@ export const Text = ({ text }) => {
   };
 
   const wordsArr = text.split(" ");
-  const worddBlocks = [];
+  const wordBlocks = [];
 
   let isSpoiler;
   for (let i = 0; i < wordsArr.length; i++) {
     const word = wordsArr[i];
     if (word === SPOILER_START_FLAG) {
-      worddBlocks.push([word]);
+      wordBlocks.push([word]);
       isSpoiler = true;
     } else if (word === SPOILER_END_FLAG) {
+      wordBlocks[wordBlocks.length - 1].push(true)
       isSpoiler = false;
     } else {
-      worddBlocks.push([word, isSpoiler]);
+      wordBlocks.push([word, isSpoiler]);
     }
   }
 
   return (
     <div className="text-container">
-      {worddBlocks.map((block, idx) => {
+      {wordBlocks.map((block, idx) => {
         const word = block[0];
         const isSpoiler = block[1];
+        const isLastWordOfSpoiler = block[2]
         if (word === SPOILER_START_FLAG) {
           return (
             <>
@@ -42,16 +44,16 @@ export const Text = ({ text }) => {
           );
         } else {
           return (
-            <div
-              key={text.length + word + idx}
-              className={classNames(
-                "moving-text",
-                isSpoiler && !showSpoiler ? "hide" : "",
-                isSpoiler ? "spoiler" : ""
-              )}
-            >
-              {word}&nbsp;
-            </div>
+              <div
+                key={text.length + word + idx}
+                className={classNames(
+                  "moving-text",
+                  isSpoiler && !showSpoiler ? "hide" : "",
+                  isSpoiler ? "spoiler" : ""
+                )}
+              >
+                {word} <span className={isLastWordOfSpoiler ? "no-highlight" : "" }>&nbsp;</span>
+              </div>
           );
         }
       })}
