@@ -147,6 +147,8 @@ function App() {
   const ref114 = useRef(null);
   const ref115 = useRef(null);
   const ref116 = useRef(null);
+  const ref117 = useRef(null);
+  const ref118 = useRef(null);
 
   const toggleLinks = () => {
     setShowLinks(!showLinks);
@@ -163,20 +165,49 @@ function App() {
 
   const reviews = [
     <Review
-    title="Deadpool & Wolverine"
-    director="Shawn Levy"
-    writer=""
-    ref={ref116}
-    date="01/31/2025"
-    releaseDate="2024"
-    paragraphs={[
-      "Deadpool & Wolverine exists because Disney acquired Fox and can integrate Deadpool into the Marvel Cinematic Universe (MCU) now. Deadpool makes many meta jokes about corporate property rights that are sort of funny. All of the meta jokes in Deadpool are sort of clever and sort of lazy and cynical. For example, Deadpool jokes about the failure of MCU’s multiverse. The joke is based on how, for the past several years, Disney reduced all of the cosmic potential of the multiverse to an excuse to retcon characters and plots. The multiverse is a lazy way to staple together an endless amount of Marvel films fans feel obligated to see. Disney corporatized the multiverse. But Disney did not make sense of the multiverse. I don’t understand any of the time and space travel in this movie, and I don’t think the writers do either. This movie is a joke delivery machine, so the world building and the plot do not matter, so long as the jokes hit. As for the jokes, they are all meta jokes that are explicit ads for various corporations. This movie made a lot of money. My guess is it appeals to the inner smartass teenager inside of adults who thinks they are more of a rebel than they actually are. The jokes are juvenile, and tepid enough to pass Disney’s censor. The original Deadpool only pretended to be more dangerous than other superhero films. But it was always corporate. If the jokes had any bite and, say, critiqued corporations, maybe Deadpool would be about something substantive. But it’s not. More straightforwardly than most movies, Deadpool is about corporate profits. Nonetheless, this movie is pretty funny sometimes and better than the first installment.",
-      "Side note: The screenwriting-101-character motivations in this movie are clear, but the character arcs make no sense. Deadpool’s arc is he starts out wanting to join the Avengers in order to make his life matter. He learns he does not need to be a superhero in order to matter. He just needs to love his friends. He learns this by saving the universe. Nonsense! Also, Wolverine is traumatized because he could not save the X-Men in his original universe. He gets over this trauma because he is told that if he didn’t fail in his own universe, he wouldn’t have succeeded in another one. This is a remarkably easy way to sidestep trauma. This universe is the best of all possible universes, so if bad things happened, it is all acceptable because the present always justifies the past. What a horrible concept. No guilt. No responsibility. No reason to do or feel anything.",
-      "Side note 2: The coolest thing about Deadpool is his queerness. He jokes about pegging and he appreciates Wolverine’s body. However, this movie undercuts pro-queerness with a scene in which Deadpool stabs a guy in the ass, because queer sex is always violent and funny."
-    ]}
-    theater=""
-    rating={6}
-  />,
+      title="The Wild Robot"
+      director="Chris Sanders"
+      writer=""
+      ref={ref118}
+      date="02/09/2025"
+      releaseDate="2024"
+      paragraphs={[
+        "The first few minutes of this movie are frightening, apocalyptic, and gripping. A robot programmed to assist humans “wakes up” in the wild, unable to communicate with animals and unable to find tasks to fulfill. The beginning of this movie tricked me into thinking that a children’s movie could examine alienation and existential dread. But, of course, [SPOILER-START] the robot learns to speak animal languages and, for the rest of the movie, all of the animals speak English and behave like humans. And, of course, the robot learns to be human by becoming a parent to small bird. All of the darkness the first few minutes of the film introduces are completely sidestepped by the next few minutes. [SPOILER-END] What follows is a Disney movie that was not made by Disney. I understand that children cannot handle certain material, but this film takes too many shortcuts and is not coherent thematically. Much like WALL-E, this film suggests that tech has made human society too comfortable and wasteful. Humans have lost touch with humanity, and robots and/or anthropomorphized animals are the safekeepers of humanity. But how can a robot be a vestige of humanity while tech, in general, has ruined society? [SPOILER-START] In The Wild Robot, we witness humans destroy nature. Yet, the savior of a forest and its animal dwellers is a high-tech robot. The robot introduces tech to animal society by building a controlled fire. This doesn’t make sense. It also doesn’t make sense that all the animals, predators and prey, bears and beavers, become a United Nations with peace agreements in order to survive the winter. That’s what warring human nation states do. Not bears! [SPOILER-END] If human society is so destructive, why anthropomorphize nature? Why make nature more human?",
+        "The movies are very gloomy about what human society and modern technology has wrought. I guess children’s movies have to dilute this gloom with the idea of the redemptive qualities of love, or a familiar story about an outsider finding love, community and self-confidence. I admit that this movie choked me up. How could I not feel for a robot that found purpose by parenting an adorable bird? But I feel manipulated and disappointed."
+
+      ]}
+      theater=""
+      rating={6}
+    />,
+    <Review
+      title="Companion"
+      director="Drew Hancock"
+      writer="Drew Hancock"
+      ref={ref117}
+      date="02/09/2025"
+      releaseDate="2025"
+      paragraphs={[
+        "I have to see this movie a second time before I decide if I really like it or really love it! Zach Cregger, writer and director of Barbarian, is one of the producers, so ads link this film to Barbarian. Like Barbarian, this is an extremely refreshing high concept movie with an exciting plot and relevant social commentary. Unlike Barbarian, this film, written and directed by Drew Hancock, is more thriller than horror. Enough said about the plot. It’s best to go into this movie blind because this is what the movies were made for – fresh original stories that are entertaining.",
+        "[SPOILER-START] Side-note 1: This film has a lot of ideas and poses a lot of questions. The most pressing question is what happens to human relationships when cyborgs are intimate partners. The companion bots in this film have false memories of meet cutes with their human owners. Several scenes of the movie suggest that the Hollywood meet cute is meaningless. Furthermore, I think Companion asks all human relationships are made meaningless by tech. There is not a whole lot of love between humans in this film, and the protagonist is a cyborg. The cyborg is more human than the humans. This anthropomorphism of a robot reminds me of The Wild Robot. That movie also suggests that technology has ruined human society, and the animals and the robots are the safekeepers of humanity. The animals and robots are our last hope because they are human, somehow. [SPOILER-END]",
+      ]}
+      theater="Regal UA Kaufman Astoria"
+      rating={9}
+    />,
+    <Review
+      title="Deadpool & Wolverine"
+      director="Shawn Levy"
+      writer=""
+      ref={ref116}
+      date="01/31/2025"
+      releaseDate="2024"
+      paragraphs={[
+        "Deadpool & Wolverine exists because Disney acquired Fox and can integrate Deadpool into the Marvel Cinematic Universe (MCU) now. Deadpool makes many meta jokes about corporate property rights that are sort of funny. All of the meta jokes in Deadpool are sort of clever and sort of lazy and cynical. For example, Deadpool jokes about the failure of MCU’s multiverse. The joke is based on how, for the past several years, Disney reduced all of the cosmic potential of the multiverse to an excuse to retcon characters and plots. The multiverse is a lazy way to staple together an endless amount of Marvel films fans feel obligated to see. Disney corporatized the multiverse. But Disney did not make sense of the multiverse. I don’t understand any of the time and space travel in this movie, and I don’t think the writers do either. This movie is a joke delivery machine, so the world building and the plot do not matter, so long as the jokes hit. As for the jokes, they are all meta jokes that are explicit ads for various corporations. This movie made a lot of money. My guess is it appeals to the inner smartass teenager inside of adults who thinks they are more of a rebel than they actually are. The jokes are juvenile, and tepid enough to pass Disney’s censor. The original Deadpool only pretended to be more dangerous than other superhero films. But it was always corporate. If the jokes had any bite and, say, critiqued corporations, maybe Deadpool would be about something substantive. But it’s not. More straightforwardly than most movies, Deadpool is about corporate profits. Nonetheless, this movie is pretty funny sometimes and better than the first installment.",
+        "Side note: The screenwriting-101-character motivations in this movie are clear, but the character arcs make no sense. Deadpool’s arc is he starts out wanting to join the Avengers in order to make his life matter. He learns he does not need to be a superhero in order to matter. He just needs to love his friends. He learns this by saving the universe. Nonsense! Also, Wolverine is traumatized because he could not save the X-Men in his original universe. He gets over this trauma because he is told that if he didn’t fail in his own universe, he wouldn’t have succeeded in another one. This is a remarkably easy way to sidestep trauma. This universe is the best of all possible universes, so if bad things happened, it is all acceptable because the present always justifies the past. What a horrible concept. No guilt. No responsibility. No reason to do or feel anything.",
+        "Side note 2: The coolest thing about Deadpool is his queerness. He jokes about pegging and he appreciates Wolverine’s body. However, this movie undercuts pro-queerness with a scene in which Deadpool stabs a guy in the ass, because queer sex is always violent and funny.",
+      ]}
+      theater=""
+      rating={6}
+    />,
     <Review
       title="10 Things I Hate About You"
       director="Gil Junger"
@@ -1151,6 +1182,8 @@ function App() {
   ];
 
   const reviewLinks = [
+    [ref118, "The Wild Robot"],
+    [ref117, "Companion"],
     [ref116, "Deadpool & Wolverine"],
     [ref115, "10 Things I Hate About You"],
     [ref114, "Hard Truths"],
