@@ -173,7 +173,7 @@ function App() {
       date="02/09/2025"
       releaseDate="2024"
       paragraphs={[
-        "This brilliant movie first makes you sympathize with a man with a condition that “disfigures” his face. Then, the movie makes you hate him. I am conditioned to believe that people are conditioned; to believe that people disabled by society could flourish if society were not so hateful and exclusive. In this movie, Sebastian Stan’s transition from a man understood to be disfigured to a man understood to be beautiful only reveals the persistent, morose malcontent that Sebastian Stan always was and will ever be. A Different Man is one of the most intellectually stimulating films of 2024."
+        "At first, A Different Man makes you sympathize with a man who has a condition that “disfigures” his face. Then, the movie makes you hate him. I am conditioned to believe that people are not disabled, and that society disables people. If society were not so hateful and exclusive, the “disabled” could flourish. A Different Man complicates those politics. In A Different Man, Sebastian Stan’s transition from a disfigured man to a beautiful man only reveals the persistent, morose malcontent that Sebastian Stan always was and will ever be. A Different Man is one of the most daring and intellectually stimulating films of 2024."
       ]}
       theater=""
       rating={9}
