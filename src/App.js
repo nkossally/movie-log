@@ -149,6 +149,7 @@ function App() {
   const ref116 = useRef(null);
   const ref117 = useRef(null);
   const ref118 = useRef(null);
+  const ref119 = useRef(null);
 
   const toggleLinks = () => {
     setShowLinks(!showLinks);
@@ -165,6 +166,19 @@ function App() {
 
   const reviews = [
     <Review
+      title="A Different Man"
+      director="Aaron Schimberg"
+      writer="Aaron Schimberg"
+      ref={ref119}
+      date="02/09/2025"
+      releaseDate="2024"
+      paragraphs={[
+        "This brilliant movie first makes you sympathize with a man with a condition that “disfigures” his face. Then, the movie makes you hate him. I am conditioned to believe that people are conditioned; to believe that people disabled by society could flourish if society were not so hateful and exclusive. In this movie, Sebastian Stan’s transition from a man understood to be disfigured to a man understood to be beautiful only reveals the persistent, morose malcontent that Sebastian Stan always was and will ever be. A Different Man is one of the most intellectually stimulating films of 2024."
+      ]}
+      theater=""
+      rating={9}
+    />,
+    <Review
       title="The Wild Robot"
       director="Chris Sanders"
       writer=""
@@ -173,8 +187,7 @@ function App() {
       releaseDate="2024"
       paragraphs={[
         "The first few minutes of this movie are frightening, apocalyptic, and gripping. A robot programmed to assist humans “wakes up” in the wild, unable to communicate with animals and unable to find tasks to fulfill. The beginning of this movie tricked me into thinking that a children’s movie could examine alienation and existential dread. [SPOILER-START] But, of course, the robot learns to speak animal languages and, for the rest of the movie, all of the animals speak English and behave like humans. And, of course, the robot learns to be human by becoming a parent to small bird. The first few minutes of this movie introduce darkness the next few minutes completely sidestep. What follows is a Disney movie that Disney did not make. I understand that children cannot handle certain material, but this film takes too many shortcuts and is not coherent thematically. Much like WALL-E, this film suggests that tech makes human society too comfortable and too wasteful. Humans have lost touch with humanity, and robots and/or anthropomorphized animals are the safekeepers of humanity. But how can a robot be a safekeeper of humanity while tech, in general, ruins humanity? In The Wild Robot, we witness humans destroy nature. Yet, the savior of a forest and its animal dwellers is a high-tech robot. The robot introduces tech to animal society by building a controlled fire. The robot even invents a United Nations of predators and prey, so that bears and beavers alike can inhabit a shared space under peace agreements. [SPOILER-END] But that’s what warring human nation-states with long histories of imperialism do. Not bears! If human society is so destructive, why anthropomorphize nature? Why make nature more human?",
-        "The movies are very gloomy about what human society and modern technology have wrought. I guess children’s movies have to dilute this gloom with the idea of the redemptive qualities of love. This movie posits notions of existential dread and fear of mortality, and then distracts audiences with a familiar story about an outsider finding love, community and self-confidence. I admit that this movie got me a little choked up. How could I not feel for a robot that found purpose by parenting an adorable bird? But I feel manipulated and disappointed."
-
+        "The movies are very gloomy about what human society and modern technology have wrought. I guess children’s movies have to dilute this gloom with the idea of the redemptive qualities of love. This movie posits notions of existential dread and fear of mortality, and then distracts audiences with a familiar story about an outsider finding love, community and self-confidence. I admit that this movie got me a little choked up. How could I not feel for a robot that found purpose by parenting an adorable bird? But I feel manipulated and disappointed.",
       ]}
       theater=""
       rating={6}
@@ -1182,6 +1195,7 @@ function App() {
   ];
 
   const reviewLinks = [
+    [ref119, "A Different Man"],
     [ref118, "The Wild Robot"],
     [ref117, "Companion"],
     [ref116, "Deadpool & Wolverine"],
