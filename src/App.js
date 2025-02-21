@@ -151,6 +151,7 @@ function App() {
   const ref118 = useRef(null);
   const ref119 = useRef(null);
   const ref120 = useRef(null);
+  const ref121 = useRef(null);
 
   const toggleLinks = () => {
     setShowLinks(!showLinks);
@@ -166,6 +167,19 @@ function App() {
   };
 
   const reviews = [
+    <Review
+    title="Miami Blues"
+    director="George Armitage"
+    writer=""
+    ref={ref121}
+    date="02/21/2025"
+    releaseDate="1990"
+    paragraphs={[
+      ""
+    ]}
+    theater=""
+    rating={6}
+  />,
     <Review
     title="Mrs. Brown"
     director="John Madden"
@@ -1213,6 +1227,7 @@ function App() {
   ];
 
   const reviewLinks = [
+    [ref121, "Miami Blues"],
     [ref120, "Mrs. Brown"],
     [ref119, "A Different Man"],
     [ref118, "The Wild Robot"],
