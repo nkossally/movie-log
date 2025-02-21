@@ -152,6 +152,7 @@ function App() {
   const ref119 = useRef(null);
   const ref120 = useRef(null);
   const ref121 = useRef(null);
+  const ref122 = useRef(null);
 
   const toggleLinks = () => {
     setShowLinks(!showLinks);
@@ -168,35 +169,49 @@ function App() {
 
   const reviews = [
     <Review
-    title="Miami Blues"
-    director="George Armitage"
-    writer=""
-    ref={ref121}
-    date="02/21/2025"
-    releaseDate="1990"
-    paragraphs={[
-      "Before her nomination for The Hateful Eight, Jennifer Jason Leigh was considered one of the best American actresses to have zero nominations. Her performance in Miami Blues as a prostitute who falls for sociopath boyfriend from hell, Alec Baldwin, is rightly celebrated. She is good here. I think that Leigh is one of the better method actors who rarely chews scenery and tends to be generous with her costars and with the audience. She does not overact or underact. Even when she is showy, she does not appear to be showy. She is one of the most down to earth, believable actresses in film history, I think. This film is a decent showcase of her talent. Alec Baldwin is also good, but he may have just been on cocaine. As for the movie, it is a post-modern neo-noir film that makes fun of noir conventions. The actors play it earnest even when the movie is comedic and ironic. Odd movie. It’s a vibe. I like it."
-    ]}
-    theater=""
-    rating={6}
-  />,
+      title="Moonstruck"
+      director="Norman Jewison"
+      writer=""
+      ref={ref122}
+      date="02/21/2025"
+      releaseDate="1987"
+      paragraphs={[
+        "Classic rom com about 37-year-old widow, Cher, who falls in love with the brother of her fiancé.  Cher gives a classic movie star performance. The most memorable moment in this movie is Cher rolling her eyes after asking Nicolas Cage where the Met (Metropolitan Opera) is. That’s power. Cher’s star power does not overwhelm the movie. She is the main character, but the setting of New York City and the community of Catholic Italian Americans also matter. That community includes old people. Uniquely, old people matter in this rom com, and so does death. Cher is haunted by the death of her first husband, and her mom, Olympia Dukakis (RIP) insists that men cheat on women in order to avoid death. I agree. It is refreshing to watch a rom com obsessed with old people and death.", 
+        "I really like this movie. It’s smart. It’s well written. It’s funny. I think you have to be invested in the concepts of love, marriage and family in order to appreciate this film. Also, this film depicts Italian Americans as uniformly adorable. If you are not a cynical realist, this is an excellent romantic diversion from reality that is mostly treacly sweet with some bitter undertones."
+      ]}
+      theater=""
+      rating={9}
+    />,
     <Review
-    title="Mrs. Brown"
-    director="John Madden"
-    writer=""
-    ref={ref120}
-    date="02/21/2025"
-    releaseDate="1997"
-    paragraphs={[
-      "A lot of Best Actress obsessives argue that Helen Hunt should have lost the 1997 Best Actress Oscar to one of her British competitors, including Judi Dench, nominated for Mrs. Brown. Judi Dench is good in Mrs. Brown. The quality of the movie itself, however, depends on the movie watcher’s investment in British royalty. The premise of the film is Queen Victoria is depressed after the death of her husband, and a Scottish servant helps her feel alive again. That’s it. The movie looks handsome enough for a 90s movie. John Madden’s directing is competent and personality-free. That is to say, this film looks about as slick as an episode of Succession. The castles, the gardens, the garments are all nice. But the most compelling part of this movie is the existence of the monarchy. You have to care about the emotions of a depressed Queen of England to care about this movie. You have to accept that a scene of this movie casually assumes the Irish must be conquered while the main import of the scene is whether the Queen is emotionally ready to resume public appearances. I, for one, don’t care. Even with the orchestral soundtrack pulling at heartstrings, I don’t care.",
-      "A snobbish tendency in American culture is over-celebrating British culture. Judi Dench is quintessentially British in Mrs. Brown and Helen Hunt is quintessentially American in As Good as It Gets. Helen Hunt’s screen presence resists snobbishness, and so American snobs dismiss Hunt’s Oscar win, and over-rate boring movies like Mrs. Brown. For the 1997 Best Oscar race, Hunt delivered the most charming movie star performance and Emily Watson delivered the most emotional actorly performance. Judi Dench was out of luck.",
-      "Side note 1: The Scottish servant enlivens Queen Victoria because she is stuffy and British and he is unpretentious and Scottish. This movie is the British version of Bringing Down the House.",
-      "Side note 2: This movie teaches you the royals are pretentious because they swim in heavy garments. By contrast, in the best scene in the movie, two Scottish servants, including Gerard Butler, go skinny dipping.",
-      "Side note 3. Gerard Butler’s penis. Cinema at it’s finest. Maybe this horse shit movie did deserve Academy Awards. "
-    ]}
-    theater=""
-    rating={5}
-  />,
+      title="Miami Blues"
+      director="George Armitage"
+      writer=""
+      ref={ref121}
+      date="02/21/2025"
+      releaseDate="1990"
+      paragraphs={[
+        "Before her nomination for The Hateful Eight, Jennifer Jason Leigh was considered one of the best American actresses to have zero nominations. Her performance in Miami Blues as a prostitute who falls for sociopath boyfriend from hell, Alec Baldwin, is rightly celebrated. She is good here. I think that Leigh is one of the better method actors who rarely chews scenery and tends to be generous with her costars and with the audience. She does not overact or underact. Even when she is showy, she does not appear to be showy. She is one of the most down to earth, believable actresses in film history, I think. This film is a decent showcase of her talent. Alec Baldwin is also good, but he may have just been on cocaine. As for the movie, it is a post-modern neo-noir film that makes fun of noir conventions. The actors play it earnest even when the movie plays it comedic and ironic. Odd movie. It’s a vibe. I like it.",
+      ]}
+      theater=""
+      rating={6}
+    />,
+    <Review
+      title="Mrs. Brown"
+      director="John Madden"
+      writer=""
+      ref={ref120}
+      date="02/21/2025"
+      releaseDate="1997"
+      paragraphs={[
+        "A lot of Best Actress obsessives argue that Helen Hunt should have lost the 1997 Best Actress Oscar to one of her British competitors, including Judi Dench, nominated for Mrs. Brown. Judi Dench is good in Mrs. Brown. The quality of the movie itself, however, depends on the movie watcher’s investment in British royalty. The premise of the film is Queen Victoria is depressed after the death of her husband, and a Scottish servant helps her feel alive again. That’s it. The movie looks handsome enough for a 90s movie. John Madden’s directing is competent and personality-free. That is to say, this film looks about as slick as an episode of Succession. The castles, the gardens, the garments are all nice. But the most compelling part of this movie is the existence of the monarchy. You have to care about the emotions of a depressed Queen of England to care about this movie. You have to accept that a scene of this movie casually assumes the Irish must be conquered while the main import of the scene is whether the Queen is emotionally ready to resume public appearances. I, for one, don’t care. Even with the orchestral soundtrack pulling at heartstrings, I don’t care.",
+        "A snobbish tendency in American culture is over-celebrating British culture. Judi Dench is quintessentially British in Mrs. Brown and Helen Hunt is quintessentially American in As Good as It Gets. Helen Hunt’s screen presence resists snobbishness, and so American snobs dismiss Hunt’s Oscar win, and over-rate boring movies like Mrs. Brown. For the 1997 Best Oscar race, Hunt delivered the most charming movie star performance and Emily Watson delivered the most emotional actorly performance. Judi Dench was out of luck.",
+        "Side note 1: The Scottish servant enlivens Queen Victoria because she is stuffy and British and he is unpretentious and Scottish. This movie is the British version of Bringing Down the House.",
+        "Side note 2: This movie teaches you the royals are pretentious because they swim in heavy garments. By contrast, in the best scene in the movie, two Scottish servants, including Gerard Butler, go skinny dipping.",
+        "Side note 3. Gerard Butler’s penis. Cinema at it’s finest. Maybe this horse shit movie did deserve Academy Awards. ",
+      ]}
+      theater=""
+      rating={5}
+    />,
     <Review
       title="A Different Man"
       director="Aaron Schimberg"
@@ -205,7 +220,7 @@ function App() {
       date="02/09/2025"
       releaseDate="2024"
       paragraphs={[
-        "At first, A Different Man makes you sympathize with a man who has a condition that “disfigures” his face. Then, the movie makes you hate him. I am conditioned to believe that people are not disabled, and that society disables people. If society were not so hateful and exclusive, the “disabled” could flourish. A Different Man complicates those politics. In A Different Man, Sebastian Stan’s transition from a disfigured man to a beautiful man only reveals the persistent, morose malcontent that Sebastian Stan always was and will ever be. A Different Man is one of the most daring and intellectually stimulating films of 2024."
+        "At first, A Different Man makes you sympathize with a man who has a condition that “disfigures” his face. Then, the movie makes you hate him. I am conditioned to believe that people are not disabled, and that society disables people. If society were not so hateful and exclusive, the “disabled” could flourish. A Different Man complicates those politics. In A Different Man, Sebastian Stan’s transition from a disfigured man to a beautiful man only reveals the persistent, morose malcontent that Sebastian Stan always was and will ever be. A Different Man is one of the most daring and intellectually stimulating films of 2024.",
       ]}
       theater=""
       rating={9}
@@ -1227,6 +1242,7 @@ function App() {
   ];
 
   const reviewLinks = [
+    [ref122, "Moonstruck"],
     [ref121, "Miami Blues"],
     [ref120, "Mrs. Brown"],
     [ref119, "A Different Man"],
