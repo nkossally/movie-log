@@ -175,7 +175,7 @@ function App() {
     date="02/21/2025"
     releaseDate="1990"
     paragraphs={[
-      ""
+      "Before her nomination for The Hateful Eight, Jennifer Jason Leigh was considered one of the best American actresses to have zero nominations. Her performance in Miami Blues as a prostitute who falls for sociopath boyfriend from hell, Alec Baldwin, is rightly celebrated. She is good here. I think that Leigh is one of the better method actors who rarely chews scenery and tends to be generous with her costars and with the audience. She does not overact or underact. Even when she is showy, she does not appear to be showy. She is one of the most down to earth, believable actresses in film history, I think. This film is a decent showcase of her talent. Alec Baldwin is also good, but he may have just been on cocaine. As for the movie, it is a post-modern neo-noir film that makes fun of noir conventions. The actors play it earnest even when the movie is comedic and ironic. Odd movie. It’s a vibe. I like it."
     ]}
     theater=""
     rating={6}
