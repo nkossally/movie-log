@@ -150,6 +150,7 @@ function App() {
   const ref117 = useRef(null);
   const ref118 = useRef(null);
   const ref119 = useRef(null);
+  const ref120 = useRef(null);
 
   const toggleLinks = () => {
     setShowLinks(!showLinks);
@@ -165,6 +166,23 @@ function App() {
   };
 
   const reviews = [
+    <Review
+    title="Mrs. Brown"
+    director="John Madden"
+    writer=""
+    ref={ref120}
+    date="02/21/2025"
+    releaseDate="1997"
+    paragraphs={[
+      "A lot of Best Actress obsessives argue that Helen Hunt should have lost the 1997 Best Actress Oscar to one of her British competitors, including Judi Dench, nominated for Mrs. Brown. Judi Dench is good in Mrs. Brown. The quality of the movie itself, however, depends on the movie watcher’s investment in British royalty. The premise of the film is Queen Victoria is depressed after the death of her husband, and a Scottish servant helps her feel alive again. That’s it. The movie looks handsome enough for a 90s movie. John Madden’s directing is competent and personality-free. That is to say, this film looks about as slick as an episode of Succession. The castles, the gardens, the garments are all nice. But the most compelling part of this movie is the existence of the monarchy. You have to care about the emotions of a depressed Queen of England to care about this movie. You have to accept that a scene of this movie casually assumes the Irish must be conquered while the main import of the scene is whether the Queen is emotionally ready to resume public appearances. I, for one, don’t care. Even with the orchestral soundtrack pulling at heartstrings, I don’t care.",
+      "A snobbish tendency in American culture is over-celebrating British culture. Judi Dench is quintessentially British in Mrs. Brown and Helen Hunt is quintessentially American in As Good as It Gets. Helen Hunt’s screen presence resists snobbishness, and so American snobs dismiss Hunt’s Oscar win, and over-rate boring movies like Mrs. Brown. For the 1997 Best Oscar race, Hunt delivered the most charming movie star performance and Emily Watson delivered the most emotional actorly performance. Judi Dench was out of luck.",
+      "Side note 1: The Scottish servant enlivens Queen Victoria because she is stuffy and British and he is unpretentious and Scottish. This movie is the British version of Bringing Down the House.",
+      "Side note 2: This movie teaches you the royals are pretentious because they swim in heavy garments. By contrast, in the best scene in the movie, two Scottish servants, including Gerard Butler, go skinny dipping.",
+      "Side note 3. Gerard Butler’s penis. Cinema at it’s finest. Maybe this horse shit movie did deserve Academy Awards. "
+    ]}
+    theater=""
+    rating={5}
+  />,
     <Review
       title="A Different Man"
       director="Aaron Schimberg"
@@ -1195,6 +1213,7 @@ function App() {
   ];
 
   const reviewLinks = [
+    [ref120, "Mrs. Brown"],
     [ref119, "A Different Man"],
     [ref118, "The Wild Robot"],
     [ref117, "Companion"],
