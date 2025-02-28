@@ -153,6 +153,7 @@ function App() {
   const ref120 = useRef(null);
   const ref121 = useRef(null);
   const ref122 = useRef(null);
+  const ref123 = useRef(null);
 
   const toggleLinks = () => {
     setShowLinks(!showLinks);
@@ -168,6 +169,25 @@ function App() {
   };
 
   const reviews = [
+    <Review
+    title="Phone Booth"
+    director="Joel Schumacher"
+    writer="Larry Cohen"
+    ref={ref123}
+    date="02/7/2025"
+    releaseDate="2002"
+    paragraphs={[
+      "This is a perfect high concept movie. A sniper traps a corrupt publicist in a phone booth in New York City and forces him to atone for his moral failings. Great idea that could be corny if poorly executed. Fortunately, Joel Schumacher, the crew, and the actors nail the execution. I liked this movie when it was released in 2002, and, with nostalgic grade inflation, I might love it now.",
+      "The writer of Phone Booth originally conceived the film as a paranoid thriller for Alfred Hitchcock to direct. The movie Joel Schumacher ultimately directed decades after Hitchcock’s death is a little bit paranoid. The paranoia in the movie is over cell phones and other telecommunications technology. The villain in the film is the sniper on the other line of the phone booth call. He could represent the inherent alienation of long-distance communication. He could represent radiation, because ordinary people feared cell phone towers caused radiation in the early 2000s. He could represent many other things. Movies are metaphors for many things.",
+      "To me, the most interesting aspect of the sniper is that he helps Farrell become a better person by putting on a live morality play that involves the cops and the press as characters. The sniper releases Farrell from the threat of death once Farrell finally performs a selfless act. Farrell’s moral victory and personal growth come at a cost of two dead men and dozens of total working hours of dozens of cops, but at least Farrell learned to be nice. The “morality” of the evil sniper softens the paranoia of the film. Sure, phone calls are scary. But you just might learn something from the guy pointing a gun at you from a hidden distant location. ",
+      "Just as the movie is ambivalent about its villain, I think it’s ambivalent about tech. As it turns out, the tech in this film is merely used to accomplish something old-fashioned and conservative – convince Colin Farrell to stop being a publicist who emotionally cheats on his blonde wife with a dark-haired Katie Holmes, and get him to be a good, domesticated family man. One way to domesticate and naturalize new tech is to use it to achieve conservative ends.",
+      "Side note 1: I like to think about how films bend time and space. This film, like the show 24, which was airing at the time, occurs in real time. One minute in real time is one minute in the movie. This film has many other relationships to time. Due to the history of the screenplay, it grafts Cold War era paranoia onto early 2000s techno-paranoia. Finally, the film is a time capsule. That last phone booth was removed from New York City in 2022, twenty years after the release of the film.",
+      "Side note 2: This film depicts the urban environment as picturesque, in a way. The non-white sex workers that verbally accost Farrell portray the city as sort of dangerous, but also cheeky and cute.",
+      "Side note 3: The film references Amadou Diallo. The 90s were so long and so shortly ago."
+    ]}
+    theater=""
+    rating={9}
+  />,
     <Review
       title="Moonstruck"
       director="Norman Jewison"
@@ -1242,6 +1262,7 @@ function App() {
   ];
 
   const reviewLinks = [
+    [ref123, "Phone Booth"],
     [ref122, "Moonstruck"],
     [ref121, "Miami Blues"],
     [ref120, "Mrs. Brown"],
