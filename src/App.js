@@ -165,7 +165,7 @@ function App() {
       setPage(destinationPage);
       setTimeout(() => {
         ref.current?.scrollIntoView({ behavior: "smooth" });
-      }, 50);
+      }, 10);
     };
   };
 
