@@ -162,10 +162,11 @@ function App() {
 
   const scrollRefIntoView = (ref, destinationPage) => {
     return () => {
+      const delay = page === destinationPage ? 10 : 700;
       setPage(destinationPage);
       setTimeout(() => {
         ref.current?.scrollIntoView({ behavior: "smooth" });
-      }, 700);
+      }, delay);
     };
   };
 
