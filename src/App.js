@@ -183,7 +183,7 @@ function App() {
         "When I first watched this film as a teenager, I identified with the obnoxious-drug-addict-dreamer Leigh plays, and hated her well-adjusted, middle-class sister. In my thirties, I still sort of hate the older sister, but I get her. And I get why the aging members of the Academy identified with Winningham and gave her a prize for putting up with Leigh. Leigh is an annoying adult who does not want the responsibilities of an adult in a capitalist system. Then again, neither do I.",
         "Side note 1: Another way this movie has changed for me over the course of the decades between my viewings is I have a buzzword called “narcissist” that I can use to describe Leigh’s character. Like all buzzwords, narcissist is more reductive than descriptive. Leigh’s performance is too nuanced to be reduced to a DSM/YouTube term. Still, the term applies. It probably applies to most musicians.",
         "Side note 2: This movie is too slow and indie for the TikTok generation, I think. ",
-        "Side note 3: In my head, for some reason, I associate method actors with stream of consciousness novelists. I appreciate Faulkner like I appreciate Daniel Day Lewis. But I love Virginia Woolf like I love Jennifer Jason Leigh.",        
+        "Side note 3: In my head, for some reason, I associate method actors with stream of consciousness novelists. Perhaps this is because method acting and stream of consciousness writing are 20th century techniques for exploring irrational roots of human behavior. Whatever the case is, I appreciate Faulkner like I appreciate Daniel Day Lewis. But I love Virginia Woolf like I love Jennifer Jason Leigh."
       ]}
       theater=""
       rating={8}
