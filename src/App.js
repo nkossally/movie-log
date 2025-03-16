@@ -234,7 +234,7 @@ function App() {
       releaseDate="1987"
       paragraphs={[
         "Classic rom com about 37-year-old widow, Cher, who falls in love with the brother of her fiancé.  Cher gives a classic movie star performance. The most memorable moment in this movie is Cher rolling her eyes after asking Nicolas Cage where the Met (Metropolitan Opera) is. That’s power. Cher’s star power does not overwhelm the movie. She is the main character, but the setting of New York City and the community of Catholic Italian Americans also matter. That community includes old people. Uniquely, old people matter in this rom com, and so does death. Cher is haunted by the death of her first husband, and her mom, Olympia Dukakis (RIP) insists that men cheat on women in order to avoid death. I agree. It is refreshing to watch a rom com obsessed with old people and death.",
-        "I really like this movie. It’s smart. It’s well written. It’s funny. I think you have to be invested in the concepts of love, marriage and family in order to appreciate this film. Also, this film depicts Italian Americans as uniformly adorable. If you are not a cynical realist, this is an excellent romantic diversion from reality that is mostly treacly sweet with some bitter undertones.",
+        "I really like this movie. It’s smart. It’s well written. It’s funny. I think you have to be invested in the concepts of love, marriage and family to appreciate this film. Also, this film depicts Italian Americans as uniformly adorable. If you are not a cynical realist, this is an excellent romantic diversion from reality that is mostly treacly sweet with some bitter undertones."
       ]}
       theater=""
       rating={9}
