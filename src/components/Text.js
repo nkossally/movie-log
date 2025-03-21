@@ -63,7 +63,7 @@ export const Text = ({ text }) => {
                   isTitle ? "italics" : ""
                 )}
               >
-                {word} <span className={isLastWordOfSpoiler ? "no-highlight" : "" }>&nbsp;</span>
+                {word} <span className={isLastWordOfSpoiler ? "no-highlight" : "" }><span  className={ isSpoiler ? "spoiler" : ""}>&nbsp;</span></span>
               </div>
           );
         }

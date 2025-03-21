@@ -156,6 +156,7 @@ function App() {
   const ref123 = useRef(null);
   const ref124 = useRef(null);
   const ref125 = useRef(null);
+  const ref126 = useRef(null);
 
   const toggleLinks = () => {
     setShowLinks(!showLinks);
@@ -172,6 +173,22 @@ function App() {
   };
 
   const reviews = [
+    <Review
+    title="Black Bag"
+    director="Steven Soderbergh"
+    writer=""
+    ref={ref126}
+    date="03/21/2025"
+    releaseDate="2025"
+    paragraphs={[
+      "Soderbergh’s latest film is the best film I’ve seen all year so far, aside from [TITLE-START] Companion. [TITLE-END] Soderbergh famously churns out pretty good to pretty great films quickly and efficiently, with a high degree of skill. His skill is on display here. Most scenes in this movie consist of people talking in rooms. Soderbergh’s camerawork makes these scenes thrilling. There’s a scene in which Cate Blanchett has a hostile therapy session with Naomi Harris. At first, whenever the camera shows both faces on screen, the camera is angled to make Blanchett appear physically higher, suggesting her dominance. Once Blanchett finally shows some vulnerability, we see a medium close-up of Blanchett. The shots are all controlled and deliberate and convey what they should convey. This is not A-level Soderbergh, but it is solid B+.",
+      "The movie poses as a spy thriller, but it is really a story about a marriage. Fassbender stars as a British intelligence officer tasked with finding the leak of a top-secret computer program. His wife, Cate Blanchett, is one of four suspects. Movies, generally, are full of metaphors. This movie’s primary metaphor compares marriage to spying. Fassbender and Blanchet are partners working for the same agency, but they must keep secrets from each other for professional reasons. This mirrors how certain old-school heterosexual relationships are built by the concept of mystery. Cate Blanchett is always feminine and mysterious to Fassbender, and he can’t get enough of her. They are the ideal couple at an agency filled with psychos who lie professionally and fail at relationships.",
+      "There is a problem with how this movie uses the spy thriller genre as a metaphor for marriage. Half of the metaphor is underbaked. The spy stuff is not as interesting as the marriage stuff. There’s almost no action. There’s a point when Fassbender and Blanchett unravel the conspiracy they’re embroiled in and Blanchett says, “it’s all about us.” The plot about a rogue agent selling cyber-attack software to Russia is really just about Blanchett and Fassbender. Very few characters exist outside of Fassbender, Blanchett, and the few agents Fassbender investigates. Blanchett and Fassbender work for a major institution (the National Cyber Security Centre), and we see very little of it. A better movie would discuss the relationship of Blanchett and Fassbender in relation to the larger institution. A better movie may even venture into institutional analysis. At the very least, a better movie would have action scenes as tense as the dinner party scenes. ",
+      "Side note: Like many films, this film celebrates materialism and sociopathy. Part of what makes Fassbender and Blanchett aspirational is their town house, their fancy kitchen, and their elite professional jobs. In addition, their willingness to kill anyone to protect their loved one – their violence – makes their love aspirational."
+    ]}
+    theater=""
+    rating={8}
+  />,
     <Review
     title="My Own Private Idaho"
     director="Gus Van Sant"
@@ -261,7 +278,7 @@ function App() {
       releaseDate="1997"
       paragraphs={[
         "A lot of Best Actress obsessives argue that Helen Hunt should have lost the 1997 Best Actress Oscar to one of her British competitors, including Judi Dench, nominated for [TITLE-START] Mrs. Brown. [TITLE-END] Judi Dench is good in [TITLE-START] Mrs. Brown. [TITLE-END] The quality of the movie itself, however, depends on the movie watcher’s investment in British royalty. The premise of the film is Queen Victoria is depressed after the death of her husband, and a Scottish servant helps her feel alive again. That’s it. The movie looks handsome enough for a 90s movie. John Madden’s directing is competent and personality-free. That is to say, this film looks about as slick as an episode of Succession. The castles, the gardens, the garments are all nice. But the most compelling part of this movie is the existence of the monarchy. You have to care about the emotions of a depressed Queen of England to care about this movie. You have to accept that a scene of this movie casually assumes the Irish must be conquered while the main import of the scene is whether the Queen is emotionally ready to resume public appearances. I, for one, don’t care. Even with the orchestral soundtrack pulling at heartstrings, I don’t care.",
-        "A snobbish tendency in American culture is over-celebrating British culture. Judi Dench is quintessentially British in Mrs. Brown and Helen Hunt is quintessentially American in As Good as It Gets. Helen Hunt’s screen presence resists snobbishness, and so American snobs dismiss Hunt’s Oscar win, and over-rate boring movies like Mrs. Brown. For the 1997 Best Oscar race, Hunt delivered the most charming movie star performance and Helena Bonham Carter probably delivered the most technically accomplished performance. Judi Dench was out of luck.",
+        "A snobbish tendency in American culture is over-celebrating British culture. Judi Dench is quintessentially British in [TITLE-START] Mrs. Brown [TITLE-END] and Helen Hunt is quintessentially American in [TITLE-START] As Good as It Gets. [TITLE-END] Helen Hunt’s screen presence resists snobbishness, and so American snobs dismiss Hunt’s Oscar win, and over-rate boring movies like [TITLE-START] Mrs. Brown. [TITLE-END] For the 1997 Best Oscar race, Hunt delivered the most charming movie star performance and Helena Bonham Carter probably delivered the most technically accomplished performance. Judi Dench was out of luck.",
         "Side note 1: The Scottish servant enlivens Queen Victoria because she is stuffy and British and he is unpretentious and Scottish. This movie is the British version of Bringing Down the House.",
         "Side note 2: This movie teaches you the royals are pretentious because they swim in heavy garments. By contrast, in the best scene in the movie, two Scottish servants, including Gerard Butler, go skinny dipping.",
         "Side note 3. Gerard Butler’s penis. Cinema at its finest. Maybe this horse shit movie did deserve Academy Awards. ",
@@ -1299,6 +1316,7 @@ function App() {
   ];
 
   const reviewLinks = [
+    [ref126, "Black Bag"],
     [ref125, "My Own Private Idaho"],
     [ref124, "Georgia"],
     [ref123, "Phone Booth"],
