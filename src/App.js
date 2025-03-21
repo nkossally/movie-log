@@ -186,7 +186,7 @@ function App() {
       "There is a problem with how this movie uses the spy thriller genre as a metaphor for marriage. Half of the metaphor is underbaked. The spy stuff is not as interesting as the marriage stuff. There’s almost no action. There’s a point when Fassbender and Blanchett unravel the conspiracy they’re embroiled in and Blanchett says, “it’s all about us.” The plot about a rogue agent selling cyber-attack software to Russia is really just about Blanchett and Fassbender. Very few characters exist outside of Fassbender, Blanchett, and the few agents Fassbender investigates. Blanchett and Fassbender work for a major institution (the National Cyber Security Centre), and we see very little of it. A better movie would discuss the relationship of Blanchett and Fassbender in relation to the larger institution. A better movie may even venture into institutional analysis. At the very least, a better movie would have action scenes as tense as the dinner party scenes. ",
       "Side note: Like many films, this film celebrates materialism and sociopathy. Part of what makes Fassbender and Blanchett aspirational is their town house, their fancy kitchen, and their elite professional jobs. In addition, their willingness to kill anyone to protect their loved one – their violence – makes their love aspirational."
     ]}
-    theater=""
+    theater="Regal UA Kaufman Astoria"
     rating={8}
   />,
     <Review
