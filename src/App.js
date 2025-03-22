@@ -7,6 +7,9 @@ import leftArrow from "./images/arrow-left.svg";
 
 const REVIEWS_PER_PAGE = 20;
 
+const LINE_BREAK = "[LINE-BREAK]";
+
+
 function App() {
   const [showLinks, setShowLinks] = useState(false);
   const [page, setPage] = useState(1);
@@ -157,6 +160,7 @@ function App() {
   const ref124 = useRef(null);
   const ref125 = useRef(null);
   const ref126 = useRef(null);
+  const ref127 = useRef(null);
 
   const toggleLinks = () => {
     setShowLinks(!showLinks);
@@ -173,6 +177,32 @@ function App() {
   };
 
   const reviews = [
+    <Review
+    title="Top Gun"
+    director="Tony Scott"
+    writer=""
+    ref={ref127}
+    date="03/22/2025"
+    releaseDate=""
+    paragraphs={[
+      "Top Gun earnestly delivers what it sets out to deliver – fighter jets, explosions, pretty skyscapes, and men in tighty-whities. The scaffolding for the explosions and homoeroticism is a story about a pilot (Tom Cruise) who learns the value of teamwork, or whatever. I am not sure if this is a movie that can be reviewed, so I’ll just list some of the homoerotic dialogue.",
+      "“I’d like to bust your butt”",
+      `“This gives me a hard-on” ${LINE_BREAK} “Don’t tease me”`,
+      `“Whose butt did you kiss to get in here?” ${LINE_BREAK} “Well, the list is long but distinguished.” ${LINE_BREAK} “So is my Johnson.”`,
+      `“We didn’t slide into Cougar’s spot.”`,
+      `“You need any help?”`,
+      `“I heard that about you. You like to work alone.”`,
+      `“You have to have carnal knowledge, of a lady this time.”`,
+      `“How long have you two been doing this act?” ${LINE_BREAK} “I can hold my own.”`,
+      `“Below the hard-deck doesn’t count.” ${LINE_BREAK} “Hard deck my ass. We nailed that son of a bitch.”`,
+      `“You guys really are cowboys.”`,
+      `“I want somebody’s butt. I want it now. I’ve had it!”`,
+      `“I want some butts.”`,
+      `“They are not flexible. Nor am I.”`,
+    ]}
+    theater=""
+    rating={9}
+  />,
     <Review
     title="Black Bag"
     director="Steven Soderbergh"

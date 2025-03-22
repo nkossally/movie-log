@@ -6,6 +6,7 @@ const SPOILER_END_FLAG = "[SPOILER-END]";
 
 const TITLE_START_FLAG = "[TITLE-START]";
 const TITLE_END_FLAG = "[TITLE-END]";
+const LINE_BREAK = "[LINE-BREAK]";
 
 export const Text = ({ text }) => {
   const [showSpoiler, setShowSpoiler] = useState(false);
@@ -32,7 +33,7 @@ export const Text = ({ text }) => {
     } else if (word === TITLE_END_FLAG) {
       // wordBlocks[wordBlocks.length - 1][2] = true
       isTitle = false;
-    } else {
+    } else if(word) {
       wordBlocks.push([word, isSpoiler, undefined, isTitle]);
     }
   }
@@ -52,6 +53,10 @@ export const Text = ({ text }) => {
               </button>{" "}
             </>
           );
+        } else if(word === LINE_BREAK){
+          console.log("line break", word)
+          return (<div className="line-break" key={text.length + word + idx}/>)
+
         } else {
           return (
               <div
