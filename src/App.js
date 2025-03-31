@@ -8,6 +8,8 @@ import leftArrow from "./images/arrow-left.svg";
 const REVIEWS_PER_PAGE = 20;
 
 const LINE_BREAK = "[LINE-BREAK]";
+const TITLE_START = "[TITLE-START]"
+const TITLE_END = "[TITLE-END]"
 
 
 function App() {
@@ -161,6 +163,7 @@ function App() {
   const ref125 = useRef(null);
   const ref126 = useRef(null);
   const ref127 = useRef(null);
+  const ref128 = useRef(null);
 
   const toggleLinks = () => {
     setShowLinks(!showLinks);
@@ -177,6 +180,23 @@ function App() {
   };
 
   const reviews = [
+    <Review
+    title="The Royal Tenenbaums"
+    director="Wes Anderson"
+    writer="Wes Anderson & Owen Wilson"
+    ref={ref127}
+    date="03/22/2025"
+    releaseDate=""
+    paragraphs={[
+      `This is Wes Anderson’s best movie, I think, because it is his most human. It has all the hallmarks of Wes Anderson films that I have grown to dislike, namely, romanticization of elites, emotionally remote femme fatales, racial minorities as punchlines, and twee dialogue and plot contrivances. While typically frustrating, these Wes Andersonisms work here because the characters work. The characters are fleshed out and human. Royal Tenenbaum (Gene Hackman) is a narcissist who abandoned his family when his children were young, and tries to reinsert himself into their lives when he falls into financial ruin later in life. All of his children become emotionally stunted adults, as is common with the children of unloving narcissists. They all coincidentally retreat from adult responsibilities and return back to their childhood home at the same time that their father resurfaces. The psychology of the family structure checks out as believable. It checks out that a narcissist father picked a favorite child (Luke Wilson) to whom to devote all of his limited parental attention. It makes sense that an emotionally stunted man (also Luke Wilson) would remain in love with his adopted sister his whole life, never able to shake the romanticism of an adolescent. It makes sense that the children of a neglectful parent pursue excellence in order to get his attention, become prodigies while young, but fail as adults. The characters in Royal Tenenbaums feel real, so the emotions resonate. Except the scene in which Luke Wilson has a mental breakdown when he learns that Gwyneth Paltrow is promiscuous. That scene is powerful because of the Needle in the Hay needle drop, but not too logical. Otherwise, the characters are fully human in The Royal Tenenbaums, and anyone familiar with broken families can find something or some character to which to relate.`,
+      `Wes Anderson is an amazing visual artist and an uneven writer. The visuals and the writing are both strong in ${TITLE_START} The Royal Tenenbaums. ${TITLE_END} However, his picturesque visual art becomes sinister when the writing fails. Wes Anderson is known for the symmetry of his set designs and shots. Everything in the shot is in the right place. By translation (or metaphor), everything in the story is meant to be in the right place. The story and the characters in The Royal Tenenbaums are tightly written. The movie is almost perfect. In Anderson’s other films, with more thinly conceived characters that are merely part of the set design and not particularly human, the picturesqueness becomes disturbing. One wonders what the picturesqueness implies in these other films. What, exactly, is in the right place there? Rich people in rich spaces? Poor people as servants? Racial minorities as punchlines? The Royal Tenenbaums is a cute movie that works, but Anderson’s cuteness curdles into something bitter elsewhere.`,
+      `Side note: After Luke Wilson attempts suicide, he returns how to find his love, Gwyneth Paltrow, in a tent in his room, listening to his records. This is blatant sad boy wish fulfillment. Your girlfriend doesn’t like your records, Luke Wilson!`,
+      `Side note 2: Every character in ${TITLE_START} The Royal Tenenbaums ${TITLE_END} is a writer. In addition, the movie is narrated as if it is a book. This is one of the charming aspects of the movie. Cuteness works on me, sometimes.`
+
+    ]}
+    theater=""
+    rating={9}
+  />,
     <Review
     title="Top Gun"
     director="Tony Scott"
