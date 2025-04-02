@@ -47,14 +47,13 @@ export const Text = ({ text }) => {
         const isTitle = block[3]
         if (word === SPOILER_START_FLAG) {
           return (
-            <>
+            <div className={showSpoiler ? "spoiler" : ""} >
               <button onClick={handleShowSpoiler} className="spoiler-button">
                 {showSpoiler ? "HIDE" : "SHOW"} SPOILER
               </button>{" "}
-            </>
+            </div>
           );
         } else if(word === LINE_BREAK){
-          console.log("line break", word)
           return (<div className="line-break" key={text.length + word + idx}/>)
 
         } else {
