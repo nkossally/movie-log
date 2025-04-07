@@ -166,6 +166,7 @@ function App() {
   const ref126 = useRef(null);
   const ref127 = useRef(null);
   const ref128 = useRef(null);
+  const ref129 = useRef(null);
 
   const toggleLinks = () => {
     setShowLinks(!showLinks);
@@ -182,6 +183,21 @@ function App() {
   };
 
   const reviews = [
+    <Review
+    title="Once Upon a Time... in Hollywood"
+    director="Quentin Tarantino"
+    writer="Quentin Tarantino"
+    ref={ref129}
+    date="04/6/2025"
+    releaseDate=""
+    paragraphs={[
+      `I have never seen a Tarantino movie that I haven’t liked (besides Django Unchained). I have also never seen a Tarantino movie that didn’t make me reflect on how fucked up Quentin Tarantino is.  Once Upon a Time... in Hollywood is no different. I like it, and Quentin Tarantino is fucked up. Like Inglorious Basterds, the movie is one of Tarantino’s revisionist history films. In Once Upon a Time, Tarantino rewrites the Manson murders such that actress Sharon Tate, the wife of director Roman Polanski, lives, and washed up actor Leonardo DiCaprio, and washed up stunt man Brad Pitt brutally murder Manson’s mostly female cult followers in “self-defense.” I am pleased that Tarantino is kind enough to let Sharon Tate live in his fictionalization of real events. I am less pleased that Tarantino indulged in his fetish for violence against women with his most unwatchably homicide scenes yet. There are a couple of male-on-male violence scenes in this movie, but Tarantino is most excited about setting Mikey Madison on fire. In addition to loving femicide, Tarantino is excited to have Brad Pitt beat up and emasculate cinema’s most iconic masculine Asian man, Bruce Lee. Tarantino is never politically correct. He is neither feminist nor progressive, and he revels in this, I think.`,
+      `Brad Pitt’s character is the most interesting character in Once Upon a Time, not because of the character alone, but because of Brad Pitt. The movie suggests that Brad Pitt’s character may have killed his wife in a brief scene in which his dead wife is shown to be irritating enough to provoke murder. In reality, Brad Pitt has faced allegations of physically abusing his ex-wife, Angelina Jolie, as well as one of his children. In reality, Brad Pitt is one of America’s greatest movie stars of all time, and, perhaps, an abuser. In the fiction of Once Upon a Time, Pitt’s character may be problematic, but he is also a hero, because he killed some hippie chicks. The tension between reality and fiction, the tension between self-defense and the brutality of murder, the tension between entertainment and morality, make Once Upon a Time, at the very least, interesting. Tarantino, the great populist, can make anything entertaining, be it revisionist history, racism or femicide.`
+
+    ]}
+    theater=""
+    rating={7}
+  />,
     <Review
     title="The Royal Tenenbaums"
     director="Wes Anderson"
@@ -1368,6 +1384,7 @@ function App() {
   ];
 
   const reviewLinks = [
+    [ref129, "Once Upon a Time... in Hollywood"],
     [ref128, "The Royal Tenenbaums"],
     [ref127, "Top Gun"],
     [ref126, "Black Bag"],
