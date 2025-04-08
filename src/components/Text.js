@@ -63,7 +63,7 @@ export const Text = ({ text }) => {
                 className={classNames(
                   "moving-text",
                   isSpoiler && !showSpoiler ? "hide" : "",
-                  isSpoiler ? "spoiler" : "",
+                  isSpoiler ? "spoilers" : "",
                   isTitle ? "italics" : ""
                 )}
               >
