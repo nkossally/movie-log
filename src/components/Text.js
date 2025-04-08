@@ -49,7 +49,7 @@ export const Text = ({ text }) => {
           return (
             <div className={showSpoiler ? "spoiler" : ""} >
               <button onClick={handleShowSpoiler} className="spoiler-button">
-                {showSpoiler ? "HIDE" : "SHOW"} SPOILER
+                {showSpoiler ? "HIDE" : "SHOW"} SPOILERS
               </button>{" "}
             </div>
           );
@@ -63,7 +63,7 @@ export const Text = ({ text }) => {
                 className={classNames(
                   "moving-text",
                   isSpoiler && !showSpoiler ? "hide" : "",
-                  isSpoiler ? "spoilers" : "",
+                  isSpoiler ? "spoiler" : "",
                   isTitle ? "italics" : ""
                 )}
               >
