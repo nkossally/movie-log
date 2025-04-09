@@ -167,6 +167,7 @@ function App() {
   const ref127 = useRef(null);
   const ref128 = useRef(null);
   const ref129 = useRef(null);
+  const ref130 = useRef(null);
 
   const toggleLinks = () => {
     setShowLinks(!showLinks);
@@ -183,6 +184,19 @@ function App() {
   };
 
   const reviews = [
+    <Review
+    title="Lawrence of Arabia"
+    director="David Lean"
+    writer=""
+    ref={ref130}
+    date="04/8/2025"
+    releaseDate="1962"
+    paragraphs={[
+      `This is one of those greatest-movies-of-all-time that make me feel dull for not particularly liking them. I like the soundtrack. I like famous jump cut from a match to a sunrise. I like how pretty everything and everyone (especially Omar Sharif) are. I just don’t have the masculine gene that automatically imbues stories of conquest and adventure with importance, romance, and nostalgia for a pre-modern era in which men could be men. This movie does for British people what the American Western does for Americans. It portrays the final area of conquest for British empire, the Middle East, which is analogous to the Western frontier for Americans. T.E. Lawrence is a British officer who is a genius tactician who goes native and organizes Arab rebels against the Ottoman Empire during World War I. Lawrence despises the British because they are lazy and fat, and he has contempt for the Arabs because they are too tribal and barbaric to form a modern nation. He expresses contempt for British imperialism, yet he facilitates British imperialism. He expresses a desire for a united Arabia for Arabs free of British rule, but he retreats to Britain as soon as the war is over, leaving dull nation building and imperial negotiations to old corrupt men. He is an egotist in search of adventure and greatness so he goes native for a time until he realizes he’s white. The need for adventure and conquest that drives Lawrence does not exist in me. The need British people have to see the glory of empire does not exist in me. I just need a good movie. `
+    ]}
+    theater=""
+    rating={9}
+  />,
     <Review
     title="Once Upon a Time... in Hollywood"
     director="Quentin Tarantino"
@@ -1384,6 +1398,7 @@ function App() {
   ];
 
   const reviewLinks = [
+    [ref130, "Lawence of Arabia"],
     [ref129, "Once Upon a Time... in Hollywood"],
     [ref128, "The Royal Tenenbaums"],
     [ref127, "Top Gun"],
