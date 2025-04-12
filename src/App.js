@@ -168,6 +168,7 @@ function App() {
   const ref128 = useRef(null);
   const ref129 = useRef(null);
   const ref130 = useRef(null);
+  const ref131 = useRef(null);
 
   const toggleLinks = () => {
     setShowLinks(!showLinks);
@@ -185,109 +186,121 @@ function App() {
 
   const reviews = [
     <Review
-    title="Lawrence of Arabia"
-    director="David Lean"
-    writer=""
-    ref={ref130}
-    date="04/8/2025"
-    releaseDate="1962"
-    paragraphs={[
-      `This is one of those greatest-movies-of-all-time that make me feel dull for not particularly liking. I like the soundtrack. I like the famous jump cut from a match to a sunrise. I like how pretty everything and everyone (especially Omar Sharif) is. I just don’t have the masculine gene that automatically imbues stories of conquest and adventure with importance, romance, and nostalgia for a pre-modern era in which men could be men. This movie does for British people what the American Western does for Americans. It portrays the final arena of conquest for British empire, the Middle East, which is analogous to the Western frontier for Americans. T.E. Lawrence is a British officer who is a genius tactician who goes native and organizes Arab rebels against the Ottoman Empire during World War I. Lawrence despises the British because they are fat, and he despises the Arabs because they are too tribal and barbaric to form a modern nation. He expresses contempt for British imperialism, yet he facilitates British imperialism. He expresses a desire for a united Arabia for Arabs free of British rule, but he retreats to Britain as soon as the war is over, leaving dull nation building and imperial negotiations to the very old corrupt men he despises. He is an egotist in search of adventure and greatness so he goes native for a time until he realizes he’s white. The need for adventure and conquest that drives Lawrence does not exist in me. The need British people have to see the glory of empire does not exist in me. I just need a good movie.`
-    ]}
-    theater=""
-    rating={9}
-  />,
+      title="Warfare"
+      director="Alex Garland, Ray Mendoza"
+      writer="Alex Garland, Ray Mendoza"
+      ref={ref131}
+      date="04/12/2025"
+      releaseDate="2025"
+      paragraphs={[
+        `Some critics of Alex Garland’s ${TITLE_START} Civil War ${TITLE_END} complained that the film evaded politics. I take it that critics were particularly upset by its lack of overt politics because of how polarized American voters were in the 2024 elections. ${TITLE_START} Civil War ${TITLE_END} evades politics, institutional thinking and realism in order to present a cinematic myth about the amorality and complicity of photojournalists in violence. (The photojournalists in Garland-land want to get the shot, first and foremost. They are uninterested in justice.) By contrast, Alex Garland’s latest movie, Warfare, is “grounded” in a real mission during the Iraq War, yet it is no less abstract than ${TITLE_START} Civil War. ${TITLE_END} In ${TITLE_START} Warfare, ${TITLE_END} we (the audience) observe soldiers with no context about them. They are young men with few discernable characteristics. Their mission becomes a rescue mission after an improvised explosive device (IED) kills several soldiers and mortally wounds several others. We, the audience, hear what they hear. We hear the radio. We hear the explosions. We hear the silence of deafness after an explosion. We see fire crawling up a wounded soldier’s leg, and it is presented in first person, as if fire is crawling up our own leg. We see ourselves, beating back the fire and fighting to live. We do not see the institution. The young, handsome soldiers are cyphers onto which we can graft ourselves and our emotions. We do not see army generals. We do not see George Bush or Donald Rumsfeld. And, since this is not a David Simon production, the soldiers never wisecrack in a manner that comments on institutions at large (see David Simon’s Generation Kill for a slice-of-life depiction of war that manages to tackle institutions at large). We see that war is hell, but Garland does not insist on a political point. By being so grounded, Warfare is an abstract condemnation of violence, like ${TITLE_START} Civil War. ${TITLE_END} Garland seems to be a moralist thinker, not an institutionalist. There is a lot of value in Garland’s approach to storytelling. I think he wants to reach beyond the politics of the moment. Even his movie about real life events feels more like a cinematic myth than a historical event.`,
+      ]}
+      theater="Regal UA Kaufman Astoria"
+      rating={9}
+    />,
     <Review
-    title="Once Upon a Time... in Hollywood"
-    director="Quentin Tarantino"
-    writer="Quentin Tarantino"
-    ref={ref129}
-    date="04/6/2025"
-    releaseDate="2019"
-    paragraphs={[
-      `In his revisionist history films, Tarantino enables audiences to process historical trauma by watching the perpetrators of violence suffer violence instead. That way, Tarantino assigns moral weight to his orgies of violence. In ${TITLE_START} Once Upon a Time’s ${TITLE_END} revisionist history of the Manson murders, ${SPOILER_START} Sharon Tate gets to live, and, instead, Brad Pitt and Leonardo DiCaprio brutally murder Manson’s mostly female followers. ${SPOILER_END} The implications of the inversion of historical violence are more insidious here than in Tarantino’s other movies, I think. Here, washed up actor Leonardo DiCaprio, and washed up stunt man Brad Pitt restore their manhood and revive their careers by killing some Hippie chicks. The actual Manson murders exposed how a megalomaniac sociopath could exploit vague revolutionary promises of 60s culture in order to lead a cult to murder. Hollywood incorporated 60’s revolutionary culture, minus the revolution, into some of its products, like ${TITLE_START} Easy Rider. ${TITLE_END} The story of the Manson murders too became a story Hollywood could incorporate and retell. ${TITLE_START} Once Upon a Time ${TITLE_END} is Tarantino’s telling. In his telling, ${SPOILER_START} the evil hippies die and the middle-aged men of Hollywood save the day. ${SPOILER_END} The real Manson murders provide a perfect opportunity to critique the negative consequences of the Hollywood dream machine. Tarantino doesn’t do that. He celebrates Hollywood instead. He valorizes men with mid life crises. He glorifies femicide. Tarantino makes movies that are based on other movies or refer to other movies. It is not surprising that when he makes a movie based on real life events, he invents characters and events that reinforce the theme of the centrality of movies in culture, life and history. The story of the brutal murder of Sharon Tate and her baby is a story, first and foremost, that can be iterated on and fictionalized and converted into profit and twisted to mean this or that. Tarantino is an impressive storyteller obsessed with telling stories about how stories are told. He loves the storytelling power of Hollywood, and cannot quite critique it.`,
-      `I have never seen a Tarantino movie that I haven’t liked (besides ${TITLE_START} Django Unchained). ${TITLE_END} I have also never seen a Tarantino movie that didn’t make me reflect on how fucked up Quentin Tarantino is. ${TITLE_START} Once Upon a Time... in Hollywood ${TITLE_END} is no different. I like it, and Quentin Tarantino is fucked up. I am pleased that Tarantino is kind enough to ${SPOILER_START} let Sharon Tate live in his fictionalization of real events. I am less pleased that Tarantino indulged in his fetish for violence against women with his most unwatchable homicide scenes yet. ${SPOILER_END} There are a couple of male-on-male violence scenes in this movie, but Tarantino is most excited about setting Mikey Madison on fire. In addition to loving femicide, Tarantino is excited to have Brad Pitt beat up and emasculate cinema’s most iconic masculine Asian men, Bruce Lee. Tarantino is never politically correct. He is neither feminist nor progressive, and he revels in this, I think.`,
-      `Brad Pitt’s character is the most interesting character in ${TITLE_START} Once Upon a Time, ${TITLE_END} not because of the character alone, but because of Brad Pitt. The movie suggests that Pitt’s character may have killed his wife in a brief scene in which his dead wife is shown to be irritating enough to provoke murder. In reality, Brad Pitt allegedly physically abused his ex-wife, Angelina Jolie, as well as one of his children. In reality, Brad Pitt is one of America’s greatest movie stars of all time, and, perhaps, an abuser. In the fiction of ${TITLE_START} Once Upon a Time, ${TITLE_END} Pitt’s character may be problematic, but he is also a hero, because he killed some girls. The tension between reality and fiction, the tension between self-defense and the brutality of murder, the tension between entertainment and morality, make ${TITLE_START} Once Upon a Time, ${TITLE_END} at the very least, interesting. Tarantino, the great populist, can make anything entertaining, be it revisionist history, racism or femicide.`
-    ]}
-    theater=""
-    rating={7}
-  />,
+      title="Lawrence of Arabia"
+      director="David Lean"
+      writer=""
+      ref={ref130}
+      date="04/8/2025"
+      releaseDate="1962"
+      paragraphs={[
+        `This is one of those greatest-movies-of-all-time that make me feel dull for not particularly liking. I like the soundtrack. I like the famous jump cut from a match to a sunrise. I like how pretty everything and everyone (especially Omar Sharif) is. I just don’t have the masculine gene that automatically imbues stories of conquest and adventure with importance, romance, and nostalgia for a pre-modern era in which men could be men. This movie does for British people what the American Western does for Americans. It portrays the final arena of conquest for British empire, the Middle East, which is analogous to the Western frontier for Americans. T.E. Lawrence is a British officer who is a genius tactician who goes native and organizes Arab rebels against the Ottoman Empire during World War I. Lawrence despises the British because they are fat, and he despises the Arabs because they are too tribal and barbaric to form a modern nation. He expresses contempt for British imperialism, yet he facilitates British imperialism. He expresses a desire for a united Arabia for Arabs free of British rule, but he retreats to Britain as soon as the war is over, leaving dull nation building and imperial negotiations to the very old corrupt men he despises. He is an egotist in search of adventure and greatness so he goes native for a time until he realizes he’s white. The need for adventure and conquest that drives Lawrence does not exist in me. The need British people have to see the glory of empire does not exist in me. I just need a good movie.`,
+      ]}
+      theater=""
+      rating={9}
+    />,
     <Review
-    title="The Royal Tenenbaums"
-    director="Wes Anderson"
-    writer="Wes Anderson & Owen Wilson"
-    ref={ref128}
-    date="03/31/2025"
-    releaseDate="2001"
-    paragraphs={[
-      `This is Wes Anderson’s best movie, I think, because it is his most human. It has all the hallmarks of Wes Anderson films that I have grown to dislike, namely, romanticization of elites, emotionally remote femme fatales, racial minorities as punchlines, and twee dialogue and plot contrivances. While typically frustrating, these Wes Andersonisms work here because the characters work. The characters are fleshed out and human. Royal Tenenbaum (Gene Hackman) is a narcissist who abandoned his family when his children were young, and tries to reinsert himself into their lives when he falls into financial ruin later in life. All of his children become emotionally stunted adults, as is common with the children of unloving narcissists. They all coincidentally retreat from adult responsibilities and return back to their childhood home at the same time that their father resurfaces. The psychology of the family structure checks out as believable. ${SPOILER_START} It checks out that a narcissist father picked a favorite child (Luke Wilson) to whom to devote all of his limited parental attention. It makes sense that an emotionally stunted man (also Luke Wilson) would remain in love with his adopted sister his whole life, never able to shake the romanticism of an adolescent. It makes sense that the children of a neglectful parent pursue excellence in order to get his attention, become prodigies while young, but fail as adults. The characters in ${TITLE_START} The Royal Tenenbaums ${TITLE_END} feel real, so the emotions resonate. Except the scene in which Luke Wilson has a mental breakdown when he learns that Gwyneth Paltrow is promiscuous. That scene is powerful because of the Needle in the Hay needle drop, but not logical. ${SPOILER_END} Otherwise, the characters are fully human in ${TITLE_START} The Royal Tenenbaums, ${TITLE_END} and anyone familiar with broken families can find something or some character to which to relate.`,
-      `Wes Anderson is an amazing visual artist and an uneven writer. The visuals and the writing are both strong in ${TITLE_START} The Royal Tenenbaums. ${TITLE_END} However, his picturesque visual art becomes sinister when the writing fails. Wes Anderson is known for the symmetry of his set designs and shots. Everything in the shot is in the right place. By translation (or metaphor), everything in the story is meant to be in the right place. The story and the characters in ${TITLE_START} The Royal Tenenbaums ${TITLE_END} are tightly written. The movie is almost perfect. In Anderson’s other films, with more thinly conceived characters that are merely part of the set design and not particularly human, the picturesqueness becomes disturbing. One wonders what the picturesqueness implies in these other films. What, exactly, is in the right place there? Rich people in rich spaces? Poor people as servants? Racial minorities as punchlines? ${TITLE_START} The Royal Tenenbaums ${TITLE_END} is a cute movie that works, but Anderson’s cuteness curdles into something bitter elsewhere.`,
-      `Side note: After Luke Wilson attempts suicide, he returns home to find his love, Gwyneth Paltrow, in a tent in his room, listening to his records. This is blatant sad boy wish fulfillment. Your girlfriend doesn’t like your records, Wes Anderson!`,
-      `Side note 2: Every character in ${TITLE_START} The Royal Tenenbaums ${TITLE_END} is a writer. In addition, the movie is narrated as if it is a book. This is one of the charming aspects of the movie. Cuteness works on me, sometimes.`
-
-    ]}
-    theater=""
-    rating={10}
-  />,
+      title="Once Upon a Time... in Hollywood"
+      director="Quentin Tarantino"
+      writer="Quentin Tarantino"
+      ref={ref129}
+      date="04/6/2025"
+      releaseDate="2019"
+      paragraphs={[
+        `In his revisionist history films, Tarantino enables audiences to process historical trauma by watching the perpetrators of violence suffer violence instead. That way, Tarantino assigns moral weight to his orgies of violence. In ${TITLE_START} Once Upon a Time’s ${TITLE_END} revisionist history of the Manson murders, ${SPOILER_START} Sharon Tate gets to live, and, instead, Brad Pitt and Leonardo DiCaprio brutally murder Manson’s mostly female followers. ${SPOILER_END} The implications of the inversion of historical violence are more insidious here than in Tarantino’s other movies, I think. Here, washed up actor Leonardo DiCaprio, and washed up stunt man Brad Pitt restore their manhood and revive their careers by killing some Hippie chicks. The actual Manson murders exposed how a megalomaniac sociopath could exploit vague revolutionary promises of 60s culture in order to lead a cult to murder. Hollywood incorporated 60’s revolutionary culture, minus the revolution, into some of its products, like ${TITLE_START} Easy Rider. ${TITLE_END} The story of the Manson murders too became a story Hollywood could incorporate and retell. ${TITLE_START} Once Upon a Time ${TITLE_END} is Tarantino’s telling. In his telling, ${SPOILER_START} the evil hippies die and the middle-aged men of Hollywood save the day. ${SPOILER_END} The real Manson murders provide a perfect opportunity to critique the negative consequences of the Hollywood dream machine. Tarantino doesn’t do that. He celebrates Hollywood instead. He valorizes men with mid life crises. He glorifies femicide. Tarantino makes movies that are based on other movies or refer to other movies. It is not surprising that when he makes a movie based on real life events, he invents characters and events that reinforce the theme of the centrality of movies in culture, life and history. The story of the brutal murder of Sharon Tate and her baby is a story, first and foremost, that can be iterated on and fictionalized and converted into profit and twisted to mean this or that. Tarantino is an impressive storyteller obsessed with telling stories about how stories are told. He loves the storytelling power of Hollywood, and cannot quite critique it.`,
+        `I have never seen a Tarantino movie that I haven’t liked (besides ${TITLE_START} Django Unchained). ${TITLE_END} I have also never seen a Tarantino movie that didn’t make me reflect on how fucked up Quentin Tarantino is. ${TITLE_START} Once Upon a Time... in Hollywood ${TITLE_END} is no different. I like it, and Quentin Tarantino is fucked up. I am pleased that Tarantino is kind enough to ${SPOILER_START} let Sharon Tate live in his fictionalization of real events. I am less pleased that Tarantino indulged in his fetish for violence against women with his most unwatchable homicide scenes yet. ${SPOILER_END} There are a couple of male-on-male violence scenes in this movie, but Tarantino is most excited about setting Mikey Madison on fire. In addition to loving femicide, Tarantino is excited to have Brad Pitt beat up and emasculate cinema’s most iconic masculine Asian men, Bruce Lee. Tarantino is never politically correct. He is neither feminist nor progressive, and he revels in this, I think.`,
+        `Brad Pitt’s character is the most interesting character in ${TITLE_START} Once Upon a Time, ${TITLE_END} not because of the character alone, but because of Brad Pitt. The movie suggests that Pitt’s character may have killed his wife in a brief scene in which his dead wife is shown to be irritating enough to provoke murder. In reality, Brad Pitt allegedly physically abused his ex-wife, Angelina Jolie, as well as one of his children. In reality, Brad Pitt is one of America’s greatest movie stars of all time, and, perhaps, an abuser. In the fiction of ${TITLE_START} Once Upon a Time, ${TITLE_END} Pitt’s character may be problematic, but he is also a hero, because he killed some girls. The tension between reality and fiction, the tension between self-defense and the brutality of murder, the tension between entertainment and morality, make ${TITLE_START} Once Upon a Time, ${TITLE_END} at the very least, interesting. Tarantino, the great populist, can make anything entertaining, be it revisionist history, racism or femicide.`,
+      ]}
+      theater=""
+      rating={7}
+    />,
     <Review
-    title="Top Gun"
-    director="Tony Scott"
-    writer=""
-    ref={ref127}
-    date="03/22/2025"
-    releaseDate=""
-    paragraphs={[
-      "Top Gun earnestly delivers what it sets out to deliver – fighter jets, explosions, pretty skyscapes, and men in tighty-whities. The scaffolding for the explosions and homoeroticism is a story about a pilot (Tom Cruise) who learns the value of teamwork, or whatever. I am not sure if this is a movie that can be reviewed, so I’ll just list some of the homoerotic dialogue.",
-      "“I’d like to bust your butt”",
-      `“This gives me a hard-on” ${LINE_BREAK} “Don’t tease me”`,
-      `“Whose butt did you kiss to get in here?” ${LINE_BREAK} “Well, the list is long but distinguished.” ${LINE_BREAK} “So is my Johnson.”`,
-      `“We didn’t slide into Cougar’s spot.”`,
-      `“You need any help?”`,
-      `“I heard that about you. You like to work alone.”`,
-      `“You have to have carnal knowledge, of a lady this time.”`,
-      `“How long have you two been doing this act?” ${LINE_BREAK} “I can hold my own.”`,
-      `“Below the hard-deck doesn’t count.” ${LINE_BREAK} “Hard deck my ass. We nailed that son of a bitch.”`,
-      `“You guys really are cowboys.”`,
-      `“I want somebody’s butt. I want it now. I’ve had it!”`,
-      `“I want some butts.”`,
-      `“They are not flexible. Nor am I.”`,
-    ]}
-    theater=""
-    rating={9}
-  />,
+      title="The Royal Tenenbaums"
+      director="Wes Anderson"
+      writer="Wes Anderson & Owen Wilson"
+      ref={ref128}
+      date="03/31/2025"
+      releaseDate="2001"
+      paragraphs={[
+        `This is Wes Anderson’s best movie, I think, because it is his most human. It has all the hallmarks of Wes Anderson films that I have grown to dislike, namely, romanticization of elites, emotionally remote femme fatales, racial minorities as punchlines, and twee dialogue and plot contrivances. While typically frustrating, these Wes Andersonisms work here because the characters work. The characters are fleshed out and human. Royal Tenenbaum (Gene Hackman) is a narcissist who abandoned his family when his children were young, and tries to reinsert himself into their lives when he falls into financial ruin later in life. All of his children become emotionally stunted adults, as is common with the children of unloving narcissists. They all coincidentally retreat from adult responsibilities and return back to their childhood home at the same time that their father resurfaces. The psychology of the family structure checks out as believable. ${SPOILER_START} It checks out that a narcissist father picked a favorite child (Luke Wilson) to whom to devote all of his limited parental attention. It makes sense that an emotionally stunted man (also Luke Wilson) would remain in love with his adopted sister his whole life, never able to shake the romanticism of an adolescent. It makes sense that the children of a neglectful parent pursue excellence in order to get his attention, become prodigies while young, but fail as adults. The characters in ${TITLE_START} The Royal Tenenbaums ${TITLE_END} feel real, so the emotions resonate. Except the scene in which Luke Wilson has a mental breakdown when he learns that Gwyneth Paltrow is promiscuous. That scene is powerful because of the Needle in the Hay needle drop, but not logical. ${SPOILER_END} Otherwise, the characters are fully human in ${TITLE_START} The Royal Tenenbaums, ${TITLE_END} and anyone familiar with broken families can find something or some character to which to relate.`,
+        `Wes Anderson is an amazing visual artist and an uneven writer. The visuals and the writing are both strong in ${TITLE_START} The Royal Tenenbaums. ${TITLE_END} However, his picturesque visual art becomes sinister when the writing fails. Wes Anderson is known for the symmetry of his set designs and shots. Everything in the shot is in the right place. By translation (or metaphor), everything in the story is meant to be in the right place. The story and the characters in ${TITLE_START} The Royal Tenenbaums ${TITLE_END} are tightly written. The movie is almost perfect. In Anderson’s other films, with more thinly conceived characters that are merely part of the set design and not particularly human, the picturesqueness becomes disturbing. One wonders what the picturesqueness implies in these other films. What, exactly, is in the right place there? Rich people in rich spaces? Poor people as servants? Racial minorities as punchlines? ${TITLE_START} The Royal Tenenbaums ${TITLE_END} is a cute movie that works, but Anderson’s cuteness curdles into something bitter elsewhere.`,
+        `Side note: After Luke Wilson attempts suicide, he returns home to find his love, Gwyneth Paltrow, in a tent in his room, listening to his records. This is blatant sad boy wish fulfillment. Your girlfriend doesn’t like your records, Wes Anderson!`,
+        `Side note 2: Every character in ${TITLE_START} The Royal Tenenbaums ${TITLE_END} is a writer. In addition, the movie is narrated as if it is a book. This is one of the charming aspects of the movie. Cuteness works on me, sometimes.`,
+      ]}
+      theater=""
+      rating={10}
+    />,
     <Review
-    title="Black Bag"
-    director="Steven Soderbergh"
-    writer=""
-    ref={ref126}
-    date="03/21/2025"
-    releaseDate="2025"
-    paragraphs={[
-      "Soderbergh’s latest film is the best film I’ve seen all year so far, aside from [TITLE-START] Companion. [TITLE-END] Soderbergh famously churns out pretty good to pretty great films quickly and efficiently, with a high degree of skill. His skill is on display here. Most scenes in this movie consist of people talking in rooms. Soderbergh’s camerawork makes these scenes thrilling. There’s a scene in which Cate Blanchett has a hostile therapy session with Naomi Harris. At first, whenever the camera shows both faces on screen, the camera is angled to make Blanchett appear physically higher, suggesting her dominance. Once Blanchett finally shows some vulnerability, we see a medium close-up of her. The shots are all controlled and deliberate and convey what they should convey. This is not A-level Soderbergh, but it is solid B+.",
-      "The movie poses as a spy thriller, but it is really a story about a marriage. Fassbender stars as a British intelligence officer tasked with finding the leak of a top-secret computer program. His wife, Cate Blanchett, is one of four suspects. Movies, generally, are full of metaphors. This movie’s primary metaphor compares marriage to spying. Fassbender and Blanchet are partners working for the same agency, but they must keep secrets from each other for professional reasons. This mirrors how certain old-school heterosexual relationships are built by the concept of mystery. Cate Blanchett is always feminine and mysterious to Fassbender, and he can’t get enough of her. In an agency filled with professional liars who fail at relationships, they are the ideal couple.",
-      "There is a problem with how this movie uses the spy thriller genre as a metaphor for marriage. Half of the metaphor is underbaked. The spy stuff is not as interesting as the marriage stuff. [SPOILER-START] There’s almost no action. There’s a point when Fassbender and Blanchett unravel the conspiracy they’re embroiled in and Blanchett says, “it’s all about us.” The plot about a rogue agent selling cyber-attack software to Russia is really just about Blanchett and Fassbender. Very few characters exist outside of Fassbender, Blanchett, and the few agents Fassbender investigates. Blanchett and Fassbender work for a major institution (the National Cyber Security Centre), and we see very little of it. [SPOILER-END] A better movie would discuss the relationship of Blanchett and Fassbender in relation to the larger institution. A better movie may even venture into institutional analysis. At the very least, a better movie would have action scenes as tense as the dinner party scenes. ",
-      "Side note: Like many films, this film celebrates materialism and sociopathy. Part of what makes Fassbender and Blanchett aspirational is their town house, their fancy kitchen, and their elite professional jobs. In addition, their willingness to kill anyone to protect their loved one – their violence – makes their love aspirational."
-    ]}
-    theater="Regal UA Kaufman Astoria"
-    rating={8}
-  />,
+      title="Top Gun"
+      director="Tony Scott"
+      writer=""
+      ref={ref127}
+      date="03/22/2025"
+      releaseDate=""
+      paragraphs={[
+        "Top Gun earnestly delivers what it sets out to deliver – fighter jets, explosions, pretty skyscapes, and men in tighty-whities. The scaffolding for the explosions and homoeroticism is a story about a pilot (Tom Cruise) who learns the value of teamwork, or whatever. I am not sure if this is a movie that can be reviewed, so I’ll just list some of the homoerotic dialogue.",
+        "“I’d like to bust your butt”",
+        `“This gives me a hard-on” ${LINE_BREAK} “Don’t tease me”`,
+        `“Whose butt did you kiss to get in here?” ${LINE_BREAK} “Well, the list is long but distinguished.” ${LINE_BREAK} “So is my Johnson.”`,
+        `“We didn’t slide into Cougar’s spot.”`,
+        `“You need any help?”`,
+        `“I heard that about you. You like to work alone.”`,
+        `“You have to have carnal knowledge, of a lady this time.”`,
+        `“How long have you two been doing this act?” ${LINE_BREAK} “I can hold my own.”`,
+        `“Below the hard-deck doesn’t count.” ${LINE_BREAK} “Hard deck my ass. We nailed that son of a bitch.”`,
+        `“You guys really are cowboys.”`,
+        `“I want somebody’s butt. I want it now. I’ve had it!”`,
+        `“I want some butts.”`,
+        `“They are not flexible. Nor am I.”`,
+      ]}
+      theater=""
+      rating={9}
+    />,
     <Review
-    title="My Own Private Idaho"
-    director="Gus Van Sant"
-    writer="Gus Van Sant"
-    ref={ref125}
-    date="03/15/2025"
-    releaseDate="1991"
-    paragraphs={[
-      "This classic queer indie film has one of the most iconic shots I’ve ever seen. River Phoenix and Keanu Reeves are two hustlers sitting at a diner. Phoenix is in love with Reeves, and Reeves only thinks of Phoenix as a friend. We see them as if we are at the table with them. Then we see them through the window of the diner. This is a simple and often used filming technique. Looking through a window can mean many things in film. Here, it can stand for how evasive Keanu Reeves is. It can also symbolize how we never fully see the ones we love. Personally, I am not interested settling what the shot means. I think the shot stands on its own, without meaning. It is beautiful, and so are many shots in this movie. Shortly after the Phoenix and Reeves leave the diner, we see them ride a motorcycle, Reeves in front, Phoenix behind. This shot is also beautiful. It captures how it feels to be young and pretty and with somebody pretty and with nothing much to do all day. The shots. The sets. The costumes. The actors. All are much prettier than the story the movie tells. The prettiness contrasts with the content, and this disturbs me a bit.",
-      "River Phoenix was an ultimate crush object in the 90s who stars in this movie as an ultimate crush object. He is a sweet, sensitive sex worker who is extra vulnerable because he has narcolepsy (hence he may not recall nor be paid for some of his sexual “encounters”). Phoenix sleepwalks through his working-class life high on drugs with false memories of a mother who abandoned him, and no control over what happens to him. In addition, romantic love does not offer him a way out, because his crush object, Keanu Reeves, [SPOILER-START] is the son of the Mayor of Portland, and is merely slumming it as a sex worker, prior to rejoining respectable straight society. [SPOILER-END] Phoenix is trapped. No love. No prospects. No support. Just an endless set of encounters with predators (including Reeves) who take advantage of him.",
-      "[TITLE-START] My Own Private Idaho [TITLE-END] is one of those movies about the harshness of working-class life. Movies like these tend to have some aspect that softens the harshness. Family love, romantic love, upward mobility and/or a happy ending are possible softeners. This film doesn’t offer those. It offers aesthetics. It is very pretty. This film is loosely based on several Shakespeare plays, so the impoverished sex workers occasionally rattle off philosophical musings in iambic pentameter. The language and visual language of the film are highly stylized. The stylization is supposed to make the tragedy of River Phoenix’s character beautiful and palatable. Unfortunately, in reality, River Phoenix died of an overdose at the age twenty-three one year after the release of this film. It is hard to admire the stylized tragedy of the character he plays when his actual life ended tragically. My problem with [TITLE-START] My Own Private Idaho [TITLE-END] is how the fictional story interacts with both the reality of Phoenix’s death, and the reality of lives of the most dispossessed sex workers. Aesthetics and style are cool, but not moral.",
-      "Perhaps I would like this movie more if it had something positive to say about queers, but I don’t think it does. The most sympathetic queers in this film are young, pretty, thin, and masculine presenting. The bad predatory queers, on the other hand, are feminine and middle aged. This is yet another reason I don’t think this film has its heart in the right place – another reason I can’t enjoy the excessive vulnerability of Phoenix’s body to the predatory camera. Aesthetically, this film is a 10/10. I bump it down to a 9 because it makes me uncomfortable.",
-      "Side note: The sex scenes are emblematic of what I take to be the deep-seated anti-humanism of this movie. They only last a few seconds and consist of still shots in which the actors pose in sexual positions motionlessly. The sex scenes are like stills in a magazine. They are eerie and alienating. As if sex is just posturing and pictures, not a life-affirming act. Perhaps the film is commenting on the commodification of sex and sex-workers. Perhaps it is reveling in it. I veer towards thinking of this movie as an aesthetic exercise, not a humanistic one."
-    ]}
-    theater=""
-    rating={9}
-  />,
+      title="Black Bag"
+      director="Steven Soderbergh"
+      writer=""
+      ref={ref126}
+      date="03/21/2025"
+      releaseDate="2025"
+      paragraphs={[
+        "Soderbergh’s latest film is the best film I’ve seen all year so far, aside from [TITLE-START] Companion. [TITLE-END] Soderbergh famously churns out pretty good to pretty great films quickly and efficiently, with a high degree of skill. His skill is on display here. Most scenes in this movie consist of people talking in rooms. Soderbergh’s camerawork makes these scenes thrilling. There’s a scene in which Cate Blanchett has a hostile therapy session with Naomi Harris. At first, whenever the camera shows both faces on screen, the camera is angled to make Blanchett appear physically higher, suggesting her dominance. Once Blanchett finally shows some vulnerability, we see a medium close-up of her. The shots are all controlled and deliberate and convey what they should convey. This is not A-level Soderbergh, but it is solid B+.",
+        "The movie poses as a spy thriller, but it is really a story about a marriage. Fassbender stars as a British intelligence officer tasked with finding the leak of a top-secret computer program. His wife, Cate Blanchett, is one of four suspects. Movies, generally, are full of metaphors. This movie’s primary metaphor compares marriage to spying. Fassbender and Blanchet are partners working for the same agency, but they must keep secrets from each other for professional reasons. This mirrors how certain old-school heterosexual relationships are built by the concept of mystery. Cate Blanchett is always feminine and mysterious to Fassbender, and he can’t get enough of her. In an agency filled with professional liars who fail at relationships, they are the ideal couple.",
+        "There is a problem with how this movie uses the spy thriller genre as a metaphor for marriage. Half of the metaphor is underbaked. The spy stuff is not as interesting as the marriage stuff. [SPOILER-START] There’s almost no action. There’s a point when Fassbender and Blanchett unravel the conspiracy they’re embroiled in and Blanchett says, “it’s all about us.” The plot about a rogue agent selling cyber-attack software to Russia is really just about Blanchett and Fassbender. Very few characters exist outside of Fassbender, Blanchett, and the few agents Fassbender investigates. Blanchett and Fassbender work for a major institution (the National Cyber Security Centre), and we see very little of it. [SPOILER-END] A better movie would discuss the relationship of Blanchett and Fassbender in relation to the larger institution. A better movie may even venture into institutional analysis. At the very least, a better movie would have action scenes as tense as the dinner party scenes. ",
+        "Side note: Like many films, this film celebrates materialism and sociopathy. Part of what makes Fassbender and Blanchett aspirational is their town house, their fancy kitchen, and their elite professional jobs. In addition, their willingness to kill anyone to protect their loved one – their violence – makes their love aspirational.",
+      ]}
+      theater="Regal UA Kaufman Astoria"
+      rating={8}
+    />,
+    <Review
+      title="My Own Private Idaho"
+      director="Gus Van Sant"
+      writer="Gus Van Sant"
+      ref={ref125}
+      date="03/15/2025"
+      releaseDate="1991"
+      paragraphs={[
+        "This classic queer indie film has one of the most iconic shots I’ve ever seen. River Phoenix and Keanu Reeves are two hustlers sitting at a diner. Phoenix is in love with Reeves, and Reeves only thinks of Phoenix as a friend. We see them as if we are at the table with them. Then we see them through the window of the diner. This is a simple and often used filming technique. Looking through a window can mean many things in film. Here, it can stand for how evasive Keanu Reeves is. It can also symbolize how we never fully see the ones we love. Personally, I am not interested settling what the shot means. I think the shot stands on its own, without meaning. It is beautiful, and so are many shots in this movie. Shortly after the Phoenix and Reeves leave the diner, we see them ride a motorcycle, Reeves in front, Phoenix behind. This shot is also beautiful. It captures how it feels to be young and pretty and with somebody pretty and with nothing much to do all day. The shots. The sets. The costumes. The actors. All are much prettier than the story the movie tells. The prettiness contrasts with the content, and this disturbs me a bit.",
+        "River Phoenix was an ultimate crush object in the 90s who stars in this movie as an ultimate crush object. He is a sweet, sensitive sex worker who is extra vulnerable because he has narcolepsy (hence he may not recall nor be paid for some of his sexual “encounters”). Phoenix sleepwalks through his working-class life high on drugs with false memories of a mother who abandoned him, and no control over what happens to him. In addition, romantic love does not offer him a way out, because his crush object, Keanu Reeves, [SPOILER-START] is the son of the Mayor of Portland, and is merely slumming it as a sex worker, prior to rejoining respectable straight society. [SPOILER-END] Phoenix is trapped. No love. No prospects. No support. Just an endless set of encounters with predators (including Reeves) who take advantage of him.",
+        "[TITLE-START] My Own Private Idaho [TITLE-END] is one of those movies about the harshness of working-class life. Movies like these tend to have some aspect that softens the harshness. Family love, romantic love, upward mobility and/or a happy ending are possible softeners. This film doesn’t offer those. It offers aesthetics. It is very pretty. This film is loosely based on several Shakespeare plays, so the impoverished sex workers occasionally rattle off philosophical musings in iambic pentameter. The language and visual language of the film are highly stylized. The stylization is supposed to make the tragedy of River Phoenix’s character beautiful and palatable. Unfortunately, in reality, River Phoenix died of an overdose at the age twenty-three one year after the release of this film. It is hard to admire the stylized tragedy of the character he plays when his actual life ended tragically. My problem with [TITLE-START] My Own Private Idaho [TITLE-END] is how the fictional story interacts with both the reality of Phoenix’s death, and the reality of lives of the most dispossessed sex workers. Aesthetics and style are cool, but not moral.",
+        "Perhaps I would like this movie more if it had something positive to say about queers, but I don’t think it does. The most sympathetic queers in this film are young, pretty, thin, and masculine presenting. The bad predatory queers, on the other hand, are feminine and middle aged. This is yet another reason I don’t think this film has its heart in the right place – another reason I can’t enjoy the excessive vulnerability of Phoenix’s body to the predatory camera. Aesthetically, this film is a 10/10. I bump it down to a 9 because it makes me uncomfortable.",
+        "Side note: The sex scenes are emblematic of what I take to be the deep-seated anti-humanism of this movie. They only last a few seconds and consist of still shots in which the actors pose in sexual positions motionlessly. The sex scenes are like stills in a magazine. They are eerie and alienating. As if sex is just posturing and pictures, not a life-affirming act. Perhaps the film is commenting on the commodification of sex and sex-workers. Perhaps it is reveling in it. I veer towards thinking of this movie as an aesthetic exercise, not a humanistic one.",
+      ]}
+      theater=""
+      rating={9}
+    />,
     <Review
       title="Georgia"
       director="Ulu Grosbard"
@@ -300,7 +313,7 @@ function App() {
         "When I first watched this film as a teenager, I identified with the obnoxious-drug-addict-dreamer Leigh plays, and hated her well-adjusted, middle-class sister. In my thirties, I still sort of hate the older sister, but I get her. And I get why the aging members of the Academy identified with Winningham and gave her a prize for putting up with Leigh. Leigh is an annoying adult who does not want the responsibilities of an adult in a capitalist system. Then again, neither do I.",
         "Side note 1: Another way this movie has changed for me over the course of the decades between my viewings is I have a buzzword called “narcissist” that I can use to describe Leigh’s character. Like all buzzwords, narcissist is more reductive than descriptive. Leigh’s performance is too nuanced to be reduced to a DSM/YouTube term. Still, the term applies. It probably applies to most musicians.",
         "Side note 2: This movie is too slow and indie for the TikTok generation, I think. ",
-        "Side note 3: In my head, for some reason, I associate method actors with stream of consciousness novelists. Perhaps this is because method acting and stream of consciousness writing are 20th century techniques for exploring irrational roots of human behavior. Whatever the case is, I appreciate Faulkner like I appreciate Daniel Day Lewis. But I love Virginia Woolf like I love Jennifer Jason Leigh."
+        "Side note 3: In my head, for some reason, I associate method actors with stream of consciousness novelists. Perhaps this is because method acting and stream of consciousness writing are 20th century techniques for exploring irrational roots of human behavior. Whatever the case is, I appreciate Faulkner like I appreciate Daniel Day Lewis. But I love Virginia Woolf like I love Jennifer Jason Leigh.",
       ]}
       theater=""
       rating={8}
@@ -319,7 +332,7 @@ function App() {
         "Just as the movie is ambivalent about its villain, I think it’s ambivalent about tech. As it turns out, the tech in this film is used to accomplish something old-fashioned and conservative – convince Colin Farrell to stop being a publicist who emotionally cheats on his blonde wife with a dark-haired Katie Holmes, and get him to be a good, domesticated family man. One way to domesticate and naturalize new tech is to use it to achieve conservative ends.",
         "Side note 1: I like to think about how films bend time and space. This film, like the show 24, which was airing at the time, occurs in real time. One minute in real time is one minute in the movie. This film also has many other relationships to time. Due to the history of the screenplay, it grafts Cold War era paranoia onto early 2000s techno-paranoia. Finally, the film is a time capsule. New York City's last phone booth was removed in 2022, twenty years after the release of the film.",
         "Side note 2: This film depicts the urban environment as picturesque, in a way. The non-white sex workers that verbally accost Farrell convey that the city is dangerous, but also cheeky and cute.",
-        "Side note 3: The film references Amadou Diallo. The 90s were so long and so shortly ago."
+        "Side note 3: The film references Amadou Diallo. The 90s were so long and so shortly ago.",
       ]}
       theater=""
       rating={9}
@@ -333,7 +346,7 @@ function App() {
       releaseDate="1987"
       paragraphs={[
         "Classic rom com about 37-year-old widow, Cher, who falls in love with the brother of her fiancé.  Cher gives a classic movie star performance. The most memorable moment in this movie is Cher rolling her eyes after asking Nicolas Cage where the Met (Metropolitan Opera) is. That’s power. Cher’s star power does not overwhelm the movie. She is the main character, but the setting of New York City and the community of Catholic Italian Americans also matter. That community includes old people. Uniquely, old people matter in this rom com, and so does death. Cher is haunted by the death of her first husband, and her mom, Olympia Dukakis (RIP) insists that men cheat on women in order to avoid death. I agree. It is refreshing to watch a rom com obsessed with old people and death.",
-        "I really like this movie. It’s smart. It’s well written. It’s funny. I think you have to be invested in the concepts of love, marriage and family to appreciate this film. Also, this film depicts Italian Americans as uniformly adorable. If you are not a cynical realist, this is an excellent romantic diversion from reality that is mostly treacly sweet with some bitter undertones."
+        "I really like this movie. It’s smart. It’s well written. It’s funny. I think you have to be invested in the concepts of love, marriage and family to appreciate this film. Also, this film depicts Italian Americans as uniformly adorable. If you are not a cynical realist, this is an excellent romantic diversion from reality that is mostly treacly sweet with some bitter undertones.",
       ]}
       theater=""
       rating={9}
