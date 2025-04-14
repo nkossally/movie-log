@@ -1,4 +1,5 @@
 import { useState, useRef } from "react";
+import { useLocation } from "react-router-dom";
 import { Review } from "./components/Review";
 import "./index.scss";
 import classNames from "classnames";
@@ -1560,6 +1561,15 @@ function Home() {
   ];
 
   const maxPage = Math.floor(reviews.length / 20) + 1;
+
+  const BASE = "/movie-log";
+
+  const blarg = process.env.PUBLIC_URL;
+  console.log("blarg", blarg);
+  const location = useLocation();
+  const currentPath = location.pathname;
+  console.log("currentPath", currentPath)
+  const suffix = currentPath.slice(BASE.length + 1).toLowerCase();
 
   return (
     <div>
