@@ -1,5 +1,6 @@
 import { useState, useRef } from "react";
-import { useLocation, useSearchParams } from "react-router-dom";
+import { useSearchParams } from "react-router-dom";
+import { Link } from "react-router";
 import { Review } from "./components/Review";
 import { REVIEWS } from "./Reviews";
 import "./index.scss";
@@ -1571,8 +1572,15 @@ function Home() {
     return review.props.title.toLowerCase().replace(/ /g, "-") === titleQuery;
   });
 
-  if(reviewIdx !== -1){
-    return REVIEWS[reviewIdx]
+  if (reviewIdx !== -1) {
+    return (
+      <div className="single-review-container">
+        <Link className="home-button" to="/" >
+          Home
+        </Link>
+        {REVIEWS[reviewIdx]}
+      </div>
+    );
   }
 
   return (
