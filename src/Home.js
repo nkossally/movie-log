@@ -1435,7 +1435,7 @@ function Home() {
   const reviewLinks = [
     [ref132, "Hannah and Her Sisters"],
     [ref131, "Warfare"],
-    [ref130, "Lawence of Arabia"],
+    [ref130, "Lawrence of Arabia"],
     [ref129, "Once Upon a Time... in Hollywood"],
     [ref128, "The Royal Tenenbaums"],
     [ref127, "Top Gun"],
@@ -1559,7 +1559,7 @@ function Home() {
     [ref37, "Barfly"],
     [ref38, "Jaws"],
     [ref39, "Devil’s Advocate"],
-    [ref40, "Ocean’s 11"],
+    [ref40, "Ocean’s Eleven"],
   ];
 
   const maxPage = Math.floor(reviews.length / 20) + 1;
@@ -1584,7 +1584,7 @@ function Home() {
   }
 
   return (
-    <div>
+    <div className="">
       <div className="top-row">
         <button className="toggle-show-links" onClick={toggleLinks}>
           {showLinks ? "Hide" : "Show"} Title Links{" "}
@@ -1594,16 +1594,15 @@ function Home() {
       {showLinks && (
         <div className="links-container">
           {reviewLinks.map((reviewLink, idx) => {
-            const ref = reviewLink[0];
             const title = reviewLink[1];
-            const destinationPage = Math.floor(idx / REVIEWS_PER_PAGE) + 1;
+            const reviewPath = "?title=" + title.toLowerCase().replace(/ /g, "-");
             return (
-              <button
+              <Link
                 className="title-link"
-                onClick={scrollRefIntoView(ref, destinationPage)}
+                to={reviewPath}
               >
                 {title}
-              </button>
+              </Link>
             );
           })}
         </div>
