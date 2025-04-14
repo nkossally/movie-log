@@ -1564,7 +1564,8 @@ function Home() {
   const maxPage = Math.floor(reviews.length / 20) + 1;
 
   const [searchParams] = useSearchParams();
-  const titleQuery = searchParams.get('title').toLowerCase();
+  let titleQuery = searchParams.get('title')?.toLocaleLowerCase()
+
 
   const reviewIdx = REVIEWS.findIndex((review) => {
     return review.props.title.toLowerCase().replace(/ /g, "-") === titleQuery;
