@@ -1,6 +1,7 @@
 import { useState, useRef } from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, useSearchParams } from "react-router-dom";
 import { Review } from "./components/Review";
+import { REVIEWS } from "./Reviews";
 import "./index.scss";
 import classNames from "classnames";
 import rightArrow from "./images/arrow-right.svg";
@@ -1562,14 +1563,16 @@ function Home() {
 
   const maxPage = Math.floor(reviews.length / 20) + 1;
 
-  const BASE = "/movie-log";
+  const [searchParams] = useSearchParams();
+  const titleQuery = searchParams.get('title').toLowerCase();
 
-  const blarg = process.env.PUBLIC_URL;
-  console.log("blarg", blarg);
-  const location = useLocation();
-  const currentPath = location.pathname;
-  console.log("currentPath", currentPath)
-  const suffix = currentPath.slice(BASE.length + 1).toLowerCase();
+  const reviewIdx = REVIEWS.findIndex((review) => {
+    return review.props.title.toLowerCase().replace(/ /g, "-") === titleQuery;
+  });
+
+  if(reviewIdx !== -1){
+    return REVIEWS[reviewIdx]
+  }
 
   return (
     <div>
