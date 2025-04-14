@@ -78,12 +78,12 @@ export const Review = forwardRef((props, ref) => {
         <>
           {props.paragraphs.map((paragraph, idx) => {
             return (
-              <>
+              <div key={idx + paragraph.slice(0, 7)}>
                 {idx > 0 && <br />}
                 <div className="text2">
                   <Text text={paragraph} />
                 </div>
-              </>
+              </div>
             );
           })}
         </>
