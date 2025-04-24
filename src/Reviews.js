@@ -9,6 +9,19 @@ export const SPOILER_END = "[SPOILER-END]"
 
 export const REVIEWS = [
   <Review
+  title="Sinners"
+  director="Ryan Coogler"
+  writer="Ryan Coogler"
+  date="04/24/2025"
+  releaseDate="2025"
+  paragraphs={[
+    `Since the success of Get Out, audiences of black horror and black genre films have borne the burden of having to analyze what the movie monster symbolizes about racial capitalism in any black film. I felt the anxiety of having to catch and analyze every frame and bit of dialogue as I sat down in a theater during a matinee screening of Sinners on opening weekend. And then director Ryan Coogler surprised me. He introduced me to black businessmen arriving in Mississippi from Chicago, aiming to open a juke joint. He introduced me to the son of a preacher who prefers the Blues to the gospel. He introduced me to a local drunk who plays the piano. He introduced me to a fresh take on the tragic mulatto. He introduced me to black women who pursue and express sexual gratification. He introduced me to a community of sharecroppers that relieve their burdens with church or with drink and music. So, I stopped worrying about analysis because the movie is enough. This is a real movie. Not a sequel. Not a remake. Not a static art installation. Not a vehicle for politics. This is a movie to be experienced first, and analyzed later.`,
+    `As for analysis, sure, the vampires represent something about race and class in America. The film is rich in images, sounds and ideas, so there must be many interpretations of them. Vampires have something to do with sinning and hedonistic escape from working-class life and racialized oppression. The post-credits scene in Sinners explicitly suggests Americans have no real access to freedom, but they do have music and dance. Sinners explicitly compares enjoying night life to vampirism. Vampires escape death, but are not free because they never see the light. Perhaps vampires are like addicts – people whose escapism lands them in a darker place. Ryan Coogler is a brilliant. These ideas are interesting. I am just glad this movie is movie-ish enough to overcome having to be about something to matter. It’s about so many things, but also, it’s a portrait of a community movie, a crazy night out movie, a vampire movie. Finally, the movies give us a real movie!`
+  ]}
+  theater="AMC 19th St. East 6"
+  rating={9}
+/>,
+  <Review
   title="Hannah and Her Sisters"
   director="Woody Allen"
   writer="Woody Allen"
