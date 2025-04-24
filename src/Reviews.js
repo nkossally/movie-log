@@ -8,50 +8,50 @@ export const SPOILER_END = "[SPOILER-END]"
 
 
 export const REVIEWS = [
-  <Review
-  title="It Ends With Us"
-  director="Justin Baldoni"
-  writer=""
-  date="04/24/2025"
-  releaseDate="2024"
-  paragraphs={[
-    `It Ends with Us grossed $351 million at the box office, the 20th highest grossing movie of 2024. It is the only “women’s issues” film in the top twenty (besides, perhaps, Wicked), and it is one of only five non-sequels on the list. Money is the best way to talk about the film because it has more to say about money than it has to say about domestic abuse, the ostensible topic of the film. In It Ends, Blake Lively dates and marries Justin Baldoni, an abusive man. After several highly edited and glossed over scenes of physical and sexual violence, Lively leaves Baldoni and restarts her relationship with her high school ex. The characters have very few characteristics, but we do know how they make money. Baldoni is a surgeon and Lively is also wealthy. She owns a flower shop, which is more typical of a woman in a Rom-Com than a serious social drama. Lively is also the daughter of a mayor, so she is well-connected. She is financially independent, something many victims of domestic abuse are not. Lively also has a ruggedly handsome but sweet man’s arms to run into once she escapes Baldoni. She suffers abuse, but she, unlike many, has an escape route: money. We can see money in her consistently chic outfits. She wears the simple but elegant clothing rich people wear. She always has to look great, which is why the movie never shows the brutality of domestic abuse. It shows Lively putting on make-up afterwards, looking fantastic as usual, even with a slight bruise that only accentuates the beauty of her almond-shaped blue eyes. When Lively divorces Baldoni, she loses the status of a surgeon’s wife, but she presumably gets alimony and child support. In addition, the beautiful man she takes up with after leaving Baldoni owns a company of his own – a popular restaurant in Boston. Lively is never unglamorous in this movie about domestic abuse. She always has money.`,
-    `It Ends with Us is an uninteresting movie that contributes nothing to the genre of domestic abuse films. Lively’s lawsuit against Justin Baldoni, and his countersuit, are far more interesting. In 2024, Lively sued Baldoni for inappropriate sexualized behavior on set, and for using a PR firm to smear her reputation online. In 2025, Baldoni countersued Lively for defamation, and claimed the Lively tried to take over production of It Ends. Most of the internet seems to have taken Baldoni’s side a year before trial starts. For the sake of social justice, it would be best if court ruled on Lively’s claims of workplace harassment before the court of public opinion litigated Lively’s personality. But the court of public opinion is faster than the state, and most of the Internet has ruled that Blake Lively is a bitch and Justin Baldoni a nice, soy-boy feminist, despite his playing the post-Me-Too antifeminist card of combating harassment claims with defamation claims. He is a great guy, despite using the very same PR firm that Johnny Depp used to destroy the reputation of Amber Heard and destroy the Hollywood division of the Me-Too movement. Lively and Baldoni are two combatants in the Hollywood system, so the harassment claims matter less than money. One or none of them will survive the extralegal battle to destroy the ability of the other to continue to earn Hollywood film star paychecks. The legal case is all about money, just like the movie whose production provoked the case, and just like movies in general. Domestic abuse cannot be reduced to money alone, but in Hollywood it can.`
-  ]}
-  theater=""
-  rating={4}
-/>,
-  <Review
-  title="Sinners"
-  director="Ryan Coogler"
-  writer="Ryan Coogler"
-  date="04/24/2025"
-  releaseDate="2025"
-  paragraphs={[
-    `Since the success of Get Out, audiences of black horror and black genre films have borne the burden of having to analyze what the movie monster symbolizes about racial capitalism in any black film. I felt the anxiety of having to catch and analyze every frame and bit of dialogue as I sat down in a theater during a matinee screening of Sinners on opening weekend. And then director Ryan Coogler surprised me. He introduced me to black businessmen arriving in Mississippi from Chicago, aiming to open a juke joint. He introduced me to the son of a preacher who prefers the Blues to the gospel. He introduced me to a local drunk who plays the piano. He introduced me to a fresh take on the tragic mulatto. He introduced me to black women who pursue and express sexual gratification. He introduced me to a community of sharecroppers that relieve their burdens with church or with drink and music. So, I stopped worrying about analysis because the movie is enough. This is a real movie. Not a sequel. Not a remake. Not a static art installation. Not a vehicle for politics. This is a movie to be experienced first, and analyzed later.`,
-    `As for analysis, sure, the vampires represent something about race and class in America. The film is rich in images, sounds and ideas, so there must be many interpretations of them. Vampires have something to do with sinning and hedonistic escape from working-class life and racialized oppression. The post-credits scene in Sinners explicitly suggests Americans have no real access to freedom, but they do have music and dance. Sinners explicitly compares enjoying night life to vampirism. Vampires escape death, but are not free because they never see the light. Perhaps vampires are like addicts – people whose escapism lands them in a darker place. Ryan Coogler is a brilliant. These ideas are interesting. I am just glad this movie is movie-ish enough to overcome having to be about something to matter. It’s about so many things, but also, it’s a portrait of a community movie, a crazy night out movie, a vampire movie. Finally, the movies give us a real movie!`
-  ]}
-  theater="AMC 19th St. East 6"
-  rating={9}
-/>,
-  <Review
-  title="Hannah and Her Sisters"
-  director="Woody Allen"
-  writer="Woody Allen"
-  date="04/12/2025"
-  releaseDate="1986"
-  paragraphs={[
-    `It’s hard to watch Woody Allen movies these days without thinking about the pedophilia allegations and Allen’s marriage to the adopted daughter of his former partner. It’s hard not to look for signs of his disorder in his films, and there are plenty of signs in Hannah… of Allen’s morbid narcissism, which goes hand-in-hand with pedophilia, I think. This does not diminish the movie, which is pretty damn good. The title of the movie suggests it’s about Hannah, played by Mia Farrow, and her two sisters, played by Barbara Hershey and Dianne Wiest. But it’s also about the men in their lives: Woody Allen, Michael Caine, and Max von Sydow. In fact, after the opening ensemble scene, Woody Allen gives Woody Allen the first extended segment that is just about a single character, Woody Allen. Allen plays a hypochondriac who is very similar to Woody Allen. As for the women, Hannah/Mia Farrow, is the least important and least interesting character among the three sisters. She is the perfect, successful sister. Dianne Wiest is the struggling, temperamental artist. And Barbara Hershey is the impulsive beauty who just blows with the wind, having affairs with older professors, taking random classes at Columbia University because she has no direction in life, driven only by libido and vague intellectual interests. The sisters are well written and have believable sisterly dynamics. The less believable aspects of the sister characters derive from Allen’s perversity. For example, Woody Allen is Farrow’s ex-husband. After they split, Farrow encourages Allen to date Dianne Wiest. I don’t know anyone who would set their sister up with their ex-husband. In addition, Barbara Hershey has a secret affair with Mia Farrow’s husband. This is all weird bohemian behavior, but the film presents the affairs as if they’re just what adults do. The sisters have near incestuous relationships despite appearing to be normal, well-adjusted, upper-middle-class people (except Wiest, who is half crazy). The lack of boundaries of the women is odd, but Woody Allen presents them as normal. I think Allen has incestuous interests, and he normalizes inappropriate relationships by grafting his inappropriate feelings onto the women in the movie. This is a common trick of Allen’s. He puts his dark hedonism and mean-spiritedness into women characters. That’s why his female characters are very interesting. Much more interesting than the males. `,
-    `Allen wrote a lot of great Oscar winning parts for women, but his films are not always kind to women. In Hannah…, Hannah/Farrow is mean to her mother, an old woman who cannot accept that she is no longer attractive to young men. I do not think Hannah, who is kind and empathic, would be so dismissive of this common experience of aging beauties. But I think Allen would. In addition, at one point, Dianne Wiest’s character remarks on how she is not sixteen anymore. I do not know any woman over thirty who thinks sixteen was their best year. But I think Allen thinks sixteen is the peak age of a girl/woman. The characters in Hannah and Her Sisters are well-written, but Allen assigns them a bit too much misogyny that exists in him, not the characters.`, 
-    `As for Allen’s character, he is practically in a different movie. His scenes are all comedic, while most other scenes are dramatic. Allen plays a hypochondriac who thinks he is dying, learns that he is not, and then tries out several religions in search of the meaning of life while still running from death. Just as in reality, Allen’s character is a narcissist. His fear of death stems from self-absorption. His character explicitly states in voice-over that it is impossible that he can live in a city as great as New York and yet face death. I think the character and the person, Woody Allen, have some sort of megalomania that makes death hard to fathom. His megalomania is bizarrely tethered to his identity as a New Yorker. This is all played for laughs, but Allen’s comedic scenes are the darkest of all.`,
-    `Hannah and Her Sisters probably shouldn’t work as a movie, but it does because of Allen’s ingenious insertions of his light-but-morbid comedic scenes between the dramatic ones. Without his scenes, Hannah… would be a tepid melodrama. With Allen’s scenes, it becomes great. Hannah… feels like an adult movie because the tension between comedy and melodrama feels a lot like the complexity of life, which has twists and turns, and inevitably ends one way. Allen’s character is obsessed with death, while the women are alive, actively keeping their family together, pursuing love or pursuing art. Eventually, Allen’s death-chasing character falls in love with Wiest, and he is alive again. Allen finds a woman to revive him. He finds a woman to suck the life out of. Aside from starting a new relationship with Wiest, Allen’s character recovers from fear of death by going to the movies, enjoying cinematic entertainment, and realizing that he should chase joy instead of death. Once again, Allen reveals his self-importance. Of course, the movies are a reason to live because Allen, in reality, made so many of them. Allen’s character, and Allen the person, like all narcissists, need something to feed their egos and beat back their insecurities. He and his character need the concept of the greatness of their profession, and they need sex and romance (with Wiest in the movie, and with his partner’s daughter in reality).`,
-    `Hannah/Farrow is the nicest character in Hannah and Her Sisters. A bit passive aggressive, but very nice. (Later, Farrow would perfect her performance of passive aggressiveness in Woody Allen’s Husbands and Wives.) Farrow is so nice that she is marginal. Allen’s covertly mean character gets far more screen time than the titular character. In one scene, Allen’s character is depressed about the inevitability of death and he scoffs at the adults around him jogging in a park, trying to stay fit and, in Allen’s mind, stave off the decline of the body. Allen’s character is especially mean to a fat person jogging, because fat people couldn’t possibly have a reason to live. I think these are the real feelings of Woody Allen. Fear of aging, fear of death, and fear of fatness are the fears and insecurities of the narcissist and the pedophile. Allen is remarkably honest in his films about his darkness, and dishonest at the same time. He is direct and indirect. Sometimes the women characters in his films voice his darkness. Sometimes he himself, in character that is, voices his darkness, with comedy to lighten the dark. Woody Allen is so mean and petty. He hates old people. He hates fat people. He can neither grasp his own mortality nor the existence of other people outside of himself, so all of his characters are expressions of himself. This dramedy is a beautiful crystallization of his pettiness. This is a great movie, I think.`,
-    `Side note: In Allen’s first scene, a television producer informs him that a sketch on child molestation is inappropriate. Another producer suggests that they televise a gay joke instead, because, apparently, homosexuality is one step below pedophilia in indecency. I take it that Allen is interested in whether pedophilia is a valid form of sexuality, and whether it is more or less acceptable than homosexuality.`,
-    `Side note 2: Hershey offhandedly mentions how dental hygienists wore gloves because they were afraid of getting AIDS. Allen’s handling of gay content is worth investigating.`
-  ]}
-  theater=""
-  rating={10}
-/>,
+    <Review
+      title="It Ends With Us"
+      director="Justin Baldoni"
+      writer=""
+      date="04/24/2025"
+      releaseDate="2024"
+      paragraphs={[
+        `${TITLE_START} It Ends with Us ${TITLE_END} grossed $351 million at the box office, the 20th highest grossing movie of 2024. It is the only “women’s issues” film in the top twenty (besides, perhaps, Wicked), and it is one of only five non-sequels on the list. Money is the best way to talk about the film because it has more to say about money than it has to say about domestic abuse, the ostensible topic of the film. In ${TITLE_START} It Ends, ${TITLE_END} Blake Lively dates and marries Justin Baldoni, an abusive man. After several highly edited and glossed over scenes of physical and sexual violence, Lively leaves Baldoni and restarts her relationship with her high school ex. The characters have very few characteristics, but we do know how they make money. Baldoni is a surgeon and Lively is also wealthy. She owns a flower shop, which is more typical of a woman in a Rom-Com than a serious social drama. Lively is also the daughter of a mayor, so she is well-connected. She is financially independent, something many victims of domestic abuse are not. Lively also has a ruggedly handsome but sweet man’s arms to run into once she escapes Baldoni. She suffers abuse, but she, unlike many, has an escape route: money. We can see money in her consistently chic outfits. She wears the simple but elegant clothing rich people wear. She always has to look great, which is why the movie never shows the brutality of domestic abuse. It shows Lively putting on make-up afterwards, looking fantastic as usual, even with a slight bruise that only accentuates the beauty of her almond-shaped blue eyes. When Lively divorces Baldoni, she loses the status of a surgeon’s wife, but she presumably gets alimony and child support. In addition, the beautiful man she takes up with after leaving Baldoni owns a company of his own – a popular restaurant in Boston. Lively is never unglamorous in this movie about domestic abuse. She always has money.`,
+        `${TITLE_START} It Ends with Us ${TITLE_END} is an uninteresting movie that contributes nothing to the genre of domestic abuse films. Lively’s lawsuit against Justin Baldoni, and his countersuit, are far more interesting. In 2024, Lively sued Baldoni for inappropriate sexualized behavior on set, and for using a PR firm to smear her reputation online. In 2025, Baldoni countersued Lively for defamation, and claimed the Lively tried to take over production of ${TITLE_START} It Ends. ${TITLE_END} Most of the internet seems to have taken Baldoni’s side a year before trial starts. For the sake of social justice, it would be best if court ruled on Lively’s claims of workplace harassment before the court of public opinion litigated Lively’s personality. But the court of public opinion is faster than the state, and most of the Internet has ruled that Blake Lively is a bitch and Justin Baldoni a nice, soy-boy feminist, despite his playing the post-Me-Too antifeminist card of combating harassment claims with defamation claims. He is a great guy, despite using the very same PR firm that Johnny Depp used to destroy the reputation of Amber Heard and destroy the Hollywood division of the Me-Too movement. Lively and Baldoni are two combatants in the Hollywood system, so the harassment claims matter less than money. One or none of them will survive the extralegal battle to destroy the ability of the other to continue to earn Hollywood film star paychecks. The legal case is all about money, just like the movie whose production provoked the case, and just like movies in general. Domestic abuse cannot be reduced to money alone, but in Hollywood it can.`,
+      ]}
+      theater=""
+      rating={4}
+    />,
+    <Review
+      title="Sinners"
+      director="Ryan Coogler"
+      writer="Ryan Coogler"
+      date="04/24/2025"
+      releaseDate="2025"
+      paragraphs={[
+        `Since the success of ${TITLE_START} Get Out, ${TITLE_END} audiences of black horror and black genre films have borne the burden of having to analyze what the movie monster symbolizes about racial capitalism in any black film. I felt the anxiety of having to catch and analyze every frame and bit of dialogue as I sat down in a theater during a matinee screening of ${TITLE_START} Sinners ${TITLE_END} on opening weekend. And then director Ryan Coogler surprised me. He introduced me to black businessmen arriving in Mississippi from Chicago, aiming to open a juke joint. He introduced me to the son of a preacher who prefers the Blues to the gospel. He introduced me to a local drunk who plays the piano. He introduced me to a fresh take on the tragic mulatto. He introduced me to black women who pursue and express sexual gratification. He introduced me to a community of sharecroppers that relieve their burdens with church or with drink and music. So, I stopped worrying about analysis because the movie is enough. This is a real movie. Not a sequel. Not a remake. Not a static art installation. Not a vehicle for politics. This is a movie to be experienced first, and analyzed later.`,
+        `As for analysis, sure, the vampires represent something about race and class in America. The film is rich in images, sounds and ideas, so there must be many interpretations of them. Vampires have something to do with sinning and hedonistic escape from working-class life and racialized oppression. The post-credits scene in ${TITLE_START} Sinners ${TITLE_END} explicitly suggests Americans have no real access to freedom, but they do have music and dance. ${TITLE_START} Sinners ${TITLE_END} explicitly compares enjoying night life to vampirism. Vampires escape death, but are not free because they never see the light. Perhaps vampires are like addicts – people whose escapism lands them in a darker place. Ryan Coogler is a brilliant. These ideas are interesting. I am just glad this movie is movie-ish enough to overcome having to be about something to matter. It’s about so many things, but also, it’s a portrait of a community movie, a crazy night out movie, a vampire movie. Finally, the movies give us a real movie!`,
+      ]}
+      theater="AMC 19th St. East 6"
+      rating={9}
+    />,
+    <Review
+      title="Hannah and Her Sisters"
+      director="Woody Allen"
+      writer="Woody Allen"
+      date="04/12/2025"
+      releaseDate="1986"
+      paragraphs={[
+        `It’s hard to watch Woody Allen movies these days without thinking about the pedophilia allegations and Allen’s marriage to the adopted daughter of his former partner. It’s hard not to look for signs of his disorder in his films, and there are plenty of signs in ${TITLE_START} Hannah… ${TITLE_END} of Allen’s morbid narcissism, which goes hand-in-hand with pedophilia, I think. This does not diminish the movie, which is pretty damn good. The title of the movie suggests it’s about Hannah, played by Mia Farrow, and her two sisters, played by Barbara Hershey and Dianne Wiest. But it’s also about the men in their lives: Woody Allen, Michael Caine, and Max von Sydow. In fact, after the opening ensemble scene, Woody Allen gives Woody Allen the first extended segment that is just about a single character, Woody Allen. Allen plays a hypochondriac who is very similar to Woody Allen. As for the women, Hannah/Mia Farrow, is the least important and least interesting character among the three sisters. She is the perfect, successful sister. Dianne Wiest is the struggling, temperamental artist. And Barbara Hershey is the impulsive beauty who just blows with the wind, having affairs with older professors, taking random classes at Columbia University because she has no direction in life, driven only by libido and vague intellectual interests. The sisters are well written and have believable sisterly dynamics. The less believable aspects of the sister characters derive from Allen’s perversity. For example, Woody Allen is Farrow’s ex-husband. After they split, Farrow encourages Allen to date Dianne Wiest. I don’t know anyone who would set their sister up with their ex-husband. In addition, Barbara Hershey has a secret affair with Mia Farrow’s husband. This is all weird bohemian behavior, but the film presents the affairs as if they’re just what adults do. The sisters have near incestuous relationships despite appearing to be normal, well-adjusted, upper-middle-class people (except Wiest, who is half crazy). The lack of boundaries of the women is odd, but Woody Allen presents them as normal. I think Allen has incestuous interests, and he normalizes inappropriate relationships by grafting his inappropriate feelings onto the women in the movie. This is a common trick of Allen’s. He puts his dark hedonism and mean-spiritedness into women characters. That’s why his female characters are very interesting. Much more interesting than the males. `,
+        `Allen wrote a lot of great Oscar winning parts for women, but his films are not always kind to women. In ${TITLE_START} Hannah…, ${TITLE_END} Hannah/Farrow is mean to her mother, an old woman who cannot accept that she is no longer attractive to young men. I do not think Hannah, who is kind and empathic, would be so dismissive of this common experience of aging beauties. But I think Allen would. In addition, at one point, Dianne Wiest’s character remarks on how she is not sixteen anymore. I do not know any woman over thirty who thinks sixteen was their best year. But I think Allen thinks sixteen is the peak age of a girl/woman. The characters in ${TITLE_START} Hannah and Her Sisters ${TITLE_END} are well-written, but Allen assigns them a bit too much misogyny that exists in him, not the characters.`,
+        `As for Allen’s character, he is practically in a different movie. His scenes are all comedic, while most other scenes are dramatic. Allen plays a hypochondriac who thinks he is dying, learns that he is not, and then tries out several religions in search of the meaning of life while still running from death. Just as in reality, Allen’s character is a narcissist. His fear of death stems from self-absorption. His character explicitly states in voice-over that it is impossible that he can live in a city as great as New York and yet face death. I think the character and the person, Woody Allen, have some sort of megalomania that makes death hard to fathom. His megalomania is bizarrely tethered to his identity as a New Yorker. This is all played for laughs, but Allen’s comedic scenes are the darkest of all.`,
+        `${TITLE_START} Hannah and Her Sisters ${TITLE_END} probably shouldn’t work as a movie, but it does because of Allen’s ingenious insertions of his light-but-morbid comedic scenes between the dramatic ones. Without his scenes, ${TITLE_START} Hannah… ${TITLE_END} would be a tepid melodrama. With Allen’s scenes, it becomes great. Hannah… feels like an adult movie because the tension between comedy and melodrama feels a lot like the complexity of life, which has twists and turns, and inevitably ends one way. Allen’s character is obsessed with death, while the women are alive, actively keeping their family together, pursuing love or pursuing art. Eventually, Allen’s death-chasing character falls in love with Wiest, and he is alive again. Allen finds a woman to revive him. He finds a woman to suck the life out of. Aside from starting a new relationship with Wiest, Allen’s character recovers from fear of death by going to the movies, enjoying cinematic entertainment, and realizing that he should chase joy instead of death. Once again, Allen reveals his self-importance. Of course, the movies are a reason to live because Allen, in reality, made so many of them. Allen’s character, and Allen the person, like all narcissists, need something to feed their egos and beat back their insecurities. He and his character need the concept of the greatness of their profession, and they need sex and romance (with Wiest in the movie, and with his partner’s daughter in reality).`,
+        `Hannah/Farrow is the nicest character in ${TITLE_START} Hannah and Her Sisters. ${TITLE_END} A bit passive aggressive, but very nice. (Later, Farrow would perfect her performance of passive aggressiveness in Woody Allen’s Husbands and Wives.) Farrow is so nice that she is marginal. Allen’s covertly mean character gets far more screen time than the titular character. In one scene, Allen’s character is depressed about the inevitability of death and he scoffs at the adults around him jogging in a park, trying to stay fit and, in Allen’s mind, stave off the decline of the body. Allen’s character is especially mean to a fat person jogging, because fat people couldn’t possibly have a reason to live. I think these are the real feelings of Woody Allen. Fear of aging, fear of death, and fear of fatness are the fears and insecurities of the narcissist and the pedophile. Allen is remarkably honest in his films about his darkness, and dishonest at the same time. He is direct and indirect. Sometimes the women characters in his films voice his darkness. Sometimes he himself, in character that is, voices his darkness, with comedy to lighten the dark. Woody Allen is so mean and petty. He hates old people. He hates fat people. He can neither grasp his own mortality nor the existence of other people outside of himself, so all of his characters are expressions of himself. This dramedy is a beautiful crystallization of his pettiness. This is a great movie, I think.`,
+        `Side note: In Allen’s first scene, a television producer informs him that a sketch on child molestation is inappropriate. Another producer suggests that they televise a gay joke instead, because, apparently, homosexuality is one step below pedophilia in indecency. I take it that Allen is interested in whether pedophilia is a valid form of sexuality, and whether it is more or less acceptable than homosexuality.`,
+        `Side note 2: Hershey offhandedly mentions how dental hygienists wore gloves because they were afraid of getting AIDS. Allen’s handling of gay content is worth investigating.`,
+      ]}
+      theater=""
+      rating={10}
+    />,
   <Review
     title="Warfare"
     director="Alex Garland, Ray Mendoza"
@@ -890,69 +890,81 @@ export const REVIEWS = [
     rating={9}
   />,
   <Review
-    title="Ocean’s Twelve"    date="06/12/24"
+    title="Ocean’s Twelve"
+    date="06/12/24"
     text="Rewatchable. Light. Charming. In one scene, Julia Roberts pretends to be someone pretending to be Julia Roberts. A big swing I like and I hate. Driven by movie stars and funny-ish screenplay."
     rating={7}
   />,
   <Review
-    title="Pride And Glory"    date="06/11/24"
+    title="Pride And Glory"
+    date="06/11/24"
     text="Story of police corruption that is more of family melodrama than thriller. Most narratives of cops and crime hold off on the plot reveal in order to bury melodrama beneath genre trappings, but this reveals everything upfront and foregrounds the melodrama: bald lady with cancer, tense family gatherings, sibling rivalry. I think the melodrama/soap opera aspect is why this film is less respected than a more masculine thriller like Training Day. Silly scene in which Ed Norton and Colin Farrell put down guns to have fist fight while Irish music plays. Film uninterested in Dominican gangsters and colored protesters. Race mishandled. Commentary on cops muddled."
     rating={6}
   />,
   <Review
-    title="The Bourne Ultimatum"    date="06/11/24"
+    title="The Bourne Ultimatum"
+    date="06/11/24"
     text="Highest rated installment in Bourne series. Bourne finds out more details about CIA/NSA? program that “created” him. Post 9/11 film skeptical of surveillance and lethal covert operations with no civilian oversight. Joan Allen is the good cop, versus various white guys (David Strathairn) who are bad cops. I suppose institutions exist in this film, but nothing provokes political and intellectual analysis. This is entertainment. Action. Shaky cam. Dour Julia Styles. Brainwashing. Hot guys with guns. Old men in rooms. Damon at end of his baby face era. Green tint. Pretty good. As much as I liked the first movie twenty years ago, I don’t think I saw this sequel before, so carries no nostalgia for me. Think I would love this as much as the first one if it did."
     text2="I’ve been thinking about how “the medium is the message” is an overstatement. Films and tv can have all sorts of messages. But, for the most part, films tend to aim at entertainment, not edification. [SPOILER-START] That final moment when Jason jolts back to life after appearing dead and that Moby soundtrack riff plays is deeply anti-thought movieish euphoric climax. Just a movie. [SPOILER-END]"
     rating={7}
   />,
   <Review
-    title="The Three Faces of Eve"    date="06/09/24"
+    title="The Three Faces of Eve"
+    date="06/09/24"
     text="Finally watched Oscar winning performance by Joanne Woodward (Paul Newman’s wife). Early depiction of dissociative personality disorder handled with surprising subtlety by Woodward. From the 50s so movie has framing devices of white male experts talking. Also, [SPOILER-START] Eve manages to integrate into one personality and remarry and ride off in car with her kid (who she was a danger to when sick) alongside new man. Family restored. [SPOILER-END] Men are good except for the country bumkin first husband who doesn’t understand mental illness and slaps Woodward/Eve. And women are good if they get rid of their slutty second personalities and become good wives."
     text2="Homework because it is an important Oscar winner and I’ve been meaning to explore Woodward and Newman. This is not a movie I needed to see, but I’m glad I have another film reference for some reason. I’ll never watch all the movies I’ve been meaning to watch, but I can cross off this one."
     rating={6}
   />,
   <Review
-    title="Silence"    date="06/09/24"
+    title="Silence"
+    date="06/09/24"
     text="Homework I assigned myself. Scorsese 406 (101 is Goodfellas). Watched in two to three sittings over the course of several weeks, sometimes on a tv, sometimes on a computer while making coffee and eating breakfast. Even more than Age of Innocence, the novel that I never read is probably better at teasing apart ideas of Christianity, Buddhism and imperialism. But I stopped reading the novel on page 1 so I guess this film has value for people who have given up on literacy. But has limited appeal because is an adaptation and not very movieish movie. Takes religion seriously while doing the atheist thing of putting religion in historical context."
     text2="[SPOILER-START] Whether the Portuguese priest  (Andrew Garfield) should have apostatized upon being threatened by sociopath brutal Japanese leader, whether he maintained faith in his heart while compromising in order to save lives, whether faith of any kind is worth practicing – film is skeptical but open ended. [SPOILER-END] Pop culture has replaced some of what religion used to do – a thing to think about and organize some of the events of one’s life around and admire the beauty of. Pop culture, including this movie, offers no coherence or absolutes or moral certainty. So, maybe faith is better. I have an empty feeling. Yearning for answers. Meaning."
     rating={7}
   />,
   <Review
-    title="The Verdict"    date="06/08/24"
+    title="The Verdict"
+    date="06/08/24"
     text="Finally saw what is called Paul Newman’s greatest performance in 80s medical malpractice drama with standard elements: [SPOILER-START] drunk, down on his luck lawyer finds sobriety and legal success by representing the little guy, corrupt institutions, surprise witness tracked down by lawyer opens up the case at the last minute, abstract heartfelt stump speeches about justice or something. At first I predicted Charlotte Rampling was a spy sent to seduce Newman, then I thought that was too obvious. Turns out she is a spy. [SPOILER-END] By the numbers, but not bad. The 80s pace was too slow in the beginning and bored me, but the slower pace worked at the end; better than forced euphoria. 90s movies just sped up 80s movies and made them more Xtreme!!! Newman is better in Hud, a better movie. Glad to get this movie off of my “movie bucket list” but I think I want to relieve myself of anxiety over not seeing key movies and performances. Nothing much changes with a movie."
     text2="Newman slaps Rampling in the face in one scene and film suggests this is okay. Screenplay David Mamet. Director Sydney Lumet."
     text3="Rampling always looked severe and cold and old in spirit even when young. Icy version of the seductress. White actresses often cold and remote even when supposed to be sexy. White man fantasy?"
     rating={6}
   />,
   <Review
-    title="Shakespeare in Love"    date="06/03"
+    title="Shakespeare in Love"
+    date="06/03"
     text="This is the second time I’ve watched this film after about 20 years and my impression is exactly the same. Nothing to think about, but entertaining. Better than Saving Private Ryan, which it beat due to Harvey Weinstein, his one good deed."
     rating={6}
   />,
   <Review
-    title="Hit Man"    date="06/03"
+    title="Hit Man"
+    date="06/03"
     text="Boring professor reignites his life and finds sex/love by posing as hitman for police, and then becoming actual hitman. Linklater frontloads movie with philosophical exposition and then movie unfolds in typical heightened fashion. Based on real story. The fake Hollywood stuff is Glen Powell becoming a hitman. I’m surprised that Linklater has a scene in which the newly self-actualized Powell has sex with his girl next to a dying body, both turned on by their reckless dangerous actions. Many Hollywood films are sociopathic and I though Linklater might critique this. He just revels in it. The philosophical component, I guess, is existentialist. The construction of the film is obvious. I thought Linklater might comment on the process of adapting a real story to suit the Hollywood format. Maybe he does."
     text2="Seen at Regal Union Sq."
     rating={7}
   />,
   <Review
-    title="Elizabeth"    date="06/03"
+    title="Elizabeth"
+    date="06/03"
     text="Pretty mediocre Best Picture nominee. No real narrative tension since there isn’t really an antagonist. More of a coming of age story about Elizabeth learning to be a ruthless ruler more so than taught palace intrigue story. People are killed so that Cate Blanchett may secure the throne, but the deaths are not thrilling because the male antagonists, like Christopher Ecclestone and Daniel Craig, do not matter because the movie does not care about them. The movie only cares about Elizabeth. Blanchett is good. Starts demure and increases in power, but you can tell she is powerful even when she is “sweet” in the beginning. Some indication of greater performances to come in Tar and Blue Jasmine."
     text2=""
     rating={6}
   />,
   <Review
-    title="Central Station"    date="06/01/2024"
+    title="Central Station"
+    date="06/01/2024"
     text="Is and looks like 90s Miramax awards bait movie, which is not a bad thing. Boy with deadbeat dad and dead mom navigates violent, impoverished Brazilian society. Pain of lost boy elided by an older woman who takes an interest in him and an over the top piano score. Embarrassed to say that the score and the manipulative ending brought tears despite my resistance. Maybe it’s okay that films like this obscure poverty and suffering with fantasy. But maybe not because of the nefarious Weinstein behind the scenes. Discussion of older woman’s deadbeat dad, romantic failures and inability to be a permanent figure in the boy’s life is compelling. Some argue that Fernanda Montenegro should have beaten Paltrow for Oscar and I agree. (Paltrow should have won for Royal Tenenbaums.) Been meaning to watch this movie for 15 years, ever since I started exploring film through the Best Actress Oscar (I moved on to directors later). Thought it would be hard because of foreign language and depiction of darkness, but the Miramax broth subsumed the bitterness with sweetness and hominess."
     text2="Interesting that A24 tactics are diff from Miramax aesthetics. Is it the director? The production company that determines the look? The state of tech? There is a Miramax look, I think. A reddish brown tint of Oscar bait."
     rating={7}
   />,
   <Review
-    title="The Bourne Supremacy"    date="06/01/2024"
+    title="The Bourne Supremacy"
+    date="06/01/2024"
     text="Okay"
     rating={5}
   />,
-  <Review    title="The Bourne Identity"
+  <Review
+    title="The Bourne Identity"
     date="05/31/2024"
     text="Nostalgia fuel. Charming actress from Run Lola Run, young Matt Damon, the boots Damon wore, the striped sweater someone wore in one scene, all so early 2000s. Brought me back to that time when I felt strongly about movies and got lost in them. I remembered a striped shirt I wore then. My old boots. Liquid days of youth when everything is changing. So much possibility. In my heart, 9/10. My brain says 7 or 8."
     text2="The story is a bit preposterous. Some of the action sequences do not make sense. Yet, on a physical and visual level, relatively grounded compared to John Wick or current Mission Impossible films. Not as maximalist as “event” movies are these days. Less bad guys to kill per scene."
@@ -961,148 +973,177 @@ export const REVIEWS = [
     rating={8}
   />,
 
-  <Review    title="Superbad"
+  <Review
+    title="Superbad"
     date="5/29/2024"
     text="I like this more now than I did when I first saw it. I’ll never be that into straight bro humor which makes me feel as alienated as I did in boarding school in a dorm full of jocks. Some jokes work. Some don’t. I like the black actress who plays the checkout girl even if her scene was clearly written by and for white people. I am working on being receptive to films by and for other kinds of people but Judd Appatow stirs the identity politics in me."
     rating={6}
   />,
-  <Review    title="The Batman"
-    date="5/28/2024"
-    text="Sure."
-    rating={6}
-  />,
-  <Review   title="Reacher (tv)"
+  <Review title="The Batman" date="5/28/2024" text="Sure." rating={6} />,
+  <Review
+    title="Reacher (tv)"
     text="Ex-military vigilante commits murder. Dirty Harry fantasy mixed with attempts at representing groups other than white men with well-drawn black Harvard grad police chief and tough lady cop. Refuses cavity search and prevents someone from being raped in prison. Hints of homophobia. Good show."
   />,
-  <Review   title="Logan Lucky"
+  <Review
+    title="Logan Lucky"
     text="Solid comedy written by wife of Soderbergh. Adam Driver good at being weird character actor. Meaningless fun."
     rating={7}
   />,
-  <Review   title="Femme"
+  <Review
+    title="Femme"
     text="Uncomfortable but successful discussion of a closeted white gay chav who attacks a black drag queen, ultimately concluding that the white guy is more broken and worthy of pity. Not visually interesting. The black actor seemed to be a boring drag queen to me. Spoiled by American Drag Race?"
     rating={7}
   />,
-  <Review   title="I Care a Lot"
+  <Review
+    title="I Care a Lot"
     text="Sociopath exploits old people and contends with the Russian mob boss of one of her elderly victims. Overt discussion of the sociopathy of capitalism. Rosamund Pike hilariously transitions between adorable cheery fake healthcare provider and icy calculator. Pike’s take on white woman sociopathy is distinct from Cate Blanchett’s in Tar. Blanchett’s sociopathy never disappears. Pike is at least as good as she is in Gone Girl. Movie too cynical to be successful?"
     rating={8}
   />,
-  <Review   title="Mission: Impossible - Dead Reckoning"
+  <Review
+    title="Mission: Impossible - Dead Reckoning"
     text="The monster is AI but this franchise has no idea how technology or anything in reality works. Silly fun. Perfect. 10/10"
     rating={10}
   />,
-  <Review   title="Fabulous Baker Boys"
+  <Review
+    title="Fabulous Baker Boys"
     text="Simple movie that would never be in theaters today."
     rating={6}
   />,
-  <Review   title="Death Becomes Her"
+  <Review
+    title="Death Becomes Her"
     text="Funny. Perfect. When I was younger I was not able to receive Meryl as a villain. Now I am. She’s naturalistic, even in a campy villainous role."
     rating={9}
   />,
-  <Review   title="Challengers"
+  <Review
+    title="Challengers"
     rating={8}
     text="Unlike any movie I’ve seen before. Essentially about nothing of importance, but fun. Zendaya is very good. She nearly transcends race by playing a rich (half?) black women in a love triangle with white guys. Race and class are present and yet sidestepped. No social commentary."
   />,
-  <Review   title="Devil Wears Prada"
+  <Review
+    title="Devil Wears Prada"
     rating={8}
     text="Good movie with bad politics. Fantasy of professionalizing oneself by working for an abusive rich boss. Fantasy of New York and Paris. Fantasy of consumerism. But what else does capitalism offer except a few good professional jobs and stuff to buy. Bakeries with croissants."
   />,
-  <Review    title="eXistenZ"
+  <Review
+    title="eXistenZ"
     text="Cronenberg examines danger of video game addiction displacing reality with signature organic technology body horror. Compares video games to sex, especially anal sex, and drugs. Young Jude Law is charming."
     rating={8}
   />,
-  <Review    title="Constantine"
+  <Review
+    title="Constantine"
     text="Fun blockbuster that takes Christian faith literally. Queer coded devil and demons (the moment when devil spreads Keanu’s legs is sexy). [SPOILER-START] Gets a 7 instead of a 6 because of the scene in which Constantine gives the Devil the finger as he floats off to heaven and the Devil prevents Constantine from going to heaven by taking the tar out of his lungs. [SPOILER-END]"
     rating={7}
   />,
   <Review title="Dewey Cox" text="Yes" rating={8} />,
-  <Review    title="Last Duel"
+  <Review
+    title="Last Duel"
     text="Perfect. Beautiful. Adam Driver should only play weirdos and it shows here but he is actually fine here despite not embodying traditional leading male masculinity."
     rating={10}
   />,
-  <Review    title="Before the Devil Knows You're Dead"
+  <Review
+    title="Before the Devil Knows You're Dead"
     text="Very good family melodrama about consequences of sibling rivalry and bad parenting. Hoffmann is the sociopath older brother who was over-disciplined and Hawke is the silly cute younger brother conned into robbing their parents. The final minutes are excessive and lessen the impact of the film. It would be better if the father just decided to be a parent, like Tilda Swinton hugging her son in We Need to Talk about Kevin."
     rating={8}
   />,
-  <Review    title="Eastern Promises"
+  <Review
+    title="Eastern Promises"
     text="Story is about the sexual exploitation of Russian/Ukrainian girls but the camera actually exploits Viggo Mortensen’s nudity, which, it seems, he was not super comfortable about. Between this, The Fly, and eXistenz, I think Cronenberg is a little gay. In addition, Mortensen is very touchy feely with the closeted Vincent Cassell in the film."
     text2="Addendum: See comments on Videodrome below. Here are excerpts from article: Cronenberg says he deliberately filmed heterosexual sex scenes in a cold way while much of the violence feels passionate and intimate. 'I try to make the violence real There is an underlying eroticism to it and by making it real I have made it sexual' 'I don't want to do a Bourne -type film… where you don't have to pay a penalty for that violence as an audience,' the director said in reference to the Jason Bourne trilogy starring Matt Damon."
     rating={9}
   />,
-  <Review    title="Dredd"
+  <Review
+    title="Dredd"
     text="Comic book adaptation written by Alex Garland that uses futuristic setting to critique violent criminal justice system. Witty and subtle social commentary that is not didactic. I wonder if Lena Headey’s acting is the right size for tv and small for the movies."
     rating={9}
   />,
-  <Review    title="Civil War"
+  <Review
+    title="Civil War"
     text="I do not mind that this film abstracts away from politics and institutions and just discusses the nature of people who document violence. A good use of movie abstraction from reality."
     rating={9}
   />,
   <Review title="Speed " text="Dumb" rating={5} />,
-  <Review    title="Talented Mr. Ripley"
+  <Review
+    title="Talented Mr. Ripley"
     text="I remember being turned on by the hints of nudity in this film when I was younger. Gay awakening."
     rating={10}
   />,
-  <Review    director="David Cronenberg"
+  <Review
+    director="David Cronenberg"
     title="Videodrome"
     text="Parable about danger of television and porn displacing reality. Signature Cronenberg body horror and Freudian sex negativity. Discussion of using torture and violence as pornography. Blames both the watcher and producer of snuff films – watchers are complicit."
     text2="Recurring theme of sadism in Cronenberg films. This film’s discussion of torture porn reveals that Viggo Mortensen’s nude fight scene in Eastern Promises was pornography for Cronenberg. Though that film was taken as art and though the scene is violent and not overtly sexual, to a sadistic eye, Viggo Mortensen’s body being flung about a bathhouse by people trying to kill him is porn. Some directors actually want to make porn but make art instead."
     rating={8}
   />,
-  <Review    title="Southland Tales"
+  <Review
+    title="Southland Tales"
     text="I would give it a 5 but I gave it a 6 because it takes big swings, attempting to comment on way too much – police state, radical leftists, feminists, corporations – with a confusing sci fi plot. Some jokes work. Most don’t. In interviews, director Richard Kelly is oddly childlike in demeanor. Film seems like it was written by someone in high school."
     rating={6}
   />,
-  <Review    title="Miss Congeniality"
+  <Review
+    title="Miss Congeniality"
     text="Pretty funny. Sandra Bullock is perfect. I was wrong to dismiss movies like this in my youth. Perfect set up in which FBI must use resources on training agent for beauty pageant. The jokes and set up could have been pushed further. Some don’t work. Several gay panic jokes and a really bizarre scene making fun of militant lesbian pageant finalist. And yet, the movie is kind of gay friendly. Black FBI boss and Benjamin Bratt wear dress in scene in which computer program generates images of agents in pageant dress. Opportunity to shame homely women, show men in drag (appealing to gay and anti-gay gaze) and objectify Sandra Bullock. Nice legs on black guy."
     rating={8}
   />,
-  <Review    title="Rounders"
+  <Review
+    title="Rounders"
     text="Breezy meaningless film about high stakes poker with no stakes. Great Ed Norton performance. John Malkovich does a silly Russian accent. Gretchen Mol plays the Michael-Mann-girl type who tries to domesticate the man obsessed with his work."
     rating={7}
   />,
-  <Review    title="American Gigolo"
+  <Review
+    title="American Gigolo"
     text="Not as good as other Schrader films (Taxi Driver, First Reformed, Hardcore, Blue Collar) but very stylish. I think you have to be into the fashion and glamour of a certain image of LA to appreciate."
     rating={7}
   />,
-  <Review    title="The Quiet Girl"
+  <Review
+    title="The Quiet Girl"
     text="Irish film about neglected girl who experiences love for the first time when she spends a summer with childless family members. Ending is heartbreaking. Reminds of the time I didn’t want to go back home when I visited family in Florida."
     rating={8}
   />,
 
-  <Review    title="The Holdovers"
+  <Review
+    title="The Holdovers"
     text="Slight. Unambitious. Good acting from the three main characters. "
     rating={7}
   />,
-  <Review    title="Godzilla Minus One"
+  <Review
+    title="Godzilla Minus One"
     text="I have not finished Jaws but reminds me of Jaws. Standard and well-done hero’s journey. This kind of blockbuster is just not that compelling to me. I wish the acting were naturalistic instead of stylized and melodramatic in a specifically Japanese way. Too psychologically simple?"
     rating={7}
   />,
-  <Review    title="Clemency"
+  <Review
+    title="Clemency"
     text="Maybe one of the best performances I’ve ever seen."
     rating={9}
   />,
-  <Review    title="The Usual Suspects"
+  <Review
+    title="The Usual Suspects"
     text="Very stylistic. Very plot driven. Amoral filmmaking. Just plot. Just clever twist. There’s a barely tertiary female character to give Gabriel Byrne some heart. Slick non-humanistic film making at its 90s finest."
     rating={9}
   />,
-  <Review    title="Phantom Thread"
+  <Review
+    title="Phantom Thread"
     text="A lot of appreciation hinges on the final “twist.” I’d have to rewatch to catch everything. I’m still not sure that I appreciate PTA. This is art. Feels like a smart short story. Maybe should be a short story. Not really a movie."
     rating={8}
   />,
   <Review title="Triple Frontier" text="Meh." rating={5} />,
-  <Review    title="Barfly"
+  <Review
+    title="Barfly"
     text="Best depiction of low life drunks I’ve seen so far. Interesting blend of high and low class – the two leads are both and neither."
     rating={8}
   />,
-  <Review    title="Jaws"
+  <Review
+    title="Jaws"
     text="The jokes are cringe. The characters are line drawings. The doting wife bores and unnerves me (like she belonged in a Robert Altman movie and is trapped in a Spielberg movie; looks like Shelley Duvall). But the opening was solid. The scenes on the boat gripping. Perfect blockbuster with that lack of real humanity that permeates Spielberg films. I am slowly beginning to appreciate Spielberg despite how there’s very little of me that resonates with his instincts. He is the best director and I can’t help but be impressed."
     rating={8}
   />,
-  <Review    title="Devil’s Advocate"
+  <Review
+    title="Devil’s Advocate"
     text="Wish high concept original films like this were still made. Weird how Keanu Reeves can act his ass off in the screaming match with Pacino and fumble dialogue in a scene with Charlize. When Keanu is “bad,” I don’t really mind. He's just a movie star, I guess."
     text2="Horny filmmaker. Fully naked ladies."
     rating={9}
   />,
-  <Review    title="Ocean’s Eleven"
+  <Review
+    title="Ocean’s Eleven"
     text="I watched this because SFennessy and ADobbins of The Big Picture podcast ranked this high among Soderbergh films. I think that Sex Lies and Videotape is the only Soderbergh film that does not seem artificial to me. He makes you pay attention to the construction of the film and the editing techniques and references he plays with. Beautiful scene of the guys looking at a water fountain at night and for a second it looks like day as Claire de Lune plays. Nice to see so many beautiful actors at the peak of their power as movie stars. The last generation of movie stars as we once knew them. I think that the hosts of The Big Picture have a much higher appreciation of MOVIES that are very white and divorced from reality than I do. The scene in which Bernie Mac pretends to play the race card in order to enable Matt Damon to play a bumbling white person and trick the casino owner was unfunny enough to be offensive. That white people find black people complaining inherently funny is the offense, I think. Fakeness of complaint makes it worse. Waste of Bernie Mac. RIP."
     rating={8}
   />,
