@@ -175,6 +175,7 @@ function Home() {
   const ref132 = useRef(null);
   const ref133 = useRef(null);
   const ref134 = useRef(null);
+  const ref135 = useRef(null);
 
   const toggleLinks = () => {
     setShowLinks(!showLinks);
@@ -191,6 +192,20 @@ function Home() {
   };
 
   const reviews = [
+    <Review
+      title="Captain America: Brave New World"
+      director="Julius Onah"
+      writer=""
+      ref={ref135}
+      date="04/26/2025"
+      releaseDate="2025"
+      paragraphs={[
+        `Critics generally despised Captain America: Brave New World when it was released this February, giving it a 48% rating on Rotten Tomatoes. The rating is a little low because this installment of the Captain America franchise is not all that different from 2014’s Captain America: The Winter Soldier, which boasts at 90% rating. The execution of Winter Soldier is much better, but the stories are similar. Brave New World is a political thriller about a mutant genius who uses mind control of political leaders to provoke global destabilization. Winter Soldier is a political thriller about a fascist organization that infiltrates a government organization in order to provoke global destabilization. The plotting and pacing of Brave New World are much worse than those in Winter Soldier, but the DNA is the same.`,
+        `Some critics argue that Brave New World is not political enough, presumably because the film does not spend enough time bashing the Harrison Ford character, who is a stand-in for a Republican president. Brave New World is careful about not being too partisan because Marvel movies are supposed to appeal to everyone. Similarly, Winter Soldier is not partisan. Winter Soldier merely took a stance against Nazis, the most obvious and cowardly “political” stance to take. Paranoid thrillers like the Captain America movies (or like Hitchcock films or the Grisham adaptations of the 90s) are not and have never been political motivators. They merely suggest that evil individuals corrupt powerful institutions, and it takes very good individuals to beat the bad ones. The good guys beat the Nazis and evil mutants, and restore governmental institutions such that they secure American lives without impinging too much on American freedoms. Whether they restore faith in the political system or encourage paranoia, paranoid thrillers do not encourage political action. Just stasis and/or fear. Brave New World does not have much substance. Neither did Winter Soldier. Neither do MCU movies in general. Perhaps weariness over the sameness of these movies explains the poor critical reception.`,
+      ]}
+      theater=""
+      rating={3}
+    />,
     <Review
       title="It Ends With Us"
       director="Justin Baldoni"
@@ -214,7 +229,7 @@ function Home() {
       releaseDate="2025"
       paragraphs={[
         `Since the success of ${TITLE_START} Get Out, ${TITLE_END} audiences of black horror and black genre films have burdened themselves with analyzing what every movie monster symbolizes about race and capitalism in every black film. As I slid into my seat during a matinee screening of ${TITLE_START} Sinners ${TITLE_END} opening weekend, I felt anxious about having to interpret every frame and bit of dialogue. And then director Ryan Coogler surprised me. He introduced me to black businessmen arriving in Mississippi from Chicago, striking deals in order to open a juke joint. He introduced me to the son of a preacher who prefers the Blues to the gospel. He introduced me to a local drunk who plays the piano. He introduced me to a fresh take on the tragic mulatto. He introduced me to black women who pursue and express sexual gratification. He introduced me to a community of sharecroppers that relieve their burdens with church or with drink and music. So, I stopped worrying about analysis because the movie is enough. This is a real movie. Not a sequel. Not a remake. Not a static art installation. Not a vehicle for politics. The movie puts you in a place with people. It should be experienced first, and analyzed later.`,
-        `As for analysis, sure, the vampires represent something about race and class in America. The film is rich in images, sounds and ideas, so there must be many interpretations of them. Vampires have something to do with sinning and hedonistic escape from working-class life and racialized oppression. The post-credits scene in ${TITLE_START} Sinners ${TITLE_END} explicitly suggests Americans have no real access to freedom, but they do have music and dance. Thus, ${TITLE_START} Sinners ${TITLE_END} compares enjoying night life to vampirism. Vampires escape death, but are not free because they never see the light. Perhaps vampires are like addicts – people whose escapism lands them in a darker place. Ryan Coogler is a brilliant. These ideas are interesting. I am just glad this movie is movie-ish enough to overcome having to be about something to matter. It’s about so many things, but also, it’s a portrait of a community movie, a crazy night out movie, a vampire movie. Finally, the movies give us a movie!`
+        `As for analysis, sure, the vampires represent something about race and class in America. The film is rich in images, sounds and ideas, so there must be many interpretations of them. Vampires have something to do with sinning and hedonistic escape from working-class life and racialized oppression. The post-credits scene in ${TITLE_START} Sinners ${TITLE_END} explicitly suggests Americans have no real access to freedom, but they do have music and dance. Thus, ${TITLE_START} Sinners ${TITLE_END} compares enjoying night life to vampirism. Vampires escape death, but are not free because they never see the light. Perhaps vampires are like addicts – people whose escapism lands them in a darker place. Ryan Coogler is a brilliant. These ideas are interesting. I am just glad this movie is movie-ish enough to overcome having to be about something to matter. It’s about so many things, but also, it’s a portrait of a community movie, a crazy night out movie, a vampire movie. Finally, the movies give us a movie!`,
       ]}
       theater="AMC 19th St. East 6"
       rating={9}
