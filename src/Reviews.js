@@ -25,7 +25,6 @@ export const REVIEWS = [
     title="It Ends With Us"
     director="Justin Baldoni"
     writer=""
-    ref={ref134}
     date="04/24/2025"
     releaseDate="2024"
     paragraphs={[
