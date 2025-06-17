@@ -9,6 +9,30 @@ export const SPOILER_END = "[SPOILER-END]"
 
 export const REVIEWS = [
   <Review
+    title="Gods and Monsters"
+    director="Bill Condon"
+    writer=""
+    date="06/17/2025"
+    releaseDate="1998"
+    paragraphs={[
+      `Sad, beautiful reflection on the loneliness and trauma of a gay man of a certain generation who is haunted by the past once the distractions of career and sex disappear. The film tries to redeem the gay trauma with a hopeful ending about straight family structure, which is a choice.`,
+    ]}
+    theater=""
+    rating={9}
+  />,
+  <Review
+    title="Crossfire"
+    director="Edward Dmytryk"
+    writer=""
+    date="06/17/2025"
+    releaseDate="1947"
+    paragraphs={[
+      `2/3rds of the movie is a brilliant noir with each scene introducing new mysterious characters with rich, stage play-like dialogue exploring the trauma of soldiers returned from war and unable to assimilate back into civilian life. The last bit of the movie is an obvious and dated lecture on how bad antisemitism is.`,
+    ]}
+    theater=""
+    rating={8}
+  />,
+  <Review
     title="Captain America: Brave New World"
     director="Julius Onah"
     writer=""

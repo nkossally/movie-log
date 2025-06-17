@@ -176,6 +176,8 @@ function Home() {
   const ref133 = useRef(null);
   const ref134 = useRef(null);
   const ref135 = useRef(null);
+  const ref136 = useRef(null);
+  const ref137 = useRef(null);
 
   const toggleLinks = () => {
     setShowLinks(!showLinks);
@@ -193,6 +195,32 @@ function Home() {
 
   const reviews = [
     <Review
+      title="Gods and Monsters"
+      director="Bill Condon"
+      writer=""
+      ref={ref137}
+      date="06/17/2025"
+      releaseDate="1998"
+      paragraphs={[
+        `Sad, beautiful reflection on the loneliness and trauma of a gay man of a certain generation who is haunted by the past once the distractions of career and sex disappear. The film tries to redeem the gay trauma with a hopeful ending about straight family structure, which is a choice.`,
+      ]}
+      theater=""
+      rating={9}
+    />,
+    <Review
+      title="Crossfire"
+      director="Edward Dmytryk"
+      writer=""
+      ref={ref136}
+      date="06/17/2025"
+      releaseDate="1947"
+      paragraphs={[
+        `2/3rds of the movie is a brilliant noir with each scene introducing new mysterious characters with rich, stage play-like dialogue exploring the trauma of soldiers returned from war and unable to assimilate back into civilian life. The last bit of the movie is an obvious and dated lecture on how bad antisemitism is.`,
+      ]}
+      theater=""
+      rating={8}
+    />,
+    <Review
       title="Captain America: Brave New World"
       director="Julius Onah"
       writer=""
@@ -201,7 +229,7 @@ function Home() {
       releaseDate="2025"
       paragraphs={[
         `Critics generally despised ${TITLE_START} Captain America: Brave New World ${TITLE_END} when it was released this February, giving it a 48% rating on Rotten Tomatoes. The rating is a little low because this installment of the ${TITLE_START} Captain America ${TITLE_END} franchise is not all that different from 2014’s ${TITLE_START} Captain America: The Winter Soldier, ${TITLE_END} which boasts a 90% rating. The execution of ${TITLE_START} Winter Soldier ${TITLE_END} is much better, but the stories are similar. ${SPOILER_START} ${TITLE_START} Brave New World ${TITLE_END} is a political thriller about a mutant genius who uses mind control of political leaders to provoke global destabilization. ${TITLE_START} Winter Soldier ${TITLE_END} is a political thriller about a fascist organization that infiltrates a government organization in order to provoke global destabilization.  ${SPOILER_END} The plotting and pacing of ${TITLE_START} Brave New World ${TITLE_END} are much worse than those in ${TITLE_START} Winter Soldier, ${TITLE_END} but the DNA is the same.`,
-        `Some critics argue that ${TITLE_START} Brave New World ${TITLE_END} is not political enough, presumably because the film does not spend enough time bashing the Harrison Ford character, who is a stand-in for a Republican president. ${TITLE_START} Brave New World ${TITLE_END} is careful about not being too partisan because Marvel movies are supposed to appeal to everyone. Similarly, ${TITLE_START} Winter Soldier ${TITLE_END} is not partisan. ${TITLE_START} Winter Soldier ${TITLE_END} merely took a stance against Nazis, the most obvious and cowardly “political” stance to take. Paranoid thrillers like the ${TITLE_START} Captain America ${TITLE_END} movies (or like Hitchcock films or the Grisham adaptations of the 90s) are not and have never been political motivators. If paranoid thrillers do anything more than entertain, they instill fear and paralysis. Paranoid thrillers suggest that evil individuals corrupt powerful institutions, and, if the ending is happy, exceptionally good individuals expose corruption at the highest levels. In the ${TITLE_START} Captain America ${TITLE_END} movies, the good guys beat the Nazis and evil mutants, and restore governmental institutions such that they secure American lives without impinging too much on American freedoms. Whether they end happily or not, paranoid thrillers do not encourage collective action. Just stasis and/or fear. ${TITLE_START} Brave New World ${TITLE_END} is a boring, muddled, political thriller. It does not have much substance. Neither did ${TITLE_START} Winter Soldier. ${TITLE_END} Neither do MCU movies in general. Perhaps weariness over the sameness of these movies explains the poor critical reception.`
+        `Some critics argue that ${TITLE_START} Brave New World ${TITLE_END} is not political enough, presumably because the film does not spend enough time bashing the Harrison Ford character, who is a stand-in for a Republican president. ${TITLE_START} Brave New World ${TITLE_END} is careful about not being too partisan because Marvel movies are supposed to appeal to everyone. Similarly, ${TITLE_START} Winter Soldier ${TITLE_END} is not partisan. ${TITLE_START} Winter Soldier ${TITLE_END} merely took a stance against Nazis, the most obvious and cowardly “political” stance to take. Paranoid thrillers like the ${TITLE_START} Captain America ${TITLE_END} movies (or like Hitchcock films or the Grisham adaptations of the 90s) are not and have never been political motivators. If paranoid thrillers do anything more than entertain, they instill fear and paralysis. Paranoid thrillers suggest that evil individuals corrupt powerful institutions, and, if the ending is happy, exceptionally good individuals expose corruption at the highest levels. In the ${TITLE_START} Captain America ${TITLE_END} movies, the good guys beat the Nazis and evil mutants, and restore governmental institutions such that they secure American lives without impinging too much on American freedoms. Whether they end happily or not, paranoid thrillers do not encourage collective action. Just stasis and/or fear. ${TITLE_START} Brave New World ${TITLE_END} is a boring, muddled, political thriller. It does not have much substance. Neither did ${TITLE_START} Winter Soldier. ${TITLE_END} Neither do MCU movies in general. Perhaps weariness over the sameness of these movies explains the poor critical reception.`,
       ]}
       theater=""
       rating={3}
@@ -1479,6 +1507,8 @@ function Home() {
   ];
 
   const reviewLinks = [
+    [ref137, "Gods and Monsters"],
+    [ref136, "Crossfire"],
     [ref135, "Captain America: Brave New World"],
     [ref134, "It Ends With Us"],
     [ref133, "Sinners"],
