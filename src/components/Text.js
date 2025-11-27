@@ -4,8 +4,8 @@ import classNames from "classnames";
 const SPOILER_START_FLAG = "[SPOILER-START]";
 const SPOILER_END_FLAG = "[SPOILER-END]";
 
-const TITLE_START_FLAG = "[ITALIC-START]";
-const TITLE_END_FLAG = "[ITALIC-END]";
+const ITALIC_START_FLAG = "[ITALIC-START]";
+const ITALIC_END_FLAG = "[ITALIC-END]";
 const LINE_BREAK = "[LINE-BREAK]";
 
 export const Text = ({ text }) => {
@@ -28,9 +28,9 @@ export const Text = ({ text }) => {
     } else if (word === SPOILER_END_FLAG) {
       // wordBlocks[wordBlocks.length - 1][1] = true
       isSpoiler = false;
-    } else  if (word === TITLE_START_FLAG) {
+    } else  if (word === ITALIC_START_FLAG) {
       isTitle = true;
-    } else if (word === TITLE_END_FLAG) {
+    } else if (word === ITALIC_END_FLAG) {
       // wordBlocks[wordBlocks.length - 1][2] = true
       isTitle = false;
     } else if(word) {
