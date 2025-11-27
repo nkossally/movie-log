@@ -179,6 +179,7 @@ function Home() {
   const ref136 = useRef(null);
   const ref137 = useRef(null);
   const ref138 = useRef(null);
+  const ref139 = useRef(null);
 
   const toggleLinks = () => {
     setShowLinks(!showLinks);
@@ -197,6 +198,19 @@ function Home() {
 //   ${TITLE_END} 
   const reviews = [
     <Review
+      title="Malcolm X"
+      director="Spike Lee"
+      writer=""
+      ref={ref139}
+      date="11/26/2025"
+      releaseDate="1992"
+      paragraphs={[
+        `This adaptation of The Autobiography of Malcolm X makes me yearn for the earnest black nationalism and activism of the 60's. But critical thinking breaks the spell of nationalism and of this movie. Misogyny is the great sin of nationalism and of Spike Lee. Just after a scene in which Malcolm X (Denzel Washington) explains how white men have degraded black women, a comedic scene plays that fat-shames a black woman. Spike Lee himself plays the character who runs away from a chubby black woman on a dance floor. This film is more interested in depicting masculinity than femininity. Denzel Washington plays three distinct phases of a life and portrays three equally appealing forms of peak black masculinity: hustler, devoted religious follower, and leader. This is as compelling of a performance of a man who is very much a man gets.`,
+      ]}
+      theater=""
+      rating={8}
+    />,
+    <Review
       title="Die My Love"
       director="Lynne Ramsay"
       writer=""
@@ -204,8 +218,7 @@ function Home() {
       date="11/16/2025"
       releaseDate="2025"
       paragraphs={[
-        `${TITLE_START} Die My Love ${TITLE_END} is a film made of moments. There are moments that are memorable, like the scene in which a multigenerational group of women at a table laughed, and a depressed Jennifer Lawrence did not. And then an old man had a fit, and the older women at the table were silent, and Jennifer Lawrence laughed. The moment is small but significant. In ${TITLE_START} Die My Love, ${TITLE_END} Lawrence plays a woman progressively withdrawing from society as she sinks into madness. The movie is more of an art film than a movie. Some events are hallucinations. Some events are out of order. The film is dreamlike and disorienting, forcing the perspective of the mad protagonist onto viewers. The movie is made of moments to be experienced, not consumed, and not analyzed. Aside from Lynne Ramsay’s lyrical direction and Sissy Spacek's sturdy and grounding supporting performance, Jennifer Lawrence is the centerpiece of this work of art. Lawrence's performance is her best yet. She is carnal, sexual, animal-like, intelligent, and mad. In yet another memorable moment of the film, Lawrence dances to “Hey Mickey” in front of her infant child, bending at the waist and gyrating while smiling at her baby. She is a new mother, horny and unfucked by her husband. Lawrence is erotic, mind and body in tune with the character she plays. This may be the performance of the year. I do not know if Lawrence’s celebrity status is currently high enough to carry her to an Oscar nomination, but her artistry should.`
-
+        `${TITLE_START} Die My Love ${TITLE_END} is a film made of moments. There are moments that are memorable, like the scene in which a multigenerational group of women at a table laughed, and a depressed Jennifer Lawrence did not. And then an old man had a fit, and the older women at the table were silent, and Jennifer Lawrence laughed. The moment is small but significant. In ${TITLE_START} Die My Love, ${TITLE_END} Lawrence plays a woman progressively withdrawing from society as she sinks into madness. The movie is more of an art film than a movie. Some events are hallucinations. Some events are out of order. The film is dreamlike and disorienting, forcing the perspective of the mad protagonist onto viewers. The movie is made of moments to be experienced, not consumed, and not analyzed. Aside from Lynne Ramsay’s lyrical direction and Sissy Spacek's sturdy and grounding supporting performance, Jennifer Lawrence is the centerpiece of this work of art. Lawrence's performance is her best yet. She is carnal, sexual, animal-like, intelligent, and mad. In yet another memorable moment of the film, Lawrence dances to “Hey Mickey” in front of her infant child, bending at the waist and gyrating while smiling at her baby. She is a new mother, horny and unfucked by her husband. Lawrence is erotic, mind and body in tune with the character she plays. This may be the performance of the year. I do not know if Lawrence’s celebrity status is currently high enough to carry her to an Oscar nomination, but her artistry should.`,
       ]}
       theater="Alamo Drafthouse Cinema Downtown Brooklyn"
       rating={9}
