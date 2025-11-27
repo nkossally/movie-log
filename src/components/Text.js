@@ -4,8 +4,8 @@ import classNames from "classnames";
 const SPOILER_START_FLAG = "[SPOILER-START]";
 const SPOILER_END_FLAG = "[SPOILER-END]";
 
-const TITLE_START_FLAG = "[TITLE-START]";
-const TITLE_END_FLAG = "[TITLE-END]";
+const TITLE_START_FLAG = "[ITALIC-START]";
+const TITLE_END_FLAG = "[ITALIC-END]";
 const LINE_BREAK = "[LINE-BREAK]";
 
 export const Text = ({ text }) => {
