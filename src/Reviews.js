@@ -6,8 +6,19 @@ export const ITALIC_END = "[ITALIC-END]"
 export const SPOILER_START = "[SPOILER-START]"
 export const SPOILER_END = "[SPOILER-END]"
 
-
 export const REVIEWS = [
+    <Review
+    title="To Die For"
+    director="Gus Van Sant"
+    writer="Buck Henry"
+    date="12/15/2025"
+    releaseDate="1995"
+    paragraphs={[
+      `${ITALIC_START} To Die For ${ITALIC_END} is a slick, well-executed high-concept film with an indie/arthouse feel. Nicole Kidman gives career-best work as a television-obsessed local weather girl who conspires to kill her husband when he threatens her delusions about becoming a media megastar. This black comedy, based on a novel by Joyce Maynard, contains a profound critique of how television addles the brains of people already inclined to narcissistic fantasies. Like ${ITALIC_START} American Beauty ${ITALIC_END} and ${ITALIC_START} The Ice Storm, ${ITALIC_END} ${ITALIC_START} To Die For ${ITALIC_END} is of the genre of films that critiques the dark side of the suburbs and may be the best of the genre. Kidman is probably the most experimental elite Hollywood actress. She finds her performances in small nuances, and here the quirks she uses to illustrate the sociopath she portrays are incredibly funny.`
+    ]}
+    theater=""
+    rating={10}
+  />,
   <Review
     title="Malcolm X"
     director="Spike Lee"
