@@ -7,14 +7,26 @@ export const SPOILER_START = "[SPOILER-START]"
 export const SPOILER_END = "[SPOILER-END]"
 
 export const REVIEWS = [
-    <Review
+  <Review
+    title="Sentimental Value"
+    director="Joachim Trier"
+    writer="Eskil Vogt, Joachim Trier"
+    date="12/15/2025"
+    releaseDate="2025"
+    paragraphs={[
+      `Much like my response to Joachim Trier's previous film, The Worst Person in the World, my response to Sentimental Value is less enthusiastic than the general reception. This film has familiar tropes. It is a piece of art about making art. It is about a genius whose focus on his career traumatizes his children. The problem with this film is not the familiarity of its themes. The problem is the execution. The characters have no specificity. They seem like abstract ideas. Typically, a foreign film has the advantage of seeming culturally specific, and yet this film does not even accomplish that. The story beats are mild, and so is the direction. I wish there were sweeping, lyrical shots of nature or man-made objects, or a striking close-up or two, but the direction falls as short as the screenplay. Trier makes another movie that is less profound than it pretends to be.`,
+    ]}
+    theater=""
+    rating={6}
+  />,
+  <Review
     title="To Die For"
     director="Gus Van Sant"
     writer="Buck Henry"
     date="12/15/2025"
     releaseDate="1995"
     paragraphs={[
-      `${ITALIC_START} To Die For ${ITALIC_END} is a slick, well-executed high-concept film with an indie/arthouse feel. Nicole Kidman gives career-best work as a television-obsessed local weather girl who conspires to kill her husband when he threatens her delusions about becoming a media megastar. This black comedy, based on a novel by Joyce Maynard, contains a profound critique of how television addles the brains of people already inclined to narcissistic fantasies. Like ${ITALIC_START} American Beauty ${ITALIC_END} and ${ITALIC_START} The Ice Storm, ${ITALIC_END} ${ITALIC_START} To Die For ${ITALIC_END} is of the genre of films that critiques the dark side of the suburbs and may be the best of the genre. Kidman is probably the most experimental elite Hollywood actress. She finds her performances in small nuances, and here the quirks she uses to illustrate the sociopath she portrays are incredibly funny.`
+      `${ITALIC_START} To Die For ${ITALIC_END} is a slick, well-executed high-concept film with an indie/arthouse feel. Nicole Kidman gives career-best work as a television-obsessed local weather girl who conspires to kill her husband when he threatens her delusions about becoming a media megastar. This black comedy, based on a novel by Joyce Maynard, contains a profound critique of how television addles the brains of people already inclined to narcissistic fantasies. Like ${ITALIC_START} American Beauty ${ITALIC_END} and ${ITALIC_START} The Ice Storm, ${ITALIC_END} ${ITALIC_START} To Die For ${ITALIC_END} is of the genre of films that critiques the dark side of the suburbs and may be the best of the genre. Kidman is probably the most experimental elite Hollywood actress. She finds her performances in small nuances, and here the quirks she uses to illustrate the sociopath she portrays are incredibly funny.`,
     ]}
     theater=""
     rating={10}
@@ -26,7 +38,7 @@ export const REVIEWS = [
     date="11/26/2025"
     releaseDate="1992"
     paragraphs={[
-        `This adaptation of ${ITALIC_START} The Autobiography of Malcolm X ${ITALIC_END} makes me yearn for the black nationalism and activism of the 60s. The film also reconfirms that misogyny limits the appeal of all nationalisms and the appeal of several Spike Lee joints. In ${ITALIC_START} Malcolm X, ${ITALIC_END} just after a scene in which Malcolm X (Denzel Washington) explains how white men have degraded black women, a comedic scene plays that fat-shames a black woman. Spike Lee himself plays the character who runs away from a chubby black woman on a dance floor, saying, "You're too big." In this movie, the black woman is either degraded by the white man, degraded by the black man, or uplifted by the black man. The movie is more interested in depicting masculinity than femininity. Denzel Washington plays three distinct and equally appealing forms of peak black masculinity: hustler, devoted religious follower, and revolutionary leader. Washington's performance of a man who is very much a man is as compelling as acting out manhood can get.`,
+      `This adaptation of ${ITALIC_START} The Autobiography of Malcolm X ${ITALIC_END} makes me yearn for the black nationalism and activism of the 60s. The film also reconfirms that misogyny limits the appeal of all nationalisms and the appeal of several Spike Lee joints. In ${ITALIC_START} Malcolm X, ${ITALIC_END} just after a scene in which Malcolm X (Denzel Washington) explains how white men have degraded black women, a comedic scene plays that fat-shames a black woman. Spike Lee himself plays the character who runs away from a chubby black woman on a dance floor, saying, "You're too big." In this movie, the black woman is either degraded by the white man, degraded by the black man, or uplifted by the black man. The movie is more interested in depicting masculinity than femininity. Denzel Washington plays three distinct and equally appealing forms of peak black masculinity: hustler, devoted religious follower, and revolutionary leader. Washington's performance of a man who is very much a man is as compelling as acting out manhood can get.`,
     ]}
     theater=""
     rating={8}

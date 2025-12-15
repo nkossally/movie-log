@@ -181,6 +181,7 @@ function Home() {
   const ref138 = useRef(null);
   const ref139 = useRef(null);
   const ref140 = useRef(null);
+  const ref141 = useRef(null);
 
   const toggleLinks = () => {
     setShowLinks(!showLinks);
@@ -198,6 +199,19 @@ function Home() {
 //  ${ITALIC_START} 
 //   ${ITALIC_END} 
   const reviews = [
+    <Review
+      title="Sentimental Value"
+      director="Joachim Trier"
+      writer="Eskil Vogt, Joachim Trier"
+      ref={ref141}
+      date="12/15/2025"
+      releaseDate="2025"
+      paragraphs={[
+        `Much like my response to Joachim Trier's previous film, The Worst Person in the World, my response to Sentimental Value is less enthusiastic than the general reception. This film has familiar tropes. It is a piece of art about making art. It is about a genius whose focus on his career traumatizes his children. The problem with this film is not the familiarity of its themes. The problem is the execution. The characters have no specificity. They seem like abstract ideas. Typically, a foreign film has the advantage of seeming culturally specific, and yet this film does not even accomplish that. The story beats are mild, and so is the direction. I wish there were sweeping, lyrical shots of nature or man-made objects, or a striking close-up or two, but the direction falls as short as the screenplay. Trier makes another movie that is less profound than it pretends to be.`,
+      ]}
+      theater=""
+      rating={6}
+    />,
     <Review
       title="To Die For"
       director="Gus Van Sant"
