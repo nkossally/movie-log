@@ -203,22 +203,20 @@ function Home() {
   const reviews = [
     <Review
       title="Crime 101"
-      director=""
+      director="Bart Layton"
       writer=""
       ref={ref143}
       date="02/18/2026"
       releaseDate="2026"
       paragraphs={[
         `
-          ${ITALIC_START} Crime 101 ${ITALIC_END} is a decent movie with a dark message at its core. The film offers a grim portrait of an ugly Los Angeles made up of social classes struggling to earn enough money to feel “safe,” as gruff main character Chris Hemsworth puts it. The beautiful actors drive fancy cars, and through the windows one can see fly by sidewalks filled with homeless people. Everyone feels the anxiety of trying to survive Epstein capitalism. The film depicts capitalistic grimness and offers consumption as a solution.
-          ${LINE_BREAK}
-          Crime 101 is perplexing. There is a great movie inside this overall mediocre one. It is an old-school heist movie with many formulaic elements, such as an ethical thief, an ethical cop who battles a corrupt police force, a normal girl who falls in love with a weird loner, a fallen woman, etc. The film succeeds when it is more specific, such as the scene when insurance broker Halle Berry notices that her white, misogynist, rich client collects black art. Halle Berry’s character has the potential to provide an interesting perspective on the obstacles faced by the black professional class when climbing the corporate ladder. Crime 101 depicts several politically pertinent features of American society, to its great credit. Still, the film resolves in clichés, badly shot action sequences, and forced sentiment. The film depicts a society that is atomized and sad. Thriller genre conventions fail to erase the sadness at this film’s core.
-          ${LINE_BREAK}
-          There is a pall of sadness hanging over this film, a shadow cast by its producer, Amazon MGM Studios. Aside from a few cool shots, this film looks generic, dull, mass-produced, and almost made for television. I recommend seeing this in theaters because there are a couple of interesting shots of Los Angeles upside down, a beautiful and disturbing symbol for how surviving the city requires inverting one’s moral character. Director Bart Layton tries to put some character into this movie, but Crime 101 mostly looks like an Amazon movie. The film’s overall lack of specificity in look and content conforms to the mandate of the streaming age to make watching movies as ordinary as sitting on your couch.
+          ${ITALIC_START} Crime 101 ${ITALIC_END} is a decent movie with a dark message at its core. The film offers a grim portrait of an ugly Los Angeles made up of social classes struggling to earn enough money to feel “safe,” as gruff main character Chris Hemsworth puts it. The beautiful actors drive fancy cars, and through the windows one can see fly by sidewalks filled with homeless people. Everyone feels the anxiety of trying to survive Epstein capitalism. The film depicts capitalistic grimness and offers consumption as a solution.`,
+          `${ITALIC_START} Crime 101 ${ITALIC_END} is perplexing. There is a great movie inside this overall mediocre one. It is an old-school heist movie with many formulaic elements, such as an ethical thief, an ethical cop who battles a corrupt police force, a normal girl who falls in love with a weird loner, a fallen woman, etc. The film succeeds when it is more specific, such as the scene when insurance broker Halle Berry notices that her white, misogynist, rich client collects black art. Halle Berry’s character has the potential to provide an interesting perspective on the obstacles faced by the black professional class when climbing the corporate ladder. ${ITALIC_START} Crime 101 ${ITALIC_END} depicts several politically pertinent features of American society, to its great credit. Still, the film resolves in clichés, badly shot action sequences, and forced sentiment. The film depicts a society that is atomized and sad. Thriller genre conventions fail to erase the sadness at this film’s core.`,
+          `There is a pall of sadness hanging over this film, a shadow cast by its producer, Amazon MGM Studios. Aside from a few cool shots, this film looks generic, dull, mass-produced, and almost made for television. I recommend seeing this in theaters because there are a couple of interesting shots of Los Angeles upside down, a beautiful and disturbing symbol for how surviving the city requires inverting one’s moral character. Director Bart Layton tries to put some character into this movie, but ${ITALIC_START} Crime 101 ${ITALIC_END} mostly looks like an Amazon movie. The film’s overall lack of specificity in look and content conforms to the mandate of the streaming age to make watching movies as ordinary as sitting on your couch.
           `,
       ]}
-      theater=""
-      rating={9}
+      theater="Alamo Drafthouse Cinema Downtown Brooklyn"
+      rating={6}
     />,
     <Review
       title="Cape Fear"

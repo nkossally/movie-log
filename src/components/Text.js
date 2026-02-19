@@ -38,6 +38,8 @@ export const Text = ({ text }) => {
     }
   }
 
+    
+
   return (
     <div className="text-container">
       {wordBlocks.map((block, idx) => {
@@ -54,6 +56,7 @@ export const Text = ({ text }) => {
             </div>
           );
         } else if(word === LINE_BREAK){
+
           return (<div  key={`line-break ${idx}`} className="line-break"/>)
 
         } else {
